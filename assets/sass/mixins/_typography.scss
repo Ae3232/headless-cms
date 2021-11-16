@@ -1,0 +1,375 @@
+@mixin small-gray() {
+    color: $text-muted;
+    font-weight: $font-weight-medium;
+    font-size: rem(12px);
+    line-height: 1.67;
+
+    @include media-breakpoint-up(xl) {
+        font-size: rem(14px);
+        line-height: 1.43;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin label-size() {
+    font-weight: $font-weight-medium;
+    color: $gray-600;
+    font-size: rem(14px);
+    line-height: 1.43;
+
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin time() {
+    font-size: rem(12px);
+    line-height: 1.67;
+    font-weight: $font-weight-normal;
+    color: $body-color;
+    display: inline-block;
+
+    @include media-breakpoint-up(xl) {
+        font-size: rem(14px);
+        line-height: 1.43;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin link-green-size {
+    font-size: rem(14px);
+    line-height: 1.14;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(16px);
+        line-height: 1.38;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(16px);
+    }
+}
+
+@mixin link-green-hover {
+    font-weight: $font-weight-medium;
+    color: $link-color;
+    text-decoration: $link-decoration;
+
+    @include hover-focus {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+
+    &:focus,
+    &.focus {
+        text-decoration: $link-hover-decoration;
+        box-shadow: none;
+        &:not(.focus-visible) {
+            color: $link-color;
+        }
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $btn-link-disabled-color;
+        pointer-events: none;
+    }
+}
+
+@mixin link-green {
+    @include link-green-size;
+    font-weight: $font-weight-medium;
+    color: $link-color;
+    text-decoration: $link-decoration;
+
+    @include hover-focus {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+
+    &:focus,
+    &.focus {
+        text-decoration: $link-hover-decoration;
+        box-shadow: none;
+        &:not(.focus-visible) {
+            color: $link-color;
+        }
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $btn-link-disabled-color;
+        pointer-events: none;
+    }
+}
+
+@mixin link-black() {
+    color: $body-color;
+    text-decoration: $link-decoration;
+
+    @include hover-focus {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+    &:focus:not(.focus-visible) {
+        color: $body-color;
+    }
+}
+
+@mixin link3() {
+    font-weight: $font-weight-medium;
+    font-size: rem(16px);
+    line-height: 1.38;
+    color: $body-color;
+
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(16px);
+    }
+
+    @include hover-focus() {
+        color: $green-hover;
+    }
+
+    &:focus:not(.focus-visible) {
+        color: $body-color;
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $btn-link-disabled-color;
+        pointer-events: none;
+    }
+}
+
+@mixin intro-block-title() {
+    color: $body-color;
+    font-weight: $font-weight-medium;
+    font-size: rem(16px);
+    line-height: 1.38;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(20px);
+        line-height: 1.3;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(24px);
+        line-height: 1.33;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(24px);
+    }
+}
+
+@mixin intro-block-title-video() {
+    color: $body-color;
+    font-weight: $font-weight-medium;
+    font-size: rem(16px);
+    line-height: 1.38;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(22px);
+        line-height: 1.36;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(28px);
+        line-height: 1.43;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(28px);
+    }
+}
+
+@mixin text-gray() {
+    color: $text-muted;
+    font-weight: $font-weight-medium;
+    font-size: rem(14px);
+    line-height: 1.43;
+
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin text-gray-sm() {
+    color: $text-muted;
+    font-weight: $font-weight-medium;
+    font-size: rem(12px);
+    line-height: 1.33;
+
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(12px);
+    }
+}
+
+@mixin tag-gray() {
+    color: $text-muted;
+    font-family: $font-family-second;
+    font-size: rem(14px);
+    line-height: 1.29;
+
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin label-red() {
+    color: $red;
+    font-weight: $font-weight-semi-bold;
+    font-size: rem(12px);
+    line-height: 1.67;
+    letter-spacing: 0.86px;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(xl) {
+        font-size: rem(14px);
+        line-height: 1.43;
+        letter-spacing: 1px;
+        margin-bottom: rem(32px);
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(14px);
+    }
+}
+
+@mixin paragraph() {
+    font-size: rem(14px);
+    line-height: 1.43;
+    color: $gray-900;
+    margin-bottom: rem(8px);
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(16px);
+        line-height: 1.75;
+        margin-bottom: rem(12px);
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(18px);
+        line-height: 1.56;
+        margin-bottom: rem(16px);
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(18px);
+    }
+}
+@mixin mb-h2 {
+    margin-bottom: rem(24px);
+    @include media-breakpoint-up(xl) {
+        margin-bottom: rem(32px);
+    }
+}
+
+//for text block
+@mixin text-h1 {
+    font-family: $font-family-sans-serif !important;
+    font-weight: $font-weight-medium !important;
+    color: $headings-color !important;
+    font-size: rem(22px) !important;
+    line-height: 1.36 !important;
+
+    @include media-breakpoint-up(xl) {
+        font-size: rem(28px) !important;
+        line-height: 1.43 !important;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(28px !important);
+    }
+}
+
+@mixin text-h2 {
+    font-family: $font-family-sans-serif !important;
+    font-weight: $font-weight-medium !important;
+    color: $headings-color !important;
+    font-size: rem(20px) !important;
+    line-height: 1.4 !important;
+
+    @include media-breakpoint-up(md) {
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(24px) !important;
+        line-height: 1.33 !important;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(24px !important);
+    }
+}
+
+@mixin text-h3 {
+    font-family: $font-family-sans-serif !important;
+    font-weight: $font-weight-medium !important;
+    color: $headings-color !important;
+    font-size: rem(18px) !important;
+    line-height: 1.56 !important;
+
+    @include media-breakpoint-up(md) {
+
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(20px) !important;
+        line-height: 1.4 !important;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(20px !important);
+    }
+}
+
+@mixin wysiwyg() {
+    font-family: $font-family-sans-serif;
+    font-size: rem(14px);
+    line-height: 1.43;
+    color: $gray-900;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(16px);
+        line-height: 1.75;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(18px);
+        line-height: 1.56;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(18px);
+    }
+}
+
+@mixin text-paragraph-font() {
+    font-family: $font-family-sans-serif !important;
+    font-size: rem(14px) !important;
+    line-height: 1.43 !important;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(16px) !important;
+        line-height: 1.75 !important;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(18px) !important;
+        line-height: 1.56 !important;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(18px !important);
+    }
+}
+
+@mixin text-paragraph() {
+    font-family: $font-family-sans-serif !important;
+    font-size: rem(14px) !important;
+    line-height: 1.43 !important;
+    color: $gray-900 !important;
+    margin-bottom: rem(8px) !important;
+
+    @include media-breakpoint-up(md) {
+        font-size: rem(16px) !important;
+        line-height: 1.75 !important;
+        margin-bottom: rem(12px) !important;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: rem(18px) !important;
+        line-height: 1.56 !important;
+        margin-bottom: rem(16px) !important;
+    }
+    @include media-breakpoint-up(xxxl) {
+        @include font-size(18px !important);
+    }
+}

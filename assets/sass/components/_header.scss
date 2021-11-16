@@ -1,0 +1,11 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: rem(48px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $green;
+  padding: $mobile-section-padding;
+}

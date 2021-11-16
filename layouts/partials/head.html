@@ -1,0 +1,28 @@
+<head>
+	<meta charset="utf-8">
+	<title>{{ .Title }}</title>
+
+	{{ "<!-- mobile responsive meta -->" | safeHTML }}
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+	{{ with site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	{{ hugo.Generator }}
+
+	{{ $styleSass := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+	{{ $styleCSS := $styleSass | resources.ToCSS }}
+	{{ $styleCSS := $styleSass | resources.ToCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) | minify }}
+	<link rel="stylesheet" href="{{ $styleSass.Permalink }}">
+
+	{{ $styleAutoprefixed := $styleCSS | resources.PostCSS }}
+
+	{{ $jquery := resources.Get "js/plugins/jquery/jquery.min.js" | minify }}
+	<script src="{{ $jquery.Permalink }}"></script>
+
+	{{ $slick := resources.Get "js/plugins/slick/slick.min.js" | minify }}
+	<script src="{{ $slick.Permalink }}"></script>
+
+	{{ $scripts := resources.Get "js/script.js" }}
+	<script src="{{ $scripts.Permalink }}"></script>
+
+</head>

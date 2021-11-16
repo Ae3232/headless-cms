@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
+{{ partial "head.html" . }}
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <div class="page-wrapper">
+    {{- partial "header.html" . -}}
+    <div id="content">
+    {{- block "main" . }}{{- end }}
+    </div>
+    {{- partial "footer.html" . -}}
+  </div>
+</body>
+
+</html>

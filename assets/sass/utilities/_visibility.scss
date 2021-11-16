@@ -1,0 +1,52 @@
+// Responsive breakpoint system
+.show-xs,
+.show-sm,
+.show-sm-inline,
+.show-md,
+.show-lg,
+.show-xl {
+    display: none !important;
+}
+@include media-breakpoint-down(xl) {
+    .hide-xl {
+        display: none !important;
+    }
+    .show-xl {
+        display: block !important;
+    }
+}
+@include media-breakpoint-down(lg) {
+    .hide-lg {
+        display: none !important;
+    }
+    .show-lg {
+        display: block !important;
+    }
+}
+@include media-breakpoint-down(md) {
+    .hide-md {
+        display: none !important;
+    }
+    .show-md {
+        display: block !important;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .hide-sm {
+        display: none !important;
+    }
+    .show-sm-inline {
+        display: inline-block !important;
+    }
+    .show-sm {
+        display: block !important;
+    }
+}
+@include media-breakpoint-down(xs) {
+    .hide-xs {
+        display: none !important;
+    }
+    .show-xs {
+        display: block !important;
+    }
+}

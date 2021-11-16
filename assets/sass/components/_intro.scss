@@ -1,0 +1,13 @@
+.intro {
+  background-color: $green;
+  padding-bottom: rem(40px);
+  .description {
+    font-weight: $font-weight-bold;
+    font-size: rem(18px);
+    padding: rem(0 32px);
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: rem(14px);
+    letter-spacing: 0.4px;
+  }
+}
