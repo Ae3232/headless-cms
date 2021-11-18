@@ -1,4 +1,4 @@
-<section class="intro">
+<section class="top-section">
     {{ $mobileImageBase := resources.Get "images/mobile-index-intro-image.webp" }}
     {{ $mobileImageSafari := resources.Get "images/mobile-index-intro-image_2x.png" }}
     {{ $imageBase := resources.Get "images/index-intro-image.png" }}
@@ -8,7 +8,7 @@
         <source srcset="{{ $mobileImageSafari.RelPermalink }}" type="image/png">
         <img src="{{ $mobileImageSafari.RelPermalink }}" alt="">
     </picture>
-    <p class="description">
+    <h1 class="h1">
         Effective cooperation software is created faster, cheaper, safer and with more satisfaction and joy for all participants.
-    </p>
+    </h1>
 </section>

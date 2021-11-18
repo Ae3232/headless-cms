@@ -42,48 +42,50 @@
 [class^="icon-"]:before, [class*=" icon-"]:before {
   @include icon();
 }
-.icon-quit {
-    &:before {
-        content: $icon-quit;
-    }
+.icon-code:before {
+  content: $icon-code;
+  color: $white;
+  font-size: rem(20px);
 }
-.icon-close-btn {
-    &:before {
-        content: $icon-close-btn;
-    }
+.icon-art:before {
+  content: $icon-art;
+  color: $white;
+  font-size: rem(20px);
 }
-.icon-doc {
-  &:before {
-    content: $icon-doc;
-  }
+.icon-bug:before {
+  content: $icon-bug;
+  color: $white;
+  font-size: rem(20px);
 }
-.icon-arrow {
-  &:before {
-    content: $icon-arrow;
-  }
+.icon-chart:before {
+  content: $icon-chart;
+  color: $white;
+  font-size: rem(20px);
 }
-.icon-tooltip {
-  color: #808080;
-  font-size: rem(12px);
-  &:before {
-    content: $icon-tooltip;
-  }
+.icon-insta:before {
+  content: $icon-insta;
+  color: $white;
 }
-.icon-input-file {
-  font-size: rem(19px);
-  &:before {
-    content: $icon-input-file;
-  }
+.icon-linked-in:before {
+  content: $icon-linked-in;
+  color: $white;
 }
-.icon-alert {
-  font-size: rem(18px);
-  color: $green;
-  &:before {
-    content: $icon-alert;
-  }
+.icon-facebook:before {
+  content: $icon-facebook;
+  color: $white;
 }
-.icon-trash {
-  &:before {
-    content: $icon-trash;
-  }
+.icon-user:before {
+  content: $icon-user;
+  color: $white;
+  font-size: rem(32px);
+}
+.icon-search:before {
+  content: $icon-search;
+  color: $white;
+  font-size: rem(32px);
+}
+.icon-ham:before {
+  content: $icon-ham;
+  color: $white;
+  font-size: rem(32px);
 }

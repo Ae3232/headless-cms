@@ -15,7 +15,7 @@ $black:         #000;
 $blue:          #007bff !default;
 $indigo:        #6610f2 !default;
 $purple:        #6f42c1 !default;
-$pink:          #e83e8c !default;
+$pink:          #ff8a65 !default;
 $green:         #89be4d;
 $green-light:   #e2f2e8;
 $green-hover:   #25b75e;
@@ -132,6 +132,11 @@ $sizes: map-merge(
 $body-bg:                   $white;
 $body-color:                $white;
 
+// Blocks
+
+$block-margin-bottom:   1.25rem !default;
+$block-margin-top:   1.25rem !default;
+
 // Links
 $link-color:                        $white;
 $link-decoration:                   none;
@@ -141,7 +146,7 @@ $link-hover-decoration:             none;
 $emphasized-link-hover-darken-percentage: 15% !default;
 
 // Paragraphs
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   .375rem !default;
 
 // Grid breakpoints
 $grid-breakpoints: (
@@ -169,7 +174,7 @@ $line-height-sm:              1.5 !default;
 $border-width:                 1px;
 $border-color:                 $gray-300;
 
-$border-radius:                0.125rem;
+$border-radius:                .625rem;
 $border-radius-lg:            .3rem !default;
 $border-radius-sm:            .2rem !default;
 
@@ -205,7 +210,7 @@ $embed-responsive-aspect-ratios: join(
 
 // Typography
 $font-family-sans-serif:      'Montserrat', sans-serif;
-$font-family-second:          'Roboto', sans-serif;
+$font-family-second:          'Poppins', sans-serif;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 
@@ -224,6 +229,10 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal;
 $line-height-base:            1.5 !default;
+
+// Title Line Height
+
+$line-height-title:           1.33;
 
 //$h1-font-size:                $font-size-base * 2.5 !default;
 //$h2-font-size:                $font-size-base * 2 !default;

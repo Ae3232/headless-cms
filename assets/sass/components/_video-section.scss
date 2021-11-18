@@ -1,0 +1,21 @@
+.video-section {
+    @include section-mt;
+    padding: $mobile-section-padding;
+}
+.video-wrapper {
+    width: 100%;
+    padding-bottom: 51%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: $border-radius;
+    margin-top: $block-margin-top;
+    margin-bottom: $block-margin-bottom;
+    iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,39 @@
+.talents-clients-section {
+  @include section-mt;
+  padding: $mobile-section-padding;
+  &__item {
+    border-radius: $border-radius;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    padding: rem(24px 12px 40px);
+    &:not(:last-child) {
+      margin-bottom: rem(48px);
+    }
+  }
+  &__list {
+    padding-top: rem(24px);
+  }
+  &__list-item {
+    display: flex;
+    margin-bottom: rem(16px);
+    .description {
+      margin-bottom: 0;
+    }
+  }
+  &__text-wrap {
+    margin-left: rem(12px);
+  }
+  &__icon-wrap {
+    background-image: url('/images/bullet-list.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex: rem(64px) 0 0;
+    min-width: rem(64px);
+    max-width: rem(64px);
+    height: rem(64px);
+    &._background-blue {
+      background-image: url('/images/bullet-list-blue.svg');
+    }
+  }
+}

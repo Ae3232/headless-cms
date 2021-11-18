@@ -1,0 +1,23 @@
+.button-wrapper {
+  width: 100%;
+  margin-top: rem(24px);
+}
+.button {
+  display: block;
+  font-size: rem(20px);
+  line-height: 1;
+  color: $white;
+  border-radius: 20px;
+  background-color: $pink;
+  border: 1px solid $pink;
+  height: rem(40px);
+  line-height: rem(40px);
+  text-align: center;
+  width: 100%;
+  font-weight: $font-weight-bold;
+  &.secondary {
+    font-size: rem(16px);
+    background-color: $white;
+    color: $pink;
+  }
+}
