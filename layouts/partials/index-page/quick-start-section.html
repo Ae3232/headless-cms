@@ -1,1 +1,33 @@
-<section class="quick-start"></section>
+<section class="quick-start">
+    <h2 class="h2">Quick Start For:</h2>
+    <div class="quick-start__item">
+        {{ $indexManagers := resources.Get "images/team-managers-dark.png" }}
+        <picture>
+            <source srcset="{{ $indexManagers.RelPermalink }}" type="image/png">
+            <img src="{{ $indexManagers.RelPermalink }}" alt="">
+        </picture>
+        <h3 class="h3">Clients</h3>
+        <p class="description">Work and earn in different ways. Bid for jobs. Pitch your projects. Discuss your in-demand skills with our recruiters so they can find opportunities aligned.</p>
+        <a href="" class="button primary">Get started as a client</a>
+    </div>
+    <div class="quick-start__item">
+        {{ $indexManagers := resources.Get "images/team-managers-dark.png" }}
+        <picture>
+            <source srcset="{{ $indexManagers.RelPermalink }}" type="image/png">
+            <img src="{{ $indexManagers.RelPermalink }}" alt="">
+        </picture>
+        <h3 class="h3">Talents</h3>
+        <p class="description">An eye-catching title and client-focused overview help us match you to the work you want. Include your work history, your skills, and your photo.</p>
+        <a href="" class="button primary">Get started as a talent</a>
+    </div>
+    <div class="quick-start__item">
+        {{ $indexManagers := resources.Get "images/team-managers-dark.png" }}
+        <picture>
+            <source srcset="{{ $indexManagers.RelPermalink }}" type="image/png">
+            <img src="{{ $indexManagers.RelPermalink }}" alt="">
+        </picture>
+        <h3 class="h3">Team Managers</h3>
+        <p class="description">Choose how you get paid. Our fixed-price protection releases client payments at project milestones. Hourly protection bills clients every week. </p>
+        <a href="" class="button primary">Get started as a manager</a>
+    </div>
+</section>

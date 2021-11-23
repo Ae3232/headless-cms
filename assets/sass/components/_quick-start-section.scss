@@ -1,0 +1,29 @@
+.quick-start {
+  @include section-mt;
+  padding: rem(40px 0 48px 0);
+  background-image: url("/images/back.jpg");
+  background-repeat: repeat-y;
+  background-position: center center;
+  .h2 {
+    color: $white;
+  }
+  .h3 {
+    color: $white;
+    font-size: rem(24px);
+    line-height: 1.5;
+    font-weight: $font-weight-bold;
+    text-align: center;
+    font-family: $font-family-third;
+    margin: rem(16px 0 8px 0);
+  }
+  .description {
+    color: $white;
+    margin-bottom: rem(16px);
+  }
+  &__item {
+    padding: $mobile-section-padding;
+    &:not(:last-child) {
+      margin-bottom: rem(32px);
+    }
+  }
+}

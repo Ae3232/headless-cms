@@ -8,4 +8,22 @@
   justify-content: space-between;
   background-color: $green;
   padding: $mobile-section-padding;
+  z-index: $zindex-modal;
+  &__right-menu {
+    display: flex;
+    margin-right: rem(-6px);
+  }
+  &__right-menu-item {
+    padding: rem(0 6px);
+    &:nth-child(2),
+    &:nth-child(3) {
+      display: none;
+    }
+    span {
+      display: none;
+    }
+  }
+  &__logo {
+    margin-left: rem(55px);
+  }
 }

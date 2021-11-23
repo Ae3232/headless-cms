@@ -8,9 +8,10 @@ $gray-400:      #ced4da !default;
 $gray-500:      #cacaca;
 $gray-600:      #aaaaaa;
 $gray-700:      #495057 !default;
-$gray-800:      #555555;
+$gray-800:      #7e8e93;
 $gray-900:      #222222;
 $black:         #000;
+$gray-footer:   #17313b;
 
 $blue:          #007bff !default;
 $indigo:        #6610f2 !default;
@@ -211,6 +212,7 @@ $embed-responsive-aspect-ratios: join(
 // Typography
 $font-family-sans-serif:      'Montserrat', sans-serif;
 $font-family-second:          'Poppins', sans-serif;
+$font-family-third:           'Ubuntu', sans-serif;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 

@@ -65,14 +65,20 @@
 .icon-insta:before {
   content: $icon-insta;
   color: $white;
+  font-size: rem(32px);
+  opacity: 0.5;
 }
 .icon-linked-in:before {
   content: $icon-linked-in;
   color: $white;
+  font-size: rem(32px);
+  opacity: 0.5;
 }
 .icon-facebook:before {
   content: $icon-facebook;
   color: $white;
+  font-size: rem(32px);
+  opacity: 0.5;
 }
 .icon-user:before {
   content: $icon-user;
@@ -88,4 +94,12 @@
   content: $icon-ham;
   color: $white;
   font-size: rem(32px);
+}
+.icon-close:before {
+  content: $icon-close;
+  color: $gray-900;
+  font-size: rem(32px);
+  position: absolute;
+  top: rem(8px);
+  left: rem(17px);
 }
