@@ -1,6 +1,6 @@
 ---
 title: Homepage
-discription: Описание проекта
+description: Описание проекта
 page_sections:
 - template: highlights
   highlights:
