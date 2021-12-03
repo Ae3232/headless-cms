@@ -8,7 +8,7 @@ webhook_url: https://app.forestry.io/git/bitbucket/hook
 sections:
 
   - path: content
-    label: Pages
+    label: index
     create: all
     # Imported pages without a FMT assigned
     # will automatically use "pages"
