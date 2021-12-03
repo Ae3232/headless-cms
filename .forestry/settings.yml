@@ -1,0 +1,35 @@
+upload_path: "/static/uploads/:year:/:month:/:day:"
+frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
+body_file_url_template: "/uploads/:year:/:month:/:day:"
+new_page_extension: html
+auto_deploy: false
+admin_path: "/admin"
+webhook_url: https://app.forestry.io/git/bitbucket/hook
+sections:
+
+  - path: content
+    label: Pages
+    create: all
+    # Imported pages without a FMT assigned
+    # will automatically use "pages"
+
+  - path: content/posts
+    label: Posts
+    create: all
+    # use the "templates" parameter to control
+    # which templates can be used for new content
+    # in this section. First listed template
+    # is the default option.
+    templates:
+      - posts
+
+  # items in content/secrets is hidden from menu
+  - path: content/secrets
+    hidden: true
+
+  # items in content/products can be edited but not created
+  - path: content/products
+    label: Products
+    create: none
+version: 0.79.0
+---
