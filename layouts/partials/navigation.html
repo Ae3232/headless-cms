@@ -2,6 +2,16 @@
     <div class="navigation__wrapper">
         {{ partial "search-form.html" . }}
         <ul class="navigation__list">
+
+
+            {{ .Params.page_sections | inspect }}
+
+            {{ range .Params.page_sections }}
+            <li class="navigation__item">
+                <a href="" class="navigation__link">Why Teams</a>
+            </li>
+            {{ end }}
+
             <li class="navigation__item">
                 <a href="" class="navigation__link">Why Teams</a>
             </li>
