@@ -3,9 +3,20 @@ label: Highlights
 hide_body: true
 fields:
 - name: highlights
-  type: list
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
   config:
-    use_select: false
     min: 3
     max: 
+    labelField: 
   label: Highlights
