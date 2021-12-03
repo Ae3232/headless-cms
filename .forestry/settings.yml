@@ -31,5 +31,4 @@ sections:
   - path: content/products
     label: Products
     create: none
-version: 0.79.0-1415EFDC
 ---
