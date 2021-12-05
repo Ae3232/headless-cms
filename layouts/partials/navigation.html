@@ -2,9 +2,9 @@
     <div class="navigation__wrapper">
         <ul class="navigation__list">
 
-            {{ range $.Site.Data.page_sections }}
+            {{ range $.Site.Content.menu.docs }}
             <li class="navigation__item">
-                <a href="" class="navigation__link">{{ .headline }}</a>
+                <a href="" class="navigation__link">{{ .title }}</a>
             </li>
             {{ end }}
 
