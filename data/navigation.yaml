@@ -1,0 +1,12 @@
+---
+title: Homepage
+discription: Описание проекта
+page_sections:
+  - template: highlights
+    highlights:
+      - headline: about
+          url: /about/
+      - headline: contacts
+          url: /contacts/
+
+---
