@@ -1,10 +1,9 @@
 ---
-title: Homepage
-description: Описание проекта
-page_sections:
-  - headline: about
-      url: /about/
-  - headline: contacts
-      url: /contacts/
-
+title: Menu Templates
+linktitle: Menu Templates
+menu:
+docs:
+title: "how to use menus in templates"
+parent: "templates"
+weight: 130
 ---
