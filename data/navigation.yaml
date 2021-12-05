@@ -2,10 +2,9 @@
 title: Homepage
 description: Описание проекта
 page_sections:
-  highlights:
-    - headline: about
-        url: /about/
-    - headline: contacts
-        url: /contacts/
+  - headline: about
+      url: /about/
+  - headline: contacts
+      url: /contacts/
 
 ---
