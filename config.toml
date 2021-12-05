@@ -2,12 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
-name = "Romka Penis"
-url = "/about_romka/"
-weight = 3
-[[menu.main]]
 SectionPagesMenu = "main"
-name = "About"
+name = "why"
 url = "/getting-started/"
 weight = 1
 [[menu.main]]
