@@ -2,7 +2,7 @@
     <div class="navigation__wrapper">
         <ul class="navigation__list">
 
-            {{ range .Site.Content.menu.docs }}
+            {{ range .Data.Pages.menu.docs }}
             <li class="navigation__item">
                 <a href="" class="navigation__link">{{ .title }}</a>
             </li>
