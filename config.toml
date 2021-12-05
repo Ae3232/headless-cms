@@ -3,10 +3,10 @@ languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
 SectionPagesMenu = "main"
-name = "getting started"
+name = "About"
 url = "/getting-started/"
 weight = 1
 [[menu.main]]
-name = "Privet"
+name = "Contacts"
 url = "/about/"
 weight = 2
