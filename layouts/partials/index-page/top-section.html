@@ -1,15 +1,11 @@
 <section class="top-section">
-<!--    {{ $imageBase := resources.Get "images/people.png" }}-->
-<!--    <div class="top-section__img-wrap">-->
-<!--        <img src="{{ $imageBase.RelPermalink }}" alt="">-->
-<!--    </div>-->
     <div class="top-section__img-wrap">
-        <img src="{{ .Page.Params.headerpicture | relURL }}">
+        <img src="{{ .Page.Params.topSectionImg | relURL }}">
     </div>
     <div class="top-section__title-wrap">
-        <h1 class="h1">Coteams</h1>
+        <h1 class="h1">{{ .Page.Params.topSectionTitle }}</h1>
         <p class="description">
-            Effective cooperation software is created faster, cheaper, safer and with more satisfaction and joy for all participants.
+            {{ .Page.Params.topSectionDescription }}
         </p>
     </div>
 </section>
