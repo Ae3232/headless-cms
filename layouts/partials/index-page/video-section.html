@@ -5,16 +5,11 @@
             <iframe src="https://www.youtube.com/embed/MMcrvgNXnCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-section__text-wrap">
-            <h2 class="h2 desktop">How it works</h2>
+            <h2 class="h2 desktop">{{ .Page.Params.videoSectionTitle }}</h2>
             <p class="description">
-                <b>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum.</b>
+                <b>{{ .Page.Params.videoSectionDescriptionBold }}</b>
             </p>
-            <p class="description">Sed ac dolor sit amet purus malesuada congue.
-                In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero.
-                Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor.
-                Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-                In convallis. Fusce suscipit libero eget elit.
-                Praesent vitae arcu tempor neque lacinia pretium.</p>
+            <p class="description">{{ .Page.Params.videoSectionDescription }}</p>
         </div>
     </div>
 </section>
