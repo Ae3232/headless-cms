@@ -1,5 +1,58 @@
 .top-section {
-  background-color: $green;
   padding-bottom: rem(40px);
   padding-top: rem(12px);
+  text-align: center;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url("/images/top-background.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: -1;
+    margin: 0 -10000px;
+  }
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    align-items: center;
+  }
+  .description {
+    font-weight: 500;
+    font-size: rem(18px);
+    line-height: $line-height-title;
+    margin-top: rem(14px);
+    letter-spacing: 0.4px;
+    color: $white;
+    text-align: left;
+    @include media-breakpoint-up(lg) {
+      font-size: rem(28px);
+      line-height: rem(38px);
+    }
+  }
+  &__img-wrap {
+    background-image: url('/images/dots-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include media-breakpoint-up(lg) {
+      background-image: url('/images/dots.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    img {
+      max-width: rem(254px);
+      @include media-breakpoint-up(lg) {
+        max-width: none;
+      }
+    }
+  }
+  &__title-wrap {
+    padding: rem(0 32px);
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+    }
+  }
 }

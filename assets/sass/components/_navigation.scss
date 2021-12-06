@@ -13,6 +13,15 @@
   border-radius: 0 0 20px 20px;
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.22);
   overflow: hidden;
+  @include media-breakpoint-up(lg) {
+    position: static;
+    max-height: none;
+    background: none;
+    box-shadow: none;
+    order: 1;
+    margin: rem(0 -10px);
+    border-radius: 0;
+  }
   &._open {
     opacity: 1;
     z-index: $zindex-modal;
@@ -25,13 +34,23 @@
   }
   &__wrapper {
     padding: rem(60px 0);
+    @include media-breakpoint-up(lg) {
+      padding: 0;
+    }
   }
   &__list {
     text-align: center;
+    @include media-breakpoint-up(lg) {
+      display: flex;
+    }
   }
   &__item {
     &:not(:last-child) {
       margin-bottom: rem(32px);
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+        padding: rem(0 10px);
+      }
     }
   }
   &__link {
@@ -40,6 +59,9 @@
     font-weight: $font-weight-semi-bold;
     color: $gray-900;
     font-family: $font-family-base;
+    @include media-breakpoint-up(lg) {
+      color: $white;
+    }
   }
   &__search-mobile {
     text-align: center;
@@ -47,6 +69,11 @@
       padding: rem(9px 12px 9px 16px);
       border-radius: 10px;
       border: solid 1px $gray-900;
+    }
+  }
+  .icon-close {
+    @include media-breakpoint-up(lg) {
+      display: none;
     }
   }
 }

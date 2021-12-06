@@ -1,6 +1,15 @@
 <section class="top-section">
-    <img src="{{ .Params.banner | relURL }}">
-    <h1 class="h1">
-        Effective cooperation software is created faster, cheaper, safer and with more satisfaction and joy for all participants.
-    </h1>
+<!--    {{ $imageBase := resources.Get "images/people.png" }}-->
+<!--    <div class="top-section__img-wrap">-->
+<!--        <img src="{{ $imageBase.RelPermalink }}" alt="">-->
+<!--    </div>-->
+    <div class="top-section__img-wrap">
+        <img src="{{ .Params.banner | relURL }}">
+    </div>
+    <div class="top-section__title-wrap">
+        <h1 class="h1">Coteams</h1>
+        <p class="description">
+            Effective cooperation software is created faster, cheaper, safer and with more satisfaction and joy for all participants.
+        </p>
+    </div>
 </section>

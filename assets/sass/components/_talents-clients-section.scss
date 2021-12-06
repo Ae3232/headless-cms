@@ -1,14 +1,35 @@
 .talents-clients-section {
   @include section-mt;
   padding: $mobile-section-padding;
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+    padding: rem(24px 12px 40px);
+    border-radius: $border-radius;
+    padding: 0;
+  }
   &__item {
     border-radius: $border-radius;
     -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
     padding: rem(24px 12px 40px);
+    @include media-breakpoint-up(xl) {
+      box-shadow: none;
+      border-radius: 0;
+      padding: rem(40px 32px 50px);
+    }
     &:not(:last-child) {
       margin-bottom: rem(48px);
+      @include media-breakpoint-up(xl) {
+        margin-bottom: 0;
+        background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+        background-position: right;
+        background-size: 1px 15px;
+        background-repeat: repeat-y;
+      }
     }
   }
   &__list {
@@ -17,6 +38,9 @@
   &__list-item {
     display: flex;
     margin-bottom: rem(16px);
+    @include media-breakpoint-up(xl) {
+      margin-bottom: rem(24px);
+    }
     .description {
       margin-bottom: 0;
     }
@@ -32,6 +56,13 @@
     min-width: rem(64px);
     max-width: rem(64px);
     height: rem(64px);
+    @include media-breakpoint-up(xl) {
+      flex: rem(80px) 0 0;
+      min-width: rem(80px);
+      max-width: rem(80px);
+      -webkit-background-size: 100%;
+      background-size: 100%;
+    }
     &._background-blue {
       background-image: url('/images/bullet-list-blue.svg');
     }

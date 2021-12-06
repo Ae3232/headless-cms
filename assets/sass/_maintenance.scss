@@ -1,16 +1,28 @@
 .page-wrapper {
   max-width: 100%;
+  @include media-breakpoint-up(lg) {
+    max-width: rem(1200px);
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .main {
   padding-top: rem(48px);
+  @include media-breakpoint-up(lg) {
+    padding-top: rem(94px);
+  }
 }
 .h1 {
   font-weight: $font-weight-bold;
-  font-size: rem(18px);
-  padding: rem(0 32px);
-  line-height: $line-height-title;
-  margin-top: rem(14px);
+  font-size: rem(32px);
+  line-height: 1.25;
+  margin-top: 0;
   letter-spacing: 0.4px;
+  font-family: $font-family-second;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(48px);
+    line-height: normal;
+  }
 }
 .h2 {
   font-size: rem(28px);
@@ -19,6 +31,17 @@
   font-weight: $font-weight-semi-bold;
   font-family: $font-family-second;
   text-align: center;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(36px);
+    line-height: rem(44px);
+  }
+  &.desktop {
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: block !important;
+      text-align: left;
+    }
+  }
 }
 .h3 {
   font-size: rem(18px);
@@ -26,6 +49,10 @@
   color: $gray-900;
   margin-bottom: rem(4px);
   font-family: $font-family-second;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(20px);
+    line-height: rem(24px);
+  }
 }
 .h4 {
   font-size: rem(15px);
@@ -41,6 +68,10 @@
   color: $gray-900;
   font-weight: $font-weight-normal;
   margin-bottom: $paragraph-margin-bottom;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(16px);
+    line-height: rem(24px);
+  }
   b {
     font-weight: $font-weight-semi-bold;
   }

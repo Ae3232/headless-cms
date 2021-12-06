@@ -1,9 +1,10 @@
 .button-wrapper {
   width: 100%;
   margin-top: rem(24px);
+  text-align: center;
 }
 .button {
-  display: block;
+  display: inline-block;
   font-size: rem(20px);
   line-height: 1;
   color: $white;
@@ -15,6 +16,7 @@
   text-align: center;
   width: 100%;
   font-weight: $font-weight-bold;
+  max-width: rem(350px);
   &.secondary {
     font-size: rem(16px);
     background-color: $white;
