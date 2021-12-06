@@ -1,13 +1,5 @@
 <section class="top-section">
-    {{ $mobileImageBase := resources.Get "images/mobile-index-intro-image.webp" }}
-    {{ $mobileImageSafari := resources.Get "images/mobile-index-intro-image_2x.png" }}
-    {{ $imageBase := resources.Get "images/index-intro-image.png" }}
-    {{ $imageSafari := resources.Get "images/index-intro-image_2x.png" }}
-    <picture>
-        <source srcset="{{ $mobileImageBase.RelPermalink }}" type="image/webp">
-        <source srcset="{{ $mobileImageSafari.RelPermalink }}" type="image/png">
-        <img src="{{ $mobileImageSafari.RelPermalink }}" alt="">
-    </picture>
+    <img src="{{ .Params.banner | relURL }}">
     <h1 class="h1">
         Effective cooperation software is created faster, cheaper, safer and with more satisfaction and joy for all participants.
     </h1>
