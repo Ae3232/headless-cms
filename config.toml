@@ -2,9 +2,11 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
-    name = "about hugo"
-    url = "/about/"
-[[menu.main]]
-    name = "getting started"
-    url = "/getting-started/"
 SectionPagesMenu = "main"
+name = "why"
+url = "/getting-started/"
+weight = 1
+[[menu.main]]
+name = "Contacts"
+url = "/about/"
+weight = 2
