@@ -1,4 +1,4 @@
 ---
-title: Menu Templates
-description: Menu Templates
+title: Index Page
+description: Index Page
 ---
