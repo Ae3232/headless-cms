@@ -9,8 +9,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-  templates:
-  - page
 - type: directory
   path: content/index
   label: Index
