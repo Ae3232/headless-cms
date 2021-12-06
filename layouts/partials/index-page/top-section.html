@@ -4,7 +4,9 @@
 <!--        <img src="{{ $imageBase.RelPermalink }}" alt="">-->
 <!--    </div>-->
     <div class="top-section__img-wrap">
-        <img src="{{ .Params.headerpicture | relURL }}">
+        {{ with  .Params.headerpicture }}
+        <img src="{{  . }}">
+        {{ end }}
     </div>
     <div class="top-section__title-wrap">
         <h1 class="h1">Coteams</h1>

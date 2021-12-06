@@ -1,9 +1,31 @@
 .quick-start {
   @include section-mt;
   padding: rem(40px 0 48px 0);
-  background-image: url("/images/back.jpg");
+  position: relative;
   background-repeat: repeat;
   background-position: center center;
+  @include media-breakpoint-up(xl) {
+    padding: rem(56px 0 88px 0);
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url("/images/back.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: -1;
+    margin: 0 -10000px;
+  }
+  &__wrapper {
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      align-items: center;
+    }
+  }
   .h2 {
     color: $white;
   }
@@ -15,6 +37,10 @@
     text-align: center;
     font-family: $font-family-third;
     margin: rem(16px 0 8px 0);
+    @include media-breakpoint-up(xl) {
+      font-size: rem(30px);
+      line-height: rem(36px);
+    }
   }
   .description {
     color: $white;
@@ -25,8 +51,14 @@
   &__item {
     padding: $mobile-section-padding;
     text-align: center;
+    @include media-breakpoint-up(xl) {
+      padding: rem(0 20px);
+    }
     &:not(:last-child) {
       margin-bottom: rem(32px);
+      @include media-breakpoint-up(xl) {
+        margin-bottom: 0;
+      }
     }
   }
 }
