@@ -1,4 +1,4 @@
 ---
-title: Index Page
-description: Index Page
+title: Index Banner
+banner: "/static/images/people.png"
 ---
