@@ -1,5 +1,5 @@
 ---
-title: Home page
+title: Footer
 footerNavigationTitle1: About CoTeams
 footerNavigationLink1: Our Story
 footerNavigationLink2: Careers
