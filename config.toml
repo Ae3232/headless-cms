@@ -4,9 +4,9 @@ title = "Coteams"
 [[menu.main]]
 SectionPagesMenu = "main"
 name = "For Clients"
-url = "/for-clients/"
+urlName = "/for-clients/"
 weight = 1
 [[menu.main]]
 name = "User Guide"
-url = "/user-guide/"
+urlName = "/user-guide/"
 weight = 2
