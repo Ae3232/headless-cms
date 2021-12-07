@@ -2,11 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
-SectionPagesMenu = "main"
-name = "For Clients"
-urlName = "/for-clients/"
-weight = 1
-[[menu.main]]
 name = "User Guide"
 urlName = "/user-guide/"
 weight = 2
