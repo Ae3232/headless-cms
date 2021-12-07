@@ -125,6 +125,7 @@
     margin-top: rem(12px);
     @include media-breakpoint-up(xl) {
       justify-content: flex-start;
+      margin-left: rem(-6px);
     }
   }
   &__social-link {

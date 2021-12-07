@@ -1,0 +1,18 @@
+.why-coteams {
+  @include section-mt;
+  padding: rem(0 16px);
+  &__item {
+    text-align: center;
+    .h3 {
+      font-size: rem(24px);
+      line-height: rem(36px);
+      margin-top: rem(10px);
+    }
+    .description {
+      margin-top: rem(8px);
+      font-size: rem(15px);
+      line-height: rem(20px);
+      font-weight: $font-weight-medium;
+    }
+  }
+}

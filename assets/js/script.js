@@ -15,3 +15,7 @@
 		});
 	});
 })();
+
+// $(document).ready(function() {
+// 	$('.top-section__img-wrap').slick();
+// });

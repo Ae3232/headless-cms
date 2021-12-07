@@ -34,7 +34,7 @@
     transition: max-height .5s ease-in-out;
   }
   &__wrapper {
-    padding: rem(60px 0);
+    padding: rem(72px 0 48px 0);
     @include media-breakpoint-up(lg) {
       padding: 0;
     }
@@ -50,15 +50,22 @@
       padding: rem(0 10px);
     }
     &:not(:last-child) {
-      margin-bottom: rem(32px);
+      margin-bottom: rem(28px);
       @include media-breakpoint-up(lg) {
         margin-bottom: 0;
+      }
+    }
+    &._active {
+      border-radius: 11px;
+      background-color: $white;
+      .navigation__link {
+        color: $green-dark;
       }
     }
   }
   &__link {
     font-size: rem(15px);
-    line-height: 1.33;
+    line-height: rem(20px);
     font-weight: $font-weight-semi-bold;
     color: $gray-900;
     font-family: $font-family-base;
