@@ -10,7 +10,7 @@ menu:
   main:
     SectionPagesMenu: main
     name: For Clients
-    urlName: "/for-clients/"
+    url: "/for-clients/"
     weight: 1
 
 ---

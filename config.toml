@@ -3,5 +3,5 @@ languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
 name = "User Guide"
-urlName = "/user-guide/"
+url = "/user-guide/"
 weight = 2
