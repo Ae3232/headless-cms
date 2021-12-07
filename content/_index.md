@@ -16,29 +16,29 @@ videoSectionDescription: Sed ac dolor sit amet purus malesuada congue. In laoree
   nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent
   vitae arcu tempor neque lacinia pretium.
 
-talentsTitle:
-talentsSubtitle:
-talentsItemTitle1:
-talentsItemDescription1:
-talentsItemTitle2:
-talentsItemDescription2:
-talentsItemTitle3:
-talentsItemDescription3:
-talentsItemTitle4:
-talentsItemDescription4:
-talentsItemTitle5:
-talentsItemDescription5:
+talentsTitle: For Talents  
+talentsSubtitle: The standard chunk of Lorem Ipsum
+talentsItemTitle1: AI Content Outlines
+talentsItemDescription1: Optimizing core IT processes is the single most important
+talentsItemTitle2: Rich Optimization Tools
+talentsItemDescription2: You can’t manage what you can’t measure.
+talentsItemTitle3: Excellent Chrome extension
+talentsItemDescription3: Top IT leaders leverage best practices before they start
+talentsItemTitle4: High-Quality Content
+talentsItemDescription4: Have the right training in place for your IT executive team and help develop the next generation
+talentsItemTitle5: Multiple Language Support
+talentsItemDescription5: Top IT leaders leverage best practices before they start
 
-clientsTitle:
-clientsSubtitle:
-clientsItemTitle1:
-clientsItemDescription1:
-clientsItemTitle2:
-clientsItemDescription2:
-clientsItemTitle3:
-clientsItemDescription3:
-clientsItemTitle4:
-clientsItemDescription4:
-clientsItemTitle5:
-clientsItemDescription5:
+clientsTitle: For Clients
+clientsSubtitle: Why CoTeams is better way to create software
+clientsItemTitle1: Instant Copies
+clientsItemDescription1: Top IT leaders leverage best practices before they start
+clientsItemTitle2: Multiple Formats
+clientsItemDescription2: Have the right training in place for your IT executive team and help develop the next generation
+clientsItemTitle3: Content Management
+clientsItemDescription3: Optimizing core IT processes is the single most important
+clientsItemTitle4: Easy to Use
+clientsItemDescription4: You can’t manage what you can’t measure.
+clientsItemTitle5: WordPress Automation
+clientsItemDescription5: Top IT leaders leverage best practices before they start
 ---
