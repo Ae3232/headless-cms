@@ -14,7 +14,7 @@ videoSectionDescription: Sed ac dolor sit amet purus malesuada congue. In laoree
   elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia
   nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent
   vitae arcu tempor neque lacinia pretium.
-talentsTitle: For gg
+talentsTitle: For Talents
 talentsSubtitle: The standard chunk of Lorem Ipsum
 talentsItemTitle1: AI Content Outlines
 talentsItemDescription1: Optimizing core IT processes is the single most important
