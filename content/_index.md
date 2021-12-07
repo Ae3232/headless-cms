@@ -41,4 +41,18 @@ clientsItemTitle4: Easy to Use
 clientsItemDescription4: You can’t manage what you can’t measure.
 clientsItemTitle5: WordPress Automation
 clientsItemDescription5: Top IT leaders leverage best practices before they start
+
+quickSectionTitle: Quick Start For
+quickSectionItemImg1: "/images/quickstart-image1.svg"
+quickSectionItemTitle1: Clients
+quickSectionItemDescription1: Work and earn in different ways. Bid for jobs. Pitch your projects. Discuss your in-demand skills with our recruiters so they can find opportunities aligned.
+quickSectionItemButton1: Get started as a client
+quickSectionItemImg2: "/images/quickstart-image2.svg"
+quickSectionItemTitle2: Talents
+quickSectionItemDescription2: An eye-catching title and client-focused overview help us match you to the work you want. Include your work history, your skills, and your photo.
+quickSectionItemButton2: Get started as a talent
+quickSectionItemImg3: "/images/quickstart-image3.svg"
+quickSectionItemTitle3: Team Managers
+quickSectionItemDescription3: Choose how you get paid. Our fixed-price protection releases client payments at project milestones. Hourly protection bills clients every week.
+quickSectionItemButton3: Get started as a manager
 ---
