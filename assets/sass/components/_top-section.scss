@@ -14,7 +14,9 @@
     background-repeat: repeat;
     background-position: center center;
     z-index: -1;
-    margin: 0 -10000px;
+    @include media-breakpoint-up(xl) {
+      margin: 0 -10000px;
+    }
   }
   @include media-breakpoint-up(xl) {
     display: flex;
@@ -31,6 +33,7 @@
     @include media-breakpoint-up(lg) {
       font-size: rem(28px);
       line-height: rem(38px);
+      margin-top: rem(-3px);
     }
   }
   &__img-wrap {
@@ -53,6 +56,8 @@
     padding: rem(0 32px);
     @include media-breakpoint-up(xl) {
       text-align: left;
+      margin-top: rem(-43px);
+      margin-left: rem(9px);
     }
   }
 }

@@ -1,6 +1,10 @@
 .video-section {
     @include section-mt;
     padding: $mobile-section-padding;
+    @include media-breakpoint-up(xl) {
+        padding-left: 0;
+        padding-right: 0;
+    }
     &__wrapper {
         @include media-breakpoint-up(xl) {
             display: flex;

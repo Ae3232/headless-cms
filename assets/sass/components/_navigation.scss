@@ -21,6 +21,7 @@
     order: 1;
     margin: rem(0 -10px);
     border-radius: 0;
+    margin-left: rem(48px);
   }
   &._open {
     opacity: 1;
@@ -45,11 +46,13 @@
     }
   }
   &__item {
+    @include media-breakpoint-up(lg) {
+      padding: rem(0 10px);
+    }
     &:not(:last-child) {
       margin-bottom: rem(32px);
       @include media-breakpoint-up(lg) {
         margin-bottom: 0;
-        padding: rem(0 10px);
       }
     }
   }

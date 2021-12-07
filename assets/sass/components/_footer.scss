@@ -2,25 +2,9 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   text-align: center;
-  padding-bottom: rem(40px);
-  position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 100%;
-    background-color: $gray-footer;
-    background-repeat: repeat;
-    background-position: center center;
-    z-index: -1;
-    margin: 0 -10000px;
-  }
   &:after {
     content: '';
     position: absolute;
-    /* left: 0; */
     right: 0;
     bottom: 0;
     background-image: url(/images/footer-bottom-bg.png);
@@ -30,6 +14,25 @@
   }
   &__head {
     padding: rem(40px 0 24px 0);
+    @include media-breakpoint-up(xl) {
+      border-bottom: 1px solid;
+      border-color: rgba(255, 255, 255, .13);
+    }
+    &:after {
+      @include media-breakpoint-up(xl) {
+        content: '';
+        bottom: rem(40px);
+        top: rem(40px);
+        position: absolute;
+        width: 1px;
+        height: calc(100% - 80px);
+        background-color: rgba(255, 255, 255, .13);
+        margin-left: rem(96px);
+      }
+    }
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+    }
   }
   &__nav {
     padding: rem(20px 0);
@@ -37,12 +40,22 @@
     border-color: rgba(255, 255, 255, .13);
     @include media-breakpoint-up(xl) {
       display: flex;
-      justify-content: space-between;
+      border: 0;
+      text-align: left;
+      padding: rem(34px 0);
+    }
+  }
+  &__nav-wrapper {
+    @include media-breakpoint-up(xl) {
+      display: flex;
     }
   }
   &__nav-subtitle {
     position: relative;
     padding-bottom: rem(20px);
+    @include media-breakpoint-up(xl) {
+      padding: rem(0 32px 0 47px);
+    }
     &:after {
       content: '';
       position: absolute;
@@ -57,10 +70,21 @@
       -ms-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       transform: translateX(-50%);
+      @include media-breakpoint-up(xl) {
+        background-color: rgba(255, 255, 255, .13);
+        width: 1px;
+        height: rem(56px);
+        top: rem(-64px);
+        right: rem(-15px);
+        left: auto;
+      }
     }
     &:last-child {
       border-bottom: 1px solid;
       border-color: rgba(255, 255, 255, .13);
+      @include media-breakpoint-up(xl) {
+        border: 0;
+      }
       &:after {
         content: none;
       }
@@ -78,6 +102,10 @@
     color: $gray-800;
     font-family: $font-family-second;
     font-weight: $font-weight-bold;
+    @include media-breakpoint-up(xl) {
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
   }
   &__nav-link {
     font-size: rem(13px);
@@ -85,6 +113,10 @@
     color: $white;
     font-family: $font-family-base;
     font-weight: $font-weight-normal;
+    @include media-breakpoint-up(xl) {
+      font-size: rem(13px);
+      line-height: rem(33px);
+    }
   }
   &__social {
     display: flex;
@@ -94,6 +126,9 @@
   }
   &__social-link {
     padding: rem(0 12px);
+    @include media-breakpoint-up(xl) {
+      padding: rem(0 6px);
+    }
   }
   &__copyright-list {
     display: flex;
@@ -111,12 +146,34 @@
       display: none;
       @include media-breakpoint-up(xl) {
         display: block;
+        min-width: rem(180px);
       }
     }
     &.mobile {
       @include media-breakpoint-up(xl) {
         display: none;
       }
+    }
+  }
+  .footer-wrapper {
+    position: relative;
+    @include media-breakpoint-up(xl) {
+      padding: rem(40px 0);
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        background-color: $gray-footer;
+        background-repeat: repeat;
+        background-position: center center;
+        z-index: -1;
+        @include media-breakpoint-up(xl) {
+          margin: 0 -10000px;
+        }
     }
   }
 }

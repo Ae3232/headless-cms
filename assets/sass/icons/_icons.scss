@@ -46,39 +46,60 @@
   content: $icon-code;
   color: $white;
   font-size: rem(20px);
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-art:before {
   content: $icon-art;
   color: $white;
   font-size: rem(20px);
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-bug:before {
   content: $icon-bug;
   color: $white;
   font-size: rem(20px);
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-chart:before {
   content: $icon-chart;
   color: $white;
   font-size: rem(20px);
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-insta:before {
   content: $icon-insta;
   color: $white;
   font-size: rem(32px);
   opacity: 0.5;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-linked-in:before {
   content: $icon-linked-in;
   color: $white;
   font-size: rem(32px);
   opacity: 0.5;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-facebook:before {
   content: $icon-facebook;
   color: $white;
   font-size: rem(32px);
   opacity: 0.5;
+  @include media-breakpoint-up(xl) {
+    font-size: rem(24px);
+  }
 }
 .icon-user:before {
   content: $icon-user;

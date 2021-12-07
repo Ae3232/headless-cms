@@ -18,7 +18,9 @@
     background-repeat: repeat;
     background-position: center center;
     z-index: -1;
-    margin: 0 -10000px;
+    @include media-breakpoint-up(xl) {
+      margin: 0 -10000px;
+    }
   }
   &__wrapper {
     @include media-breakpoint-up(xl) {
