@@ -8,8 +8,8 @@ topSectionDescription: Sed ut perspiciatis unde omnis iste natus error sit volup
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
 menu:
   main:
-    SectionPagesMenu: main
     name: For Clients
+    SectionPagesMenu: main
     urlName: "/for-clients/"
     weight: 1
 
