@@ -12,7 +12,7 @@ sections:
   templates:
   - home-page-fm
 - type: directory
-  path: content/pages
+  path: content
   label: for-clients
   create: documents
   match: "*"
