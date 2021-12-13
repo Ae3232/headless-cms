@@ -20,7 +20,7 @@ sections:
   - for-clients
 - type: directory
   path: content
-  label: index
+  label: Home Page
   create: all
   match: "*"
   templates:
