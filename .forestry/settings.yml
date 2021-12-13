@@ -12,10 +12,10 @@ sections:
   templates:
   - home-page-fm
 - type: directory
-  path: content/*
+  path: content
   label: Pages
   create: all
-  match: "*"
+  match: "*/*"
   templates:
   - for-clients
   - how-it-works
