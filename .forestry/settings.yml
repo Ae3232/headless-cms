@@ -7,17 +7,16 @@ sections:
 - type: directory
   path: content
   label: index
-  create: all
+  create: documents
   match: "*"
   templates:
   - home-page-fm
 - type: directory
-  path: content/pages
-  label: Pages
-  create: all
+  path: content
+  label: for-clients
+  create: documents
   match: "*"
   templates:
-  - home-page-fm
   - for-clients
 upload_dir: static
 public_path: "/uploads"
