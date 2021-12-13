@@ -10,7 +10,7 @@ menu:
   main:
     name: How It Works
     SectionPagesMenu: main
-    url: "/user-guide/"
-    weight: 2
+    url: "/how-it-works/"
+    weight: 1
 
 ---
