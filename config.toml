@@ -1,7 +1,3 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Coteams"
-[[menu.main]]
-name = "User Guide"
-url = "/user-guide/"
-weight = 2

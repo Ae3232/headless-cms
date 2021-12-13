@@ -16,8 +16,6 @@ sections:
   label: Pages
   create: all
   match: "*/*"
-  templates:
-  - for-clients
 upload_dir: static
 public_path: "/uploads"
 front_matter_path: ''
