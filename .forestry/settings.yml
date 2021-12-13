@@ -8,7 +8,7 @@ sections:
   path: content
   label: index
   create: all
-  match: "*"
+  match: index
   templates:
   - home-page-fm
 - type: directory
