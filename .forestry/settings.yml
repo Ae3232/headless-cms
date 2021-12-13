@@ -12,13 +12,6 @@ sections:
   templates:
   - home-page-fm
   - for-clients
-- type: directory
-  path: content/index
-  label: Index
-  create: all
-  match: "**/*"
-  templates:
-  - header_title
 upload_dir: static
 public_path: "/uploads"
 front_matter_path: ''
