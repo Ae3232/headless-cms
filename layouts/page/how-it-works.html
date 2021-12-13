@@ -1,5 +1,9 @@
 {{ define "main" }}
 <main aria-role="main" class="main">
-    {{- partial "how-it-works/sidebar.html" . -}}
+    {{- partial "breadcrumbs.html" . -}}
+    <div class="content-wrapper">
+        {{- partial "sidebar.html" . -}}
+        {{- partial "content.html" . -}}
+    </div>
 </main>
 {{ end }}

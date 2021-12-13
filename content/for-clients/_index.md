@@ -1,5 +1,5 @@
 ---
-title: For Clients Page
+title: For Clients
 type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
