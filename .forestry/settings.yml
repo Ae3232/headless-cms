@@ -12,10 +12,13 @@ sections:
   templates:
   - home-page-fm
 - type: directory
-  path: content
+  path: content/pages
   label: Pages
   create: all
-  match: "*/*"
+  match: "*"
+  templates:
+  - home-page-fm
+  - for-clients
 upload_dir: static
 public_path: "/uploads"
 front_matter_path: ''
