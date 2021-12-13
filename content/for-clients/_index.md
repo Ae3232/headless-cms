@@ -6,7 +6,7 @@ topSectionImg: "/images/for-clients.png"
 topSectionTitle: For Clients
 topSectionDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-whyTeamsTitle: Why Coteamssss
+whyTeamsTitle: Why Coteams
 whyTeamsSubTitle: Voluptatem accusantium doloremque
 whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
 whyCoteamsItemTitle1: Up to 50% of the cost
