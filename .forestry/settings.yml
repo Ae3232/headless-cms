@@ -17,6 +17,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - home-page-fm
   - header_title
 upload_dir: static
 public_path: "/uploads"
