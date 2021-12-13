@@ -13,11 +13,10 @@ sections:
   - home-page-fm
 - type: directory
   path: content/pages
-  label: Pages
-  create: all
+  label: for-clients
+  create: documents
   match: "*"
   templates:
-  - home-page-fm
   - for-clients
 upload_dir: static
 public_path: "/uploads"
