@@ -10,7 +10,6 @@ sections:
   create: all
   match: "*/**"
   templates:
-  - home-page-fm
   - for-clients
 upload_dir: static
 public_path: "/uploads"
