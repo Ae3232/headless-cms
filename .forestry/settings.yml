@@ -15,7 +15,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*/*"
+  match: content/*
   templates:
   - for-clients
   - how-it-works
