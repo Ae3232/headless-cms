@@ -5,12 +5,12 @@ admin_path: "/static/admin"
 webhook_url: https://app.forestry.io/git/bitbucket/hook
 sections:
 - type: directory
-  path: content/how-it-works
-  label: How It Works
+  path: content
+  label: Home Page
   create: all
-  match: "**/*"
+  match: "*"
   templates:
-  - how-it-works
+  - home-page-fm
 - type: directory
   path: content/for-clients
   label: For Clients
@@ -19,12 +19,12 @@ sections:
   templates:
   - for-clients
 - type: directory
-  path: content
-  label: Home Page
+  path: content/how-it-works
+  label: How It Works
   create: all
-  match: "*"
+  match: "**/*"
   templates:
-  - home-page-fm
+  - how-it-works
 upload_dir: static
 public_path: "/uploads"
 front_matter_path: ''
