@@ -27,6 +27,10 @@ fields:
 - type: textarea
   name: videoSectionDescription
   label: videoSectionDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: talentsTitle
   label: talentsTitle
