@@ -1,5 +1,5 @@
 ---
-label: Home Page FM
+label: Home Page
 hide_body: true
 fields:
 - type: text
@@ -115,6 +115,10 @@ fields:
 - type: textarea
   name: quickSectionItemDescription1
   label: quickSectionItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: quickSectionItemButton1
   label: quickSectionItemButton1
@@ -127,6 +131,10 @@ fields:
 - type: textarea
   name: quickSectionItemDescription2
   label: quickSectionItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: quickSectionItemButton2
   label: quickSectionItemButton2
@@ -139,6 +147,10 @@ fields:
 - type: textarea
   name: quickSectionItemDescription3
   label: quickSectionItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: quickSectionItemButton3
   label: quickSectionItemButton3
