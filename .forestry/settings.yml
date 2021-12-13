@@ -7,8 +7,8 @@ sections:
 - type: directory
   path: content
   label: index
-  create: all
-  match: _index
+  create: documents
+  match: "*"
   templates:
   - home-page-fm
 - type: directory
