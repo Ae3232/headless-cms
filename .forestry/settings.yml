@@ -6,16 +6,9 @@ webhook_url: https://app.forestry.io/git/bitbucket/hook
 sections:
 - type: directory
   path: content
-  label: index
-  create: all
-  match: "*"
-  templates:
-  - home-page-fm
-- type: directory
-  path: content
   label: Pages
   create: all
-  match: "*"
+  match: "*/**"
   templates:
   - home-page-fm
   - for-clients
