@@ -1,0 +1,22 @@
+---
+label: How It Works
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: topSectionImg
+  label: topSectionImg
+- type: text
+  name: topSectionTitle
+  label: topSectionTitle
+- type: textarea
+  name: topSectionDescription
+  label: topSectionDescription
