@@ -16,6 +16,15 @@
 	});
 })();
 
-// $(document).ready(function() {
-// 	$('.top-section__img-wrap').slick();
-// });
+$(document).ready(function() {
+	$(".sidebar__item").click(function() {
+		$this = $(this);
+		$this.children().next().slideToggle("fast");
+		return false;
+	});
+	$(".sidebar__sublist-item").click(function() {
+		$this = $(this);
+		$this.children().next().slideToggle("fast");
+		return false;
+	});
+});
