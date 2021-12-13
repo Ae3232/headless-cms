@@ -80,5 +80,3 @@ fields:
 - type: text
   name: footerNavigationLink16
   label: footerNavigationLink16
-pages:
-- content/languages.html
