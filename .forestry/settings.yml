@@ -18,6 +18,7 @@ sections:
   match: "*/*"
   templates:
   - for-clients
+  - how-it-works
 upload_dir: static
 public_path: "/uploads"
 front_matter_path: ''
