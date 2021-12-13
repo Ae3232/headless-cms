@@ -2,8 +2,9 @@
 title: Home page
 topSectionImg: "/images/people.png"
 topSectionTitle: Coteams
-topSectionDescription: "<strong>Effective</strong> cooperation software is created
-  faster, cheaper, safer and with more satisfaction and joy for all participants."
+topSectionDescription: <p>Effective cooperation software is created <strong>faster</strong>,
+  <a href="ва" title="ав">cheaper</a>, safer and with more satisfaction and joy for
+  all participants.</p>
 videoSectionTitle: How it works
 videoSectionDescriptionBold: Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum
   at, dui. In rutrum.
