@@ -14,12 +14,3 @@ fields:
 - type: text
   name: url
   label: URL
-- type: text
-  name: userContentTitle
-  label: userContentTitle
-- type: textarea
-  name: userContentDescription
-  label: userContentDescription
-- type: file
-  name: userContentImg
-  label: userContentImg
