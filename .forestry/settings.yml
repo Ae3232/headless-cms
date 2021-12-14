@@ -22,7 +22,7 @@ sections:
   path: content/how-it-works
   label: How It Works
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - how-it-works
 upload_dir: static
