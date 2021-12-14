@@ -5,5 +5,8 @@ type = "page"
 userContentDescription = "<p>Privet</p>"
 userContentTitle = "Profile Summary"
 usercontentimg = "/images/how-coteams-img6.svg"
+[menu.main]
+name = ""
+weight = 4
 
 +++
