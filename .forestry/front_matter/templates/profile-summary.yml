@@ -13,7 +13,7 @@ fields:
   label: layout
 - type: text
   name: url
-  label: url
+  label: URL
 - type: text
   name: userContentTitle
   label: userContentTitle
