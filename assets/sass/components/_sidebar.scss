@@ -1,6 +1,8 @@
 .sidebar {
-  margin: rem(64px 0);
   max-width: rem(310px);
+  min-width: rem(310px);
+  margin-right: rem(103px);
+  align-self: baseline;
   border-radius: 10px;
   -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
@@ -23,6 +25,7 @@
     padding: rem(32px 0);
     margin-bottom: rem(-16px);
     &._open {
+      display: block;
     }
   }
   &__sublist-item {
@@ -42,6 +45,7 @@
     padding: rem(26px 16px);
     margin-bottom: rem(-26px);
     &._open {
+      display: block;
     }
   }
   &__thirdlist-item {

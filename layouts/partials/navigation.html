@@ -2,9 +2,9 @@
     <div class="navigation__wrapper">
         <ul class="navigation__list">
             {{ $currentPage := . }}
-            <li class="navigation__item _desktop-none">
+            <li class="navigation__item _desktop-none {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
                 <i class="icon-search"></i>
-                <a href="#" class="navigation__link">Search</a>
+                <a href="/search" class="navigation__link">Search</a>
             </li>
             {{ range .Site.Menus.main }}
             <li class="navigation__item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
