@@ -24,5 +24,3 @@ fields:
 - type: file
   name: usercontentimg
   label: usercontentimg
-pages:
-- content/how-it-works/Availability/availability.md
