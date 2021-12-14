@@ -12,17 +12,17 @@ sections:
   templates:
   - home-page-fm
 - type: directory
-  path: content/for-clients
+  path: content
   label: For Clients
   create: all
-  match: "*"
+  match: "**/*"
   templates:
   - for-clients
 - type: directory
-  path: content/how-it-works
+  path: content
   label: How It Works
   create: all
-  match: "*"
+  match: "**/*"
   templates:
   - how-it-works
 upload_dir: static
