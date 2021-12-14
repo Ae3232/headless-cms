@@ -24,3 +24,5 @@ fields:
 - type: file
   name: usercontentimg
   label: usercontentimg
+pages:
+- content/how-it-works/profile-summary.md
