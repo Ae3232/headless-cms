@@ -50,6 +50,15 @@
   }
   &__thirdlist-item {
     padding: rem(0 10px);
+    display: inline-block;
+    &._active {
+      border-radius: 13.5px;
+      background-color: rgba(169, 169, 169, .19);
+      .sidebar__thirdlist-link {
+        color: $gray-900;
+        font-weight: $font-weight-semi-bold;
+      }
+    }
     &:not(:last-child) {
       margin-bottom: rem(18px);
     }
