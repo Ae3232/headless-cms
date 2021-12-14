@@ -17,7 +17,6 @@ fields:
 - type: textarea
   name: userContentDescription
   label: userContentDescription
-- type: textarea
+- type: file
   name: usercontentimg
   label: usercontentimg
-- type: file
