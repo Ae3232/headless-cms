@@ -1,5 +1,9 @@
 .page-wrapper {
   max-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   @include media-breakpoint-up(lg) {
     max-width: rem(1200px);
     width: 100%;
@@ -92,4 +96,8 @@
     z-index: $zindex-modal-backdrop;
     transition: all 0.25s ease-in-out;
   }
+}
+#content {
+  flex: 1 1;
+  height: 100%;
 }
