@@ -15,7 +15,7 @@
 				<div class="footer__nav-subtitle">
 					<h5 class="footer__nav-title">{{ .Page.Params.footerNavigationTitle1 }}</h5>
 					<ul class="footer__nav-list">
-						{{ range .Site.Menus.footer }}
+						{{ range .Site.Menus.main }}
 						<li class="footer__nav-item">
 							<a href="{{ .URL | relURL }}" class="footer__nav-link">{{ .Name }}</a>
 						</li>
@@ -24,6 +24,25 @@
 							<a href="mailto:Contact@coteams.co" class="footer__nav-link">Contact Us</a>
 						</li>
 					</ul>
+				</div>
+				<div class="footer__nav-subtitle">
+					<h5 class="footer__nav-title">Contact</h5>
+					<ul class="footer__nav-list">
+						<li class="footer__nav-item">
+							<a href="mailto:Contact@coteams.co" class="footer__nav-link">Contact Us</a>
+						</li>
+					</ul>
+					<section class="footer__social">
+						<a href="#" class="footer__social-link">
+							<i class="icon-facebook"></i>
+						</a>
+						<a href="#" class="footer__social-link">
+						<i class="icon-linked-in"></i>
+						</a>
+						<a href="#" class="footer__social-link">
+							<i class="icon-insta"></i>
+						</a>
+					</section>
 				</div>
 			</div>
 		</section>
