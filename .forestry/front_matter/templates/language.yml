@@ -23,3 +23,12 @@ fields:
 - type: file
   name: userContentImg
   label: userContentImg
+- name: usercontentdescription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: userContentDescription
