@@ -11,3 +11,13 @@ fields:
 - type: text
   name: layout
   label: layout
+- type: text
+  name: userContentTitle
+  label: userContentTitle
+- type: textarea
+  name: userContentDescription
+  label: userContentDescription
+- type: textarea
+  name: usercontentimg
+  label: usercontentimg
+- type: file
