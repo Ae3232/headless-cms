@@ -8,7 +8,7 @@ userContentDescription: If you want to add a new language just click the Add ico
   on your Profile screen. In the Add new edit form, enter your language and specify
   its level. You can add multiple languages. In order to delete or edit your language
   click the respective language item on your Profile screen
-usercontentimg: "/images/phone.png"
+userContentImg: "/images/phone.png"
 menu:
   main:
     SectionPagesMenu: main

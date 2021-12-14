@@ -2,22 +2,22 @@
 label: About Me
 hide_body: true
 fields:
-- name: title
+- name: userContentTitle
   type: text
   config:
     required: false
-  label: Title
-- name: description
+  label: userContentTitle
+- name: userContentDescription
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
-  label: Description
-- name: image
+  label: userContentDescription
+- name: userContentImg
   type: file
   config:
     maxSize: 64
-  label: Image
+  label: userContentImg
