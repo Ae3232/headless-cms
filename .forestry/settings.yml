@@ -15,7 +15,7 @@ sections:
   path: content/for-clients
   label: For Clients
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - for-clients
 - type: directory
