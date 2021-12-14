@@ -20,15 +20,6 @@ fields:
 - type: textarea
   name: userContentDescription
   label: userContentDescription
-- name: usercontentdescription
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: userContentDescription
 - type: file
   name: userContentImg
   label: userContentImg
