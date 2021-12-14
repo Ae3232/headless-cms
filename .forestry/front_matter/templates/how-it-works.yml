@@ -17,6 +17,10 @@ fields:
 - type: textarea
   name: userContentDescription
   label: userContentDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: file
   name: usercontentimg
   label: usercontentimg
