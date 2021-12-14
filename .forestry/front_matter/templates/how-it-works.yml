@@ -11,9 +11,6 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: path
-  name: url
-  label: url
 - type: text
   name: userContentTitle
   label: userContentTitle
@@ -27,4 +24,3 @@ fields:
 - type: file
   name: usercontentimg
   label: usercontentimg
-
