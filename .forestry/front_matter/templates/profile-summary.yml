@@ -1,5 +1,5 @@
 ---
-label: How It Works
+label: Profile Summary
 hide_body: true
 fields:
 - type: text
@@ -11,20 +11,18 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: path
-  name: url
+- name: url
+  type: text
+  config:
+    required: false
   label: url
+  default: "/profile-summary/"
 - type: text
   name: userContentTitle
   label: userContentTitle
 - type: textarea
   name: userContentDescription
   label: userContentDescription
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
 - type: file
-  name: usercontentimg
-  label: usercontentimg
-
+  name: userContentImg
+  label: userContentImg
