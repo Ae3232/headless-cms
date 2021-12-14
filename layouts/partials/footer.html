@@ -15,78 +15,15 @@
 				<div class="footer__nav-subtitle">
 					<h5 class="footer__nav-title">{{ .Page.Params.footerNavigationTitle1 }}</h5>
 					<ul class="footer__nav-list">
+						{{ range .Site.Menus.footer }}
 						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink1 }}</a>
+							<a href="{{ .URL | relURL }}" class="footer__nav-link">{{ .Name }}</a>
 						</li>
+						{{ end }}
 						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink2 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink3 }}</a>
-						</li>
-					</ul>
-				</div>
-				<div class="footer__nav-subtitle">
-					<h5 class="footer__nav-title">{{ .Page.Params.footerNavigationTitle2 }}</h5>
-					<ul class="footer__nav-list">
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink4 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink5 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink6 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink7 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink8 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink9 }}</a>
+							<a href="mailto:Contact@coteams.co" class="footer__nav-link">Contact Us</a>
 						</li>
 					</ul>
-				</div>
-				<div class="footer__nav-subtitle">
-					<h5 class="footer__nav-title">{{ .Page.Params.footerNavigationTitle3 }}</h5>
-					<ul class="footer__nav-list">
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink10 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink11 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink12 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink13 }}</a>
-						</li>
-					</ul>
-				</div>
-				<div class="footer__nav-subtitle">
-					<h5 class="footer__nav-title">{{ .Page.Params.footerNavigationTitle4 }}</h5>
-					<ul class="footer__nav-list">
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink14 }}</a>
-						</li>
-						<li class="footer__nav-item">
-							<a href="#" class="footer__nav-link">{{ .Page.Params.footerNavigationLink15 }}</a>
-						</li>
-					</ul>
-					<section class="footer__social">
-						<a href="#" class="footer__social-link">
-							<i class="icon-facebook"></i>
-						</a>
-						<a href="#" class="footer__social-link">
-							<i class="icon-linked-in"></i>
-						</a>
-						<a href="#" class="footer__social-link">
-							<i class="icon-insta"></i>
-						</a>
-					</section>
 				</div>
 			</div>
 		</section>
