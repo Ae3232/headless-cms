@@ -11,9 +11,12 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: url
+- name: url
+  type: text
+  config:
+    required: false
   label: url
+  default: "/profile-summary/"
 - type: text
   name: userContentTitle
   label: userContentTitle
