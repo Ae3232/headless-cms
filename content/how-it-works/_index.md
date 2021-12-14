@@ -10,6 +10,8 @@ userContentDescription: If you want to add a new language just click the Add ico
   click the respective language item on your Profile screen
 userContentImg: "/images/phone.png"
 menu:
+  footer:
+    weight: 2
   main:
     SectionPagesMenu: main
     url: "/how-it-works/profile-summary/"

@@ -69,6 +69,8 @@ footerNavigationTitle4: Contacts
 footerNavigationLink15: Contact Us
 footerNavigationLink16: Site Feedback
 menu:
+  footer:
+    weight: 1
   main:
     SectionPagesMenu: main
     url: "/for-clients/"

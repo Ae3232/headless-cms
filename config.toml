@@ -1,6 +1,3 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
-[[menu.footer]]
-  name = 'How It Works'
-  url = '/how-it-works/profile-summary/'
