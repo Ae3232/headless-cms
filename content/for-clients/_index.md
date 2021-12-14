@@ -70,7 +70,6 @@ footerNavigationLink15: Contact Us
 footerNavigationLink16: Site Feedback
 menu:
   main:
-    name: For Clients
     SectionPagesMenu: main
     url: "/for-clients/"
     weight: 1
