@@ -13,6 +13,6 @@ menu:
   main:
     SectionPagesMenu: main
     url: "/how-it-works/"
-    weight: 2
+    weight: 1
 
 ---
