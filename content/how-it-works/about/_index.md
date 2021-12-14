@@ -2,7 +2,7 @@
 title: About Me
 type: page
 layout: how-it-works
-url:
+url: "/about-me/"
 userContentTitle: About Me
 userContentDescription: If you want to adel
 userContentImg: "/images/people.png"
