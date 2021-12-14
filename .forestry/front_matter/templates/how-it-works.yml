@@ -11,7 +11,7 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: url
+- type: path
   name: url
   label: url
 - type: text
