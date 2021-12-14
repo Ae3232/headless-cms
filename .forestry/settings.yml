@@ -25,7 +25,6 @@ sections:
   match: "**/*"
   templates:
   - how-it-works
-  - about-me
 upload_dir: static
 public_path: ''
 front_matter_path: ''
