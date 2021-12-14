@@ -17,12 +17,12 @@
 })();
 
 $(document).ready(function() {
-	$(".sidebar__item").click(function() {
+	$(".sidebar__link").click(function() {
 		$this = $(this);
-		$this.children().next().slideToggle("fast");
+		$this.next().slideToggle("fast");
 	});
-	$(".sidebar__sublist-item").click(function() {
+	$(".sidebar__sublist-link").click(function() {
 		$this = $(this);
-		$this.children().next().slideToggle("fast");
+		$this.next().slideToggle("fast");
 	});
 });
