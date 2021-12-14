@@ -11,22 +11,3 @@ fields:
 - type: text
   name: layout
   label: layout
-- name: usercontenttitle
-  type: text
-  config:
-    required: false
-  label: userContentTitle
-- name: usercontentdescription
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: userContentDescription
-- name: usercontentimg
-  type: file
-  config:
-    maxSize: 64
-  label: userContentImg
