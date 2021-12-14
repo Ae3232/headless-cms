@@ -12,7 +12,7 @@ userContentImg: "/images/phone.png"
 menu:
   main:
     SectionPagesMenu: main
-    url: "/how-it-works/"
+    url: "/how-it-works/profile-summary/"
     weight: 1
 
 ---
