@@ -3,7 +3,7 @@ title: For Clients
 type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
-topSectionTitle: For Clients
+topSectionTitle: For
 topSectionDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
 whyTeamsTitle: Why Coteams
@@ -70,7 +70,6 @@ footerNavigationLink15: Contact Us
 footerNavigationLink16: Site Feedback
 menu:
   main:
-    name: For Clients
     SectionPagesMenu: main
     url: "/for-clients/"
     weight: 1
