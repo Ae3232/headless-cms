@@ -1,3 +1,12 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
+[[menu.sidebar]]
+    name = "Profile Summary"
+    url = "/how-it-works/profile-summary/"
+[[menu.sidebar]]
+    name = "About Me"
+    url = "/how-it-works/about-me/"
+[[menu.sidebar]]
+    name = "Availability"
+    url = "/how-it-works/availability/"

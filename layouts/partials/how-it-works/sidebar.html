@@ -1,62 +1,38 @@
 <section class="sidebar">
     <ul class="sidebar__list">
         <li class="sidebar__item">
-                <a href="" class="sidebar__link">For Talents</a>
-                <ul class="sidebar__sublist _open">
-                    <li class="sidebar__sublist-item">
-                        <a href="" class="sidebar__sublist-link">Talent Profile Details</a>
-                        <ul class="sidebar__thirdlist _open">
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Profile Summary</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">About Me</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Availability</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Languages</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Contacts</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Skills</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Employment History</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Education</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Certificates</a>
-                            </li>
-                            <li class="sidebar__thirdlist-item">
-                                <a href="" class="sidebar__thirdlist-link">Trainings</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar__sublist-item">
-                        <a href="" class="sidebar__sublist-link">Profile Visibility</a>
-                    </li>
-                    <li class="sidebar__sublist-item">
-                        <a href="" class="sidebar__sublist-link">Participate in Opportunities</a>
-                    </li>
-                    <li class="sidebar__sublist-item">
-                        <a href="" class="sidebar__sublist-link">Join to the Team</a>
-                    </li>
-                </ul>
-            </li>
-        <li class="sidebar__item">
-            <a href="" class="sidebar__link">For Clients</a>
+            <a href="javascript:void(0);" class="sidebar__link">For Talents</a>
+            <ul class="sidebar__sublist" style="display:block;">
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Talent Profile Details</a>
+                    <ul class="sidebar__thirdlist" style="display:block;">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Profile Visibility</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Participate in Opportunities</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Join to the Team</a>
+                </li>
+            </ul>
         </li>
         <li class="sidebar__item">
-            <a href="" class="sidebar__link">For Teams</a>
+            <a href="javascript:void(0);" class="sidebar__link">For Clients</a>
         </li>
         <li class="sidebar__item">
-            <a href="" class="sidebar__link">For All Roles</a>
+            <a href="javascript:void(0);" class="sidebar__link">For Teams</a>
+        </li>
+        <li class="sidebar__item">
+            <a href="javascript:void(0);" class="sidebar__link">For All Roles</a>
         </li>
     </ul>
 </section>

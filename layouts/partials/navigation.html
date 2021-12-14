@@ -2,7 +2,7 @@
     <div class="navigation__wrapper">
         <ul class="navigation__list">
             {{ $currentPage := . }}
-            <li class="navigation__item _desktop-none {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+            <li class="navigation__item _desktop-none">
                 <i class="icon-search"></i>
                 <a href="/search" class="navigation__link">Search</a>
             </li>
