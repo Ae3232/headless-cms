@@ -15,14 +15,14 @@ sections:
   path: content/for-clients
   label: For Clients
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - for-clients
 - type: directory
   path: content/how-it-works
   label: How It Works
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - how-it-works
 upload_dir: static
