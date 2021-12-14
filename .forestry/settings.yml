@@ -13,22 +13,15 @@ sections:
   - home-page-fm
 - type: directory
   path: content
-  label: For Clients
-  create: all
-  match: "**/*"
-  templates:
-  - for-clients
-- type: directory
-  path: content
   label: How It Works
   create: all
   match: "**/*"
   templates:
   - how-it-works
 upload_dir: static
-public_path: "/uploads"
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_env:
