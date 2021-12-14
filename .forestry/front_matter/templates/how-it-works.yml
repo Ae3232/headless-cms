@@ -11,6 +11,9 @@ fields:
 - type: text
   name: layout
   label: layout
+- type: url
+  name: url
+  label: url
 - type: text
   name: userContentTitle
   label: userContentTitle
