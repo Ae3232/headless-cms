@@ -20,9 +20,6 @@ fields:
 - type: textarea
   name: userContentDescription
   label: userContentDescription
-- type: file
-  name: userContentImg
-  label: userContentImg
 - name: usercontentdescription
   type: textarea
   default: ''
@@ -32,3 +29,6 @@ fields:
     schema:
       format: markdown
   label: userContentDescription
+- type: file
+  name: userContentImg
+  label: userContentImg
