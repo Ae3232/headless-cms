@@ -3,7 +3,7 @@ title: For Clients
 type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
-topSectionTitle: For
+topSectionTitle: For Clients
 topSectionDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
 whyTeamsTitle: Why Coteams
