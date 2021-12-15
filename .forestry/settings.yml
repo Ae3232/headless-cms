@@ -20,7 +20,7 @@ sections:
   - for-clients
 - type: directory
   path: content/help
-  label: How It Works
+  label: Help
   create: all
   match: "**/*"
   templates:
