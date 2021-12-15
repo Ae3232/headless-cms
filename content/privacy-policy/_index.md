@@ -8,12 +8,12 @@ policyTopDescription: |-
 
   The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the PVcase. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.
 policyDefinitionTitle1: Definitions
-policyDefinitionDescription1: 'The data protection declaration of the PVcase is based
-  on the terms used by the European legislator for the adoption of the General Data
-  Protection Regulation (GDPR). Our data protection declaration should be legible
+policyDefinitionDescription1: "<strong>The data protection declaration of the PVcase
+  is based on the terms used by the European legislator for the adoption of the General
+  Data Protection Regulation (GDPR). Our data protection declaration should be legible
   and understandable for the general public, as well as our customers and business
   partners. To ensure this, we would like to first explain the terminology used. In
-  this data protection declaration, we use, inter alia, the following terms:'
+  this data protection declaration, we use, inter alia, the following terms:</strong>"
 policyDefinitionSubtitle1_1: Personal data
 policyDefinitionDescription1_1: Personal data means any information relating to an
   identified or identifiable natural person (“data subject”). An identifiable natural
