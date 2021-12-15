@@ -2,7 +2,7 @@
 title: Privacy Policy
 type: page
 layout: privacy-policy
-policyTitle:
+policyTitle: Privacy Policy
 policyTopDescription:
 policyDefinitionTitle1:
 policyDefinitionDescription1:
