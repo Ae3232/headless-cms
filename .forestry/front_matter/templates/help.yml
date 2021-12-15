@@ -1,5 +1,5 @@
 ---
-label: How It Works
+label: Help
 hide_body: true
 fields:
 - type: text
@@ -12,15 +12,14 @@ fields:
   name: layout
   label: layout
 - type: text
+  name: url
+  label: url
+- type: text
   name: userContentTitle
   label: userContentTitle
 - type: textarea
   name: userContentDescription
   label: userContentDescription
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: file
-  name: usercontentimg
-  label: usercontentimg
+  name: userContentImg
+  label: userContentImg
