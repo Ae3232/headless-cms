@@ -2,6 +2,11 @@
   text-align: left;
   margin-top: rem(64px);
   margin-bottom: rem(120px);
+  @include media-breakpoint-down(md) {
+    padding: rem(0 16px);
+    margin-top: rem(40px);
+    margin-bottom: rem(80px);
+  }
   .h1 {
     font-size: rem(48px);
     font-family: $font-family-second;
@@ -9,6 +14,11 @@
     color: $gray-900;
     text-align: left;
     margin-bottom: rem(32px);
+    @include media-breakpoint-down(md) {
+      font-size: rem(32px);
+      line-height: rem(40px);
+      margin-bottom: rem(21px);
+    }
   }
   .h2 {
     font-size: rem(36px);
@@ -18,6 +28,11 @@
     color: $gray-900;
     text-align: left;
     margin-bottom: rem(32px);
+    @include media-breakpoint-down(md) {
+      font-size: rem(20px);
+      line-height: rem(28px);
+      margin-bottom: rem(16px);
+    }
   }
   .h3 {
     font-size: rem(30px);
@@ -27,6 +42,12 @@
     color: $gray-900;
     text-align: left;
     margin-bottom: rem(20px);
+    @include media-breakpoint-down(md) {
+      font-size: rem(16px);
+      line-height: rem(24px);
+      font-family: $font-family-third;
+      margin-bottom: rem(12px);
+    }
   }
   .description {
     font-size: rem(16px);
@@ -37,6 +58,9 @@
 }
 .policy-section {
   margin-bottom: rem(88px);
+  @include media-breakpoint-down(md) {
+    margin-bottom: rem(48px);
+  }
   &__title-number {
     font-size: rem(20px);
     font-weight: $font-weight-semi-bold;
@@ -51,6 +75,9 @@
     background-color: $gray-900;
     vertical-align: top;
     margin-top: rem(6px);
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
   }
   &__subtitle-number {
     font-size: rem(20px);
@@ -67,6 +94,9 @@
     vertical-align: top;
     margin-top: rem(2px);
     padding: rem(0 16px);
+    @include media-breakpoint-down(md) {
+      margin-top: rem(-4px);
+    }
   }
   &__definition-item {
     margin-bottom: rem(48px);
@@ -74,6 +104,12 @@
   &__definition-title {
     .description {
       margin-bottom: rem(48px);
+      @include media-breakpoint-down(md) {
+        margin-bottom: rem(32px);
+      }
     }
+  }
+  strong {
+    font-weight: $font-weight-semi-bold;
   }
 }
