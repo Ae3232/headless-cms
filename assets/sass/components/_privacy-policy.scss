@@ -71,4 +71,9 @@
   &__definition-item {
     margin-bottom: rem(48px);
   }
+  &__definition-title {
+    .description {
+      margin-bottom: rem(48px);
+    }
+  }
 }
