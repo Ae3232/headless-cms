@@ -1,0 +1,21 @@
+.use-cases {
+  @include section-mt;
+  padding: rem(0 16px);
+  &__item {
+    margin-top: rem(40px);
+    &:first-child {
+      margin-top: rem(32px);
+    }
+  }
+  .h3 {
+    margin-top: rem(12px);
+    font-size: rem(18px);
+    line-height: rem(24px);
+    font-weight: $font-weight-semi-bold;
+    text-align: center;
+  }
+  .description {
+    font-size: rem(14px);
+    line-height: rem(20px);
+  }
+}

@@ -1,0 +1,21 @@
+.find-team {
+  margin-top: rem(78px);
+  padding-bottom: rem(56px);
+  .icon-search {
+    margin-right: rem(4px);
+    &:before {
+      font-size: rem(40px);
+      vertical-align: bottom;
+    }
+  }
+  .description {
+    font-size: rem(14px);
+    line-height: rem(20px);
+    font-weight: $font-weight-medium;
+    text-align: center;
+    margin-top: rem(10px);
+  }
+  .button {
+    border-color: $white;
+  }
+}

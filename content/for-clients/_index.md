@@ -48,6 +48,20 @@ howCoteamsItemDescription5: he process is designed to provide the best experienc
   several games with this methodology. There are three basic steps Developing the
   game - Programming the game - Verifying the game to make sure all code is working.
   The process can be applied in many ways, however, we believe that
+useCasesTitle: Use Cases
+useCasesSubTitle: A wonderful serenity has taken
+useCasesItemImg1: "/images/use-cases-img1.png"
+useCasesItemTitle1: MVP & product development
+useCasesItemDescription1: The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+useCasesItemImg2: "/images/use-cases-img2.png"
+useCasesItemTitle2: New application development
+useCasesItemDescription2: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
+useCasesItemImg3: "/images/use-cases-img3.png"
+useCasesItemTitle3: Migration & modernization
+useCasesItemDescription3: A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm
+findTeamImg: "/images/find-team.svg"
+findTeamTitle: Find a Team
+findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
 menu:
   main:
     SectionPagesMenu: main
