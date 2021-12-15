@@ -5,6 +5,13 @@ admin_path: "/static/admin"
 webhook_url: https://app.forestry.io/git/bitbucket/hook
 sections:
 - type: directory
+  path: content/privacy-policy
+  label: Privacy Policy
+  create: all
+  match: "**/*"
+  templates:
+  - privacy-policy
+- type: directory
   path: content
   label: Home Page
   create: all

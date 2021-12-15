@@ -3,14 +3,14 @@ label: Privacy Policy
 hide_body: true
 fields:
 - type: text
-  name: Privacy Policy
-  label: Privacy Policy
+  name: title
+  label: title
 - type: text
-  name: page
-  label: page
+  name: type
+  label: type
 - type: text
-  name: privacy-policy
-  label: privacy-policy
+  name: layout
+  label: layout
 - type: text
   name: policyTitle
   label: policyTitle
@@ -23,6 +23,10 @@ fields:
 - type: textarea
   name: policyDefinitionDescription1
   label: policyDefinitionDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 - type: text
   name: policyDefinitionSubtitle1_1
   label: policyDefinitionSubtitle1_1
