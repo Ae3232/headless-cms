@@ -13,10 +13,10 @@ whyCoteamsItemTitle1: Up to 50% of the cost
 whyCoteamsItemDescription1: And you still get the same quality due to minimized overheads.
 whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
 whyCoteamsItemTitle2: 1-2 Weeks to start
-whyCoteamsItemDescription2: — due to the access to the thousands of the talents
+whyCoteamsItemDescription2: "— due to the access to the thousands of the talents"
 whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
 whyCoteamsItemTitle3: 1-2 Days to scale up
-whyCoteamsItemDescription3: — due to the access to the thousands of the talents
+whyCoteamsItemDescription3: "— due to the access to the thousands of the talents"
 howCoteamsTitle: How Coteams Works
 howCoteamsSubTitle: Voluptatem accusantium doloremque
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
@@ -65,16 +65,22 @@ useCasesTitle: Use Cases
 useCasesSubTitle: A wonderful serenity has taken
 useCasesItemImg1: "/images/use-cases-img1.png"
 useCasesItemTitle1: MVP & product development
-useCasesItemDescription1: The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+useCasesItemDescription1: The European languages are members of the same family. Their
+  separate existence is a myth. For science, music, sport, etc, Europe uses the same
+  vocabulary.
 useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New application development
-useCasesItemDescription2: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
+useCasesItemDescription2: But I must explain to you how all this mistaken idea of
+  denouncing pleasure and praising pain was born and I will give you
 useCasesItemImg3: "/images/use-cases-img3.png"
 useCasesItemTitle3: Migration & modernization
-useCasesItemDescription3: A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm
+useCasesItemDescription3: A wonderful serenity has taken possession of my entire soul,
+  like these sweet mornings of spring which I enjoy with my whole heart. I am alone,
+  and feel the charm
 findTeamImg: "/images/find-team.svg"
 findTeamTitle: Find a Team
-findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
 menu:
   main:
     SectionPagesMenu: main
