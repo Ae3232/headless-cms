@@ -24,4 +24,5 @@ fields:
   name: userContentImg
   label: userContentImg
 pages:
+- content/help/languages.md
 - content/help/profile-summary.md
