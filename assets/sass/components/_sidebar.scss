@@ -19,6 +19,31 @@
     line-height: 1.33;
     letter-spacing: normal;
     color: $gray-900;
+    display: block;
+    width: 100%;
+    position: relative;
+    &:after {
+      content: '';
+      background-image: url("/images/sidebar-open-icon.svg");
+      background-repeat: no-repeat;
+      width: rem(16px);
+      height: rem(16px);
+      right: 0;
+      top: 0;
+      position: absolute;
+    }
+    &.close {
+      &:after {
+        content: '';
+        background-image: url("/images/sidebar-close-icon.svg");
+        background-repeat: no-repeat;
+        width: rem(16px);
+        height: rem(16px);
+        right: 0;
+        top: 0;
+        position: absolute;
+      }
+    }
   }
   &__sublist {
     display: none;
@@ -39,6 +64,9 @@
     font-weight: 600;
     line-height: 1.38;
     color: $gray-900;
+    position: relative;
+    display: block;
+    width: 100%;
   }
   &__thirdlist {
     display: none;

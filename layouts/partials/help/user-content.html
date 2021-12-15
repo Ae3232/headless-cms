@@ -1,6 +1,6 @@
 <section class="user-content">
     <span class="user-content__section-title">Help</span>
     <h1 class="h1">{{ .Page.Params.userContentTitle }}</h1>
-    <p class="description">{{ .Page.Params.userContentDescription }}</p>
+    <p class="description">{{ .Page.Params.userContentDescription | safeHTML }}</p>
     <img src="{{ .Page.Params.userContentImg | relURL }}" alt="">
 </section>

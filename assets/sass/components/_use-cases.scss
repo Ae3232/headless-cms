@@ -1,10 +1,29 @@
 .use-cases {
   @include section-mt;
   padding: rem(0 16px);
+  &__wrapper {
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      margin-top: rem(40px);
+      margin-left: rem(-20px);
+      margin-right: rem(-20px);
+    }
+  }
   &__item {
     margin-top: rem(40px);
+    text-align: center;
+    @include media-breakpoint-up(xl) {
+      margin-top: 0;
+      flex: calc(100% / 3);
+      min-width: calc(100% / 3);
+      max-width: calc(100% / 3);
+      padding: rem(0 20px);
+    }
     &:first-child {
       margin-top: rem(32px);
+      @include media-breakpoint-up(xl) {
+        margin-top: 0;
+      }
     }
   }
   .h3 {
@@ -13,9 +32,25 @@
     line-height: rem(24px);
     font-weight: $font-weight-semi-bold;
     text-align: center;
+    @include media-breakpoint-up(xl) {
+      font-size: rem(20px);
+      margin-top: rem(24px);
+      margin-bottom: rem(12px);
+    }
   }
   .description {
     font-size: rem(14px);
     line-height: rem(20px);
+    text-align: left;
+    max-width: rem(750px);
+    display: inline-block;
+    @include media-breakpoint-up(xl) {
+      max-width: none;
+      font-size: rem(16px);
+      line-height: rem(24px);
+      min-height: rem(96px);
+      max-height: rem(96px);
+      overflow: hidden;
+    }
   }
 }

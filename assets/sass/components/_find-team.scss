@@ -6,6 +6,18 @@
     &:before {
       font-size: rem(40px);
       vertical-align: bottom;
+      @include media-breakpoint-up(xl) {
+        font-size: rem(48px);
+        vertical-align: middle;
+        margin-top: rem(-5px);
+      }
+    }
+  }
+  .h1 {
+    @include media-breakpoint-up(xl) {
+      font-size: rem(36px);
+      line-height: rem(44px);
+      margin-bottom: rem(24px);
     }
   }
   .description {
@@ -14,8 +26,19 @@
     font-weight: $font-weight-medium;
     text-align: center;
     margin-top: rem(10px);
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+    }
   }
   .button {
     border-color: $white;
+    @include media-breakpoint-up(xl) {
+      max-width: rem(268px);
+    }
+  }
+  .button-wrapper {
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+    }
   }
 }

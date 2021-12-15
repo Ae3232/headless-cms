@@ -4,7 +4,7 @@
         <div class="quick-start__item">
             <img src="{{ .Page.Params.quickSectionItemImg1 }}" alt="">
             <h3 class="h3">{{ .Page.Params.quickSectionItemTitle1 }}</h3>
-            <p class="description">{{ .Page.Params.quickSectionItemDescription1 }}</p>
+            <p class="description">{{ .Page.Params.quickSectionItemDescription1 | safeHTML }}</p>
             <div class="button-wrapper">
                 <a href="" class="button primary">{{ .Page.Params.quickSectionItemButton1 }}</a>
             </div>
@@ -12,7 +12,7 @@
         <div class="quick-start__item">
             <img src="{{ .Page.Params.quickSectionItemImg2 }}" alt="">
             <h3 class="h3">{{ .Page.Params.quickSectionItemTitle2 }}</h3>
-            <p class="description">{{ .Page.Params.quickSectionItemDescription2 }}</p>
+            <p class="description">{{ .Page.Params.quickSectionItemDescription2 | safeHTML }}</p>
             <div class="button-wrapper">
                 <a href="" class="button primary">{{ .Page.Params.quickSectionItemButton2 }}</a>
             </div>
@@ -20,7 +20,7 @@
         <div class="quick-start__item">
             <img src="{{ .Page.Params.quickSectionItemImg3 }}" alt="">
             <h3 class="h3">{{ .Page.Params.quickSectionItemTitle3 }}</h3>
-            <p class="description">{{ .Page.Params.quickSectionItemDescription3 }}</p>
+            <p class="description">{{ .Page.Params.quickSectionItemDescription3 | safeHTML }}</p>
             <div class="button-wrapper">
                 <a href="" class="button primary">{{ .Page.Params.quickSectionItemButton3 }}</a>
             </div>

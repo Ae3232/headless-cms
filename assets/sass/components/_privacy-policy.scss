@@ -1,0 +1,74 @@
+.policy {
+  text-align: left;
+  margin-top: rem(64px);
+  margin-bottom: rem(120px);
+  .h1 {
+    font-size: rem(48px);
+    font-family: $font-family-second;
+    font-weight: $font-weight-semi-bold;
+    color: $gray-900;
+    text-align: left;
+    margin-bottom: rem(32px);
+  }
+  .h2 {
+    font-size: rem(36px);
+    font-family: $font-family-second;
+    font-weight: $font-weight-semi-bold;
+    line-height: 1.22;
+    color: $gray-900;
+    text-align: left;
+    margin-bottom: rem(32px);
+  }
+  .h3 {
+    font-size: rem(30px);
+    font-family: $font-family-second;
+    font-weight: $font-weight-semi-bold;
+    line-height: 1.33;
+    color: $gray-900;
+    text-align: left;
+    margin-bottom: rem(20px);
+  }
+  .description {
+    font-size: rem(16px);
+    font-weight: $font-weight-normal;
+    line-height: 1.5;
+    color: $gray-900;
+  }
+}
+.policy-section {
+  margin-bottom: rem(88px);
+  &__title-number {
+    font-size: rem(20px);
+    font-weight: $font-weight-semi-bold;
+    color: $white;
+    display: inline-block;
+    width: rem(32px);
+    height: rem(32px);
+    text-align: center;
+    margin-right: rem(12px);
+    border-radius: 50%;
+    line-height: rem(32px);
+    background-color: $gray-900;
+    vertical-align: top;
+    margin-top: rem(6px);
+  }
+  &__subtitle-number {
+    font-size: rem(20px);
+    font-weight: $font-weight-semi-bold;
+    color: $gray-900;
+    display: inline-block;
+    height: rem(32px);
+    text-align: center;
+    margin-right: rem(12px);
+    border-radius: 16px;
+    line-height: rem(32px);
+    background-color: $white;
+    border: solid 1px $gray-900;
+    vertical-align: top;
+    margin-top: rem(2px);
+    padding: rem(0 16px);
+  }
+  &__definition-item {
+    margin-bottom: rem(48px);
+  }
+}

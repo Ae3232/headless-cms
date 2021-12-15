@@ -9,7 +9,7 @@
             <p class="description">
                 <b>{{ .Page.Params.videoSectionDescriptionBold }}</b>
             </p>
-            <p class="description">{{ .Page.Params.videoSectionDescription }}</p>
+            <p class="description">{{ .Page.Params.videoSectionDescription | safeHTML }}</p>
         </div>
     </div>
 </section>

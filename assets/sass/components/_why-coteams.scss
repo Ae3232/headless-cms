@@ -7,12 +7,26 @@
       font-size: rem(24px);
       line-height: rem(36px);
       margin-top: rem(10px);
+      @include media-breakpoint-up(xl) {
+        font-size: rem(30px);
+        margin-top: rem(20px);
+        margin-bottom: rem(2px);
+        line-height: normal;
+      }
     }
     .description {
       margin-top: rem(8px);
       font-size: rem(15px);
       line-height: rem(20px);
       font-weight: $font-weight-medium;
+      @include media-breakpoint-up(xl) {
+        font-size: rem(16px);
+        line-height: rem(24px);
+      }
+    }
+    .button {
+      font-weight: $font-weight-semi-bold;
+      width: rem(280px);
     }
   }
 }

@@ -11,6 +11,12 @@ whyTeamsSubTitle: Voluptatem accusantium doloremque
 whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
 whyCoteamsItemTitle1: Up to 50% of the cost
 whyCoteamsItemDescription1: And you still get the same quality due to minimized overheads.
+whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
+whyCoteamsItemTitle2: 1-2 Weeks to start
+whyCoteamsItemDescription2: — due to the access to the thousands of the talents
+whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
+whyCoteamsItemTitle3: 1-2 Days to scale up
+whyCoteamsItemDescription3: — due to the access to the thousands of the talents
 howCoteamsTitle: How Coteams Works
 howCoteamsSubTitle: Voluptatem accusantium doloremque
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
@@ -35,7 +41,7 @@ howCoteamsItemDescription3: he process is designed to provide the best experienc
   game - Programming the game - Verifying the game to make sure all code is working.
   The process can be applied in many ways, however, we believe that
 howCoteamsItemImg4: "/images/how-coteams-img4.svg"
-howCoteamsItemTitle4: What is needed from a client
+howCoteamsItemTitle4: Payments
 howCoteamsItemDescription4: he process is designed to provide the best experience
   for the players, the viewers, and ultimately the game. We have already developed
   several games with this methodology. There are three basic steps Developing the
@@ -44,6 +50,13 @@ howCoteamsItemDescription4: he process is designed to provide the best experienc
 howCoteamsItemImg5: "/images/how-coteams-img5.svg"
 howCoteamsItemTitle5: Costs
 howCoteamsItemDescription5: he process is designed to provide the best experience
+  for the players, the viewers, and ultimately the game. We have already developed
+  several games with this methodology. There are three basic steps Developing the
+  game - Programming the game - Verifying the game to make sure all code is working.
+  The process can be applied in many ways, however, we believe that
+howCoteamsItemImg6: "/images/how-coteams-img5.svg"
+howCoteamsItemTitle6: Taxes
+howCoteamsItemDescription6: he process is designed to provide the best experience
   for the players, the viewers, and ultimately the game. We have already developed
   several games with this methodology. There are three basic steps Developing the
   game - Programming the game - Verifying the game to make sure all code is working.

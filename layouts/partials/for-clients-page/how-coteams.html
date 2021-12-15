@@ -3,29 +3,58 @@
     <h4 class="h4">{{ .Page.Params.howCoteamsSubTitle }}</h4>
     <div class="how-coteams__wrapper">
         <div class="how-coteams__item">
-            <img src="{{ .Page.Params.howCoteamsItemImg1 }}" alt="">
-            <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle1 }}</h3>
-            <p class="description">{{ .Page.Params.howCoteamsItemDescription1 }}</p>
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg1 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle1 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription1 | safeHTML }}</p>
+                </div>
+            </div>
         </div>
         <div class="how-coteams__item">
-            <img src="{{ .Page.Params.howCoteamsItemImg2 }}" alt="">
-            <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle2 }}</h3>
-            <p class="description">{{ .Page.Params.howCoteamsItemDescription2 }}</p>
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg2 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle2 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription2 | safeHTML }}</p>
+                </div>
+            </div>
         </div>
         <div class="how-coteams__item">
-            <img src="{{ .Page.Params.howCoteamsItemImg3 }}" alt="">
-            <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle3 }}</h3>
-            <p class="description">{{ .Page.Params.howCoteamsItemDescription3 }}</p>
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg3 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle3 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription3 | safeHTML }}</p>
+                </div>
+            </div>
         </div>
         <div class="how-coteams__item">
-            <img src="{{ .Page.Params.howCoteamsItemImg4 }}" alt="">
-            <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle4 }}</h3>
-            <p class="description">{{ .Page.Params.howCoteamsItemDescription4 }}</p>
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg4 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle4 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription4 | safeHTML }}</p>
+                </div>
+            </div>
         </div>
         <div class="how-coteams__item">
-            <img src="{{ .Page.Params.howCoteamsItemImg5 }}" alt="">
-            <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle5 }}</h3>
-            <p class="description">{{ .Page.Params.howCoteamsItemDescription5 }}</p>
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg5 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle5 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription5 | safeHTML }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="how-coteams__item">
+            <div class="how-coteams__item-wrapper">
+                <img src="{{ .Page.Params.howCoteamsItemImg6 }}" alt="">
+                <div class="how-coteams__text-wrapper">
+                    <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle6 }}</h3>
+                    <p class="description">{{ .Page.Params.howCoteamsItemDescription6 | safeHTML }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
