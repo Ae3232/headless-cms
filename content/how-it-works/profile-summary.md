@@ -1,5 +1,5 @@
 +++
-layout = "how-it-works"
+layout = "help"
 title = "Profile Summary"
 type = "page"
 userContentDescription = "Profile Summary Description"
