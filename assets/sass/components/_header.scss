@@ -44,6 +44,7 @@
   &__right-menu {
     display: flex;
     margin-right: rem(-6px);
+    align-items: center;
     @include media-breakpoint-up(lg) {
       order: 2;
       margin-left: auto;
@@ -51,8 +52,15 @@
   }
   &__right-menu-item {
     padding: rem(0 6px);
+    &._active {
+      border-radius: 11px;
+      background-color: $white;
+      span {
+        color: $green-dark;
+      }
+    }
     @include media-breakpoint-up(lg) {
-      padding: rem(0 10px);
+      padding: rem(2px 10px);
       display: flex;
       align-items: center;
       i {
