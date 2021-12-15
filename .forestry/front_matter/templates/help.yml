@@ -24,6 +24,3 @@ fields:
 - type: file
   name: usercontentimg
   label: usercontentimg
-pages:
-- content/help/languages.md
-- content/help/profile-summary.md
