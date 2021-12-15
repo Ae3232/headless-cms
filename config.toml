@@ -1,3 +1,18 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "General"
+url = "/general/"
+weight = 1
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "For Teams"
+url = "/for-teams/"
+weight = 4
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "For Talents"
+url = "/for-talents/"
+weight = 3
