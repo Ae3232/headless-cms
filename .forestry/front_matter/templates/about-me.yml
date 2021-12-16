@@ -1,0 +1,22 @@
+---
+label: About Me
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: userContentTitle
+  label: userContentTitle
+- type: text
+  name: userContentDescription
+  label: userContentDescription
+- type: text
+  name: userContentImg
+  label: userContentImg
