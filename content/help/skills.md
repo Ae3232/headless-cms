@@ -4,7 +4,7 @@ title = "Skills"
 type = "page"
 url = "/help/skills/"
 userContentDescription = "Skills Description"
-userContentImg = "content/images/team-managers-dark.png"
+userContentImg = "content/images/phone.png"
 userContentTitle = "Skills"
 [menu.sidebar]
 weight = 4
