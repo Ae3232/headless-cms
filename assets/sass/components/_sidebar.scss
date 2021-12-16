@@ -49,6 +49,7 @@
     display: none;
     padding: rem(32px 0);
     margin-bottom: rem(-16px);
+    flex-direction: column;
     &._open {
       display: block;
     }
@@ -72,13 +73,14 @@
     display: none;
     padding: rem(26px 16px);
     margin-bottom: rem(-26px);
+    flex-direction: column;
     &._open {
       display: block;
     }
   }
   &__thirdlist-item {
     padding: rem(0 10px);
-    display: inline-block;
+    align-self: baseline;
     &._active {
       border-radius: 13.5px;
       background-color: rgba(169, 169, 169, .19);

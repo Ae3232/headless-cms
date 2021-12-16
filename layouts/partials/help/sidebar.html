@@ -2,10 +2,10 @@
     <ul class="sidebar__list">
         <li class="sidebar__item">
             <a href="javascript:void(0);" class="sidebar__link close">For Talents</a>
-            <ul class="sidebar__sublist" style="display:block;">
+            <ul class="sidebar__sublist" style="display:flex;">
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link close">Talent Profile Details</a>
-                    <ul class="sidebar__thirdlist" style="display:block;">
+                    <ul class="sidebar__thirdlist" style="display:flex;">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar }}
                         <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
