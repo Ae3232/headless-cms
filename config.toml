@@ -3,16 +3,31 @@ languageCode = "en-us"
 title = "Coteams"
 [[menu.main]]
 SectionPagesMenu = "main"
+name = "For Teams"
+url = "/for-teams/"
+weight = 7
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "For Talents"
+url = "/for-talents/"
+weight = 5
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "For Talents"
+url = "/for-talents/"
+weight = 4
+[[menu.main]]
+SectionPagesMenu = "main"
+name = "For Teams"
+url = "/for-teams/"
+weight = 6
+[[menu.main]]
+SectionPagesMenu = "main"
 name = "General"
 url = "/general/"
 weight = 1
 [[menu.main]]
 SectionPagesMenu = "main"
-name = "For Teams"
-url = "/for-teams/"
-weight = 4
-[[menu.main]]
-SectionPagesMenu = "main"
-name = "For Talents"
-url = "/for-talents/"
-weight = 3
+name = "General"
+url = "/general/"
+weight = 2
