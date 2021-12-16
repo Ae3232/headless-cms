@@ -68,6 +68,7 @@ input.gsc-input {
   background: none !important;
   font-family: $font-family-base;
   font-weight: $font-weight-medium;
+  height: rem(48px) !important;
   @include media-breakpoint-down(md) {
     padding-left: rem(12px) !important;
     font-size: rem(14px);
