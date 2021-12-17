@@ -85,6 +85,6 @@ menu:
   main:
     SectionPagesMenu: main
     url: "/for-clients/"
-    weight: 3
+    weight: 2
 
 ---
