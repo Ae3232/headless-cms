@@ -36,6 +36,17 @@
       margin: 0 -10000px;
     }
   }
+  &:after {
+    content: '';
+    position: absolute;
+    right: rem(-51px);
+    bottom: rem(6px);
+    background-image: url(/images/header-bottom-background.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: rem(68px);
+    height: rem(54px);
+  }
   @include media-breakpoint-up(lg) {
     align-items: center;
     height: auto;

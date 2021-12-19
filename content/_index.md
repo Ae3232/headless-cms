@@ -31,8 +31,6 @@ talentsItemTitle4: Cost efficiency
 talentsItemDescription4: High quality at 20%-50% lower costs than when working with
   recruitment agencies and outsourcing companies due to minimized overheads. Payment
   only for the work done.
-talentsItemTitle5: ''
-talentsItemDescription5: ''
 clientsTitle: For talents
 clientsSubtitle: Why does working via CoTeams bring more satisfaction and joy?
 clientsItemTitle1: Balance independence and community
@@ -47,8 +45,6 @@ clientsItemDescription3: Build your own team and become a team manager, if you e
 clientsItemTitle4: Global reach
 clientsItemDescription4: Work from anywhere and join global talents from all over
   the world.
-clientsItemTitle5: ''
-clientsItemDescription5: ''
 quickSectionTitle: Quick Start
 quickSectionItemImg1: "/images/quickstart-image1.svg"
 quickSectionItemTitle1: For businesses
