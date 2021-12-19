@@ -3,57 +3,52 @@ title: For Clients
 type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
-topSectionTitle: For Clients
-topSectionDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-whyTeamsTitle: Why Coteams
-whyTeamsSubTitle: Voluptatem accusantium doloremque
+topSectionTitle: CoTeams for Businesses
+topSectionDescription: CoTeams is a collaborative platform where you find a perfect
+  IT team or individual talents to handle your IT tasks, quickly and with less administrative
+  burden.
+whyTeamsTitle: Why CoTeams?
+whyTeamsSubTitle: ''
 whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
-whyCoteamsItemTitle1: Up to 50% of the cost
-whyCoteamsItemDescription1: And you still get the same quality due to minimized overheads.
+whyCoteamsItemTitle1: Easy access
+whyCoteamsItemDescription1: a wide pool of global IT talents.
 whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
 whyCoteamsItemTitle2: 1-2 Weeks to start
 whyCoteamsItemDescription2: "— due to the access to the thousands of the talents"
 whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
 whyCoteamsItemTitle3: 1-2 Days to scale up
 whyCoteamsItemDescription3: "— due to the access to the thousands of the talents"
-howCoteamsTitle: How Coteams Works
-howCoteamsSubTitle: Voluptatem accusantium doloremque
+howCoteamsTitle: How does it work?
+howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
-howCoteamsItemTitle1: Costs
-howCoteamsItemDescription1: he process is designed to provide the best experience
-  for the players, the viewers, and ultimately the game. We have already developed
-  several games with this methodology. There are three basic steps Developing the
-  game - Programming the game - Verifying the game to make sure all code is working.
-  The process can be applied in many ways, however, we believe that
+howCoteamsItemTitle1: Start
+howCoteamsItemDescription1: "1)\tYou sign up. Registration is fast and easy. \n2)\tPassive
+  sourcing: You answer a few questions about your task/project needs and your project
+  appears in the pool. Available teams receive recommended projects based on skills
+  and skill gaps. The interested teams send you their proposals. \n\nActive sourcing:
+  You access the CoTeams’ pool of available IT talents. You can quickly search, sort,
+  and filter by skills, team category, etc. to find the right talents/teams for your
+  project needs and invite them for bidding."
 howCoteamsItemImg2: "/images/how-coteams-img2.svg"
-howCoteamsItemTitle2: Payments
-howCoteamsItemDescription2: If the game you are developing has not been created for
-  free as a side hobby but rather for a business, it is best to look at the business
-  side of the game. You need to make sure that Your game requires only 30 – 60 minutes
-  of your time per day and you want to create a game that your users will love. Your
-  game has been Developing the game.
+howCoteamsItemTitle2: Negotiate
+howCoteamsItemDescription2: "3)\tYou interview IT teams/ individual talents you like.\n4)\tYou
+  select the one :)\n5)\tYou agree on KPIs to track the performance of the remote
+  team and the project progress.\nYou negotiate SLA, including penalties for security
+  breaches.\n6)\tYou can use a standard CoTeams contract or adjust it to reflect individual
+  project specifics and you needs."
 howCoteamsItemImg3: "/images/how-coteams-img3.svg"
-howCoteamsItemTitle3: Taxes
-howCoteamsItemDescription3: he process is designed to provide the best experience
-  for the players, the viewers, and ultimately the game. We have already developed
-  several games with this methodology. There are three basic steps Developing the
-  game - Programming the game - Verifying the game to make sure all code is working.
-  The process can be applied in many ways, however, we believe that
+howCoteamsItemTitle3: Collaborate
+howCoteamsItemDescription3: "7)\tYou organize knowledge transfer to the remote team.\n8)\tYou
+  choose the convenient communication channel, frequency and the depth of reporting.\n9)\tYou
+  monitor the project progress."
 howCoteamsItemImg4: "/images/how-coteams-img4.svg"
-howCoteamsItemTitle4: Payments
-howCoteamsItemDescription4: he process is designed to provide the best experience
-  for the players, the viewers, and ultimately the game. We have already developed
-  several games with this methodology. There are three basic steps Developing the
-  game - Programming the game - Verifying the game to make sure all code is working.
-  The process can be applied in many ways, however, we believe that
+howCoteamsItemTitle4: Pay and revise/give feedback
+howCoteamsItemDescription4: "10)\tYou pay monthly (for T&M model) or upon the successful
+  project completion (for fixed-price model).\n11)\tYou provide the final feedback
+  to the team/talent and rate their job."
 howCoteamsItemImg5: "/images/how-coteams-img5.svg"
-howCoteamsItemTitle5: Costs
-howCoteamsItemDescription5: he process is designed to provide the best experience
-  for the players, the viewers, and ultimately the game. We have already developed
-  several games with this methodology. There are three basic steps Developing the
-  game - Programming the game - Verifying the game to make sure all code is working.
-  The process can be applied in many ways, however, we believe that
+howCoteamsItemTitle5: ''
+howCoteamsItemDescription5: ''
 howCoteamsItemImg6: "/images/how-coteams-img5.svg"
 howCoteamsItemTitle6: Taxes
 howCoteamsItemDescription6: he process is designed to provide the best experience
@@ -86,5 +81,6 @@ menu:
     SectionPagesMenu: main
     url: "/for-clients/"
     weight: 2
+draft: true
 
 ---
