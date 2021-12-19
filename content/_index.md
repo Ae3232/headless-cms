@@ -10,12 +10,12 @@ videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and trans
   ecosystem where companies and independent IT teams/individual talents from all over
   the world find each other in a matter of minutes and collaborate on interesting
   challenges in a simple and effective way. In the CoTeams platform:'
-videoSectionDescription: "* **Businesses** post their IT challenges/projects, select
-  and hire the perfect match for their IT endeavors from a range of pre-built IT teams
-  or freelancers, collaborate with the teams on the projects until their successful
-  completion. **IT talents** form teams, find and apply for new opportunities, and
-  work on the projects collaborating directly with clients. **Leaders** build and
-  manage powerful one-project or long-term IT teams."
+videoSectionDescription: "<strong>Businesses</strong> post their IT challenges/projects,
+  select and hire the perfect match for their IT endeavors from a range of pre-built
+  IT teams or freelancers, collaborate with the teams on the projects until their
+  successful completion. <strong>IT talents</strong> form teams, find and apply for
+  new opportunities, and work on the projects collaborating directly with clients.
+  <strong>Leaders</strong> build and manage powerful one-project or long-term IT teams."
 talentsTitle: For businesses
 talentsSubtitle: Why is CoTeams a better way to solve your IT tasks?
 talentsItemTitle1: Quick start
