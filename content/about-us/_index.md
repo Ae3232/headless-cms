@@ -1,11 +1,11 @@
 ---
-title: General
+title: About Us
 type: page
-layout: general
+layout: about-us
 menu:
   main:
     SectionPagesMenu: main
-    url: "/general/"
+    url: "/about-us/"
     weight: 1
 
 ---
