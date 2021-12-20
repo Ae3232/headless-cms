@@ -11,19 +11,25 @@ whyTeamsTitle: Why CoTeams?
 whyTeamsSubTitle: ''
 whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
 whyCoteamsItemTitle1: Paying less
-whyCoteamsItemDescription1: "High quality at 20%-50% lower costs than when working with recruitment agencies and outsourcing companies due to minimized overheads."
+whyCoteamsItemDescription1: High quality at <strong>20%-50% lower costs</strong> than
+  when working with recruitment agencies and outsourcing companies due to minimized
+  overheads.
 whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
 whyCoteamsItemTitle2: Quick start
-whyCoteamsItemDescription2: "Ready-to-go teams that can be hired in a matter of days or even hours."
+whyCoteamsItemDescription2: Ready-to-go teams that can be hired in a matter of days
+  or even hours.
 whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
 whyCoteamsItemTitle3: The best matches
-whyCoteamsItemDescription3: "Select skills, areas of expertise, seniority levels, etc. Work with individual talents or hire entire teams from all over the world."
+whyCoteamsItemDescription3: Select skills, areas of expertise, seniority levels, etc.
+  Work with individual talents or hire entire teams from all over the world.
 whyCoteamsItemImg4: "/images/why-coteams-img3.svg"
 whyCoteamsItemTitle4: Focus on what matters
-whyCoteamsItemDescription4: "Access teams directly, no intermediaries and excessive administrative burden."
+whyCoteamsItemDescription4: Access teams directly, no intermediaries and excessive
+  administrative burden.
 whyCoteamsItemImg5: "/images/why-coteams-img3.svg"
 whyCoteamsItemTitle5: Exactly when you need
-whyCoteamsItemDescription5: "Check real-time talent availability in seconds. Offer full-time/part-time involvements or just ask a question. Easily scale on demand."
+whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offer
+  full-time/part-time involvements or just ask a question. Easily scale on demand.
 howCoteamsTitle: How does it work?
 howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
@@ -78,6 +84,5 @@ menu:
     SectionPagesMenu: main
     url: "/for-clients/"
     weight: 2
-draft: true
 
 ---
