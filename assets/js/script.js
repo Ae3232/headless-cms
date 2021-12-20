@@ -31,6 +31,7 @@ $(document).ready(function() {
 	$(".sidebar__sublist-link").click(function() {
 		$this = $(this);
 		$this.next().slideToggle("fast");
+		$this.toggleClass('close');
 	});
 });
 $(document).ready(function() {

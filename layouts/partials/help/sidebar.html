@@ -15,11 +15,11 @@
                     </ul>
                 </li>
                 <li class="sidebar__sublist-item">
-                    <a href="/help/profile-visibility/" class="sidebar__sublist-link">Profile Visibility</a>
+                    <a href="/help/profile-visibility/" class="sidebar__sublist-link _no-arrow">Profile Visibility</a>
                 </li>
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link">Participate in Opportunities</a>
-                    <ul class="sidebar__thirdlist" style="display:flex;">
+                    <ul class="sidebar__thirdlist">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar1 }}
                         <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
@@ -30,7 +30,7 @@
                 </li>
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link">Join to the Team</a>
-                    <ul class="sidebar__thirdlist" style="display:flex;">
+                    <ul class="sidebar__thirdlist">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar2 }}
                         <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
@@ -43,12 +43,132 @@
         </li>
         <li class="sidebar__item">
             <a href="javascript:void(0);" class="sidebar__link">For Clients</a>
+            <ul class="sidebar__sublist">
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Client Profile Details </a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar3 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="/help/for-clients/about-opportunity" class="sidebar__sublist-link _no-arrow">About "Opportunity"</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">"Opportunity" setting</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar4 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="/help/for-clients/bidding-and-assigning/" class="sidebar__sublist-link _no-arrow">Bidding and assigning</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Opportunity statuses</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar5 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            </ul>
         </li>
         <li class="sidebar__item">
             <a href="javascript:void(0);" class="sidebar__link">For Teams</a>
+            <ul class="sidebar__sublist">
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Team Creation</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar6 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Team Management</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar7 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Participate in "Opportunities"</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar8 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            </ul>
         </li>
         <li class="sidebar__item">
             <a href="javascript:void(0);" class="sidebar__link">General</a>
+            <ul class="sidebar__sublist">
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Registration</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar9 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Authentication</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar10 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Profile settings</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.sidebar11 }}
+                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="/help/general/image-upload" class="sidebar__sublist-link _no-arrow">Image upload</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="/help/general/messaging" class="sidebar__sublist-link _no-arrow">Messaging</a>
+                </li>
+                <li class="sidebar__sublist-item">
+                    <a href="/help/general/search" class="sidebar__sublist-link _no-arrow">Search</a>
+                </li>
+            </ul>
         </li>
     </ul>
 </section>

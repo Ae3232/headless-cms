@@ -20,7 +20,7 @@ sections:
   - home-page-fm
 - type: directory
   path: content/for-clients
-  label: For Clients
+  label: For Talents
   create: all
   match: "**/*"
   templates:

@@ -68,6 +68,33 @@
     position: relative;
     display: block;
     width: 100%;
+    &:after {
+    content: '';
+    background-image: url("/images/sidebar-open-icon.svg");
+    background-repeat: no-repeat;
+    width: rem(16px);
+    height: rem(16px);
+    right: rem(-16px);
+    top: rem(3px);
+    position: absolute;
+  }
+    &.close {
+      &:after {
+        content: '';
+        background-image: url("/images/sidebar-close-icon.svg");
+        background-repeat: no-repeat;
+        width: rem(16px);
+        height: rem(16px);
+        right: rem(-16px);
+        top: rem(3px);
+        position: absolute;
+      }
+    }
+    &._no-arrow {
+      &:after {
+        content: none;
+      }
+    }
   }
   &__thirdlist {
     display: none;
