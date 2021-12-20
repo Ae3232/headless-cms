@@ -11,8 +11,28 @@
         }
     }
     .h2 {
+        margin-bottom: rem(32px);
         @include media-breakpoint-up(xl) {
             display: none;
+            margin-bottom: rem(40px);
+        }
+    }
+    .list {
+        list-style-type: disc;
+        padding-left: rem(18px);
+        padding-top: rem(6px);
+        &__item {
+            font-size: rem(15px);
+            line-height: rem(22px);
+            color: $gray-900;
+            font-weight: $font-weight-normal;
+            &:not(:last-child) {
+                margin-bottom: rem(12px);
+            }
+            @include media-breakpoint-up(xl) {
+                font-size: rem(16px);
+                line-height: rem(24px);
+            }
         }
     }
 }

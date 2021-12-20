@@ -6,16 +6,7 @@ topSectionDescription: A new, simple and smart way to connect IT projects and IT
   from all over the world. Max cooperation flexibility, no unnecessary costs and administrative
   burden.
 videoSectionTitle: 'How CoTeams works? '
-videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and transparent
-  ecosystem where companies and independent IT teams/individual talents from all over
-  the world find each other in a matter of minutes and collaborate on interesting
-  challenges in a simple and effective way. In the CoTeams platform:'
-videoSectionDescription: "<strong>Businesses</strong> post their IT challenges/projects,
-  select and hire the perfect match for their IT endeavors from a range of pre-built
-  IT teams or freelancers, collaborate with the teams on the projects until their
-  successful completion. <strong>IT talents</strong> form teams, find and apply for
-  new opportunities, and work on the projects collaborating directly with clients.
-  <strong>Leaders</strong> build and manage powerful one-project or long-term IT teams."
+videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and transparent ecosystem where companies and independent IT teams/individual talents from all over the world find each other in a matter of minutes and collaborate on interesting challenges in a simple and effective way. In the CoTeams platform:'
 talentsTitle: For businesses
 talentsSubtitle: Why is CoTeams a better way to solve your IT tasks?
 talentsItemTitle1: Quick start
@@ -39,7 +30,7 @@ clientsItemDescription1: Freelance flexibility combined with knowledge sharing a
 clientsItemTitle2: Drive your career
 clientsItemDescription2: Nurture your specific passions and strength. Choose people
   you work with. Choose the length and scope of the engagements.
-clientsItemTitle3: Escape from hard-to-shift hierarchy and personal judgments
+clientsItemTitle3: Escape from hard-to-shift hierarchy
 clientsItemDescription3: Build your own team and become a team manager, if you enjoy
   taking more responsibility.
 clientsItemTitle4: Global reach

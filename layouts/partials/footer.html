@@ -7,14 +7,17 @@
 			<section class="footer__copyright desktop">
 				<ul class="footer__copyright-list">
 					<span class="footer__copyright-item">© 2021 CoTeams</span>
-					<a href="#" class="footer__copyright-item">Terms of Service</a>
-					<a href="/privacy-policy/" class="footer__copyright-item">Privacy</a>
+					<a href="/terms-of-use/" class="footer__copyright-item">Terms of Use</a>
+					<a href="/privacy-policy/" class="footer__copyright-item">Privacy Policy</a>
 				</ul>
 			</section>
 			<div class="footer__nav-wrapper">
 				<div class="footer__nav-subtitle">
 					<h5 class="footer__nav-title">About CoTeams</h5>
 					<ul class="footer__nav-list">
+						<li class="footer__nav-item">
+							<a href="/" class="footer__nav-link">Home</a>
+						</li>
 						{{ range .Site.Menus.main }}
 						<li class="footer__nav-item">
 							<a href="{{ .URL | relURL }}" class="footer__nav-link">{{ .Name }}</a>

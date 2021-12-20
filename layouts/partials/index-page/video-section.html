@@ -1,15 +1,19 @@
 <section class="video-section section-mt">
     <h2 class="h2">How it works</h2>
     <div class="video-section__wrapper">
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/MMcrvgNXnCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+<!--        <div class="video-wrapper">-->
+<!--            <iframe src="https://www.youtube.com/embed/MMcrvgNXnCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--        </div>-->
         <div class="video-section__text-wrap">
             <h2 class="h2 desktop">{{ .Page.Params.videoSectionTitle }}</h2>
             <p class="description">
-                <b>{{ .Page.Params.videoSectionDescriptionBold }}</b>
+                {{ .Page.Params.videoSectionDescriptionBold }}
             </p>
-            <p class="description">{{ .Page.Params.videoSectionDescription | safeHTML }}</p>
+            <ul class="list">
+                <li class="list__item"><strong>Businesses</strong> post their IT challenges/projects, select and hire the perfect match for their IT endeavors from a range of pre-built IT teams, collaborate with the team on the projects until their successful completion.</li>
+                <li class="list__item"><strong>IT talents</strong> form teams, find and apply for new opportunities, and work on the projects won collaborating directly with clients.</li>
+                <li class="list__item"><strong>Leaders</strong> build and manage powerful one-project/long-term IT teams.</li>
+            </ul>
         </div>
     </div>
 </section>

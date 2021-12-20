@@ -32,9 +32,65 @@ fields:
 - type: text
   name: whyCoteamsItemTitle1
   label: whyCoteamsItemTitle1
-- type: text
+- type: textarea
   name: whyCoteamsItemDescription1
   label: whyCoteamsItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg2
+  label: whyCoteamsItemImg2
+- type: text
+  name: whyCoteamsItemTitle2
+  label: whyCoteamsItemTitle2
+- type: textarea
+  name: whyCoteamsItemDescription2
+  label: whyCoteamsItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg3
+  label: whyCoteamsItemImg3
+- type: text
+  name: whyCoteamsItemTitle3
+  label: whyCoteamsItemTitle3
+- type: textarea
+  name: whyCoteamsItemDescription3
+  label: whyCoteamsItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg4
+  label: whyCoteamsItemImg4
+- type: text
+  name: whyCoteamsItemTitle4
+  label: whyCoteamsItemTitle4
+- type: textarea
+  name: whyCoteamsItemDescription4
+  label: whyCoteamsItemDescription4
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg5
+  label: whyCoteamsItemImg5
+- type: text
+  name: whyCoteamsItemTitle5
+  label: whyCoteamsItemTitle5
+- type: textarea
+  name: whyCoteamsItemDescription5
+  label: whyCoteamsItemDescription5
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 - type: text
   name: howCoteamsTitle
   label: howCoteamsTitle
@@ -77,72 +133,64 @@ fields:
 - type: textarea
   name: howCoteamsItemDescription4
   label: howCoteamsItemDescription4
+- type: text
+  name: useCasesTitle
+  label: useCasesTitle
+- type: text
+  name: useCasesSubTitle
+  label: useCasesSubTitle
 - type: file
-  name: howCoteamsItemImg5
-  label: howCoteamsItemImg5
+  name: useCasesItemImg1
+  label: useCasesItemImg1
 - type: text
-  name: howCoteamsItemTitle5
-  label: howCoteamsItemTitle5
+  name: useCasesItemTitle1
+  label: useCasesItemTitle1
 - type: textarea
-  name: howCoteamsItemDescription5
-  label: howCoteamsItemDescription5
+  name: useCasesItemDescription1
+  label: useCasesItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: useCasesItemImg2
+  label: useCasesItemImg2
 - type: text
-  name: footerNavigationTitle1
-  label: footerNavigationTitle1
+  name: useCasesItemTitle2
+  label: useCasesItemTitle2
+- type: textarea
+  name: useCasesItemDescription2
+  label: useCasesItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: useCasesItemImg3
+  label: useCasesItemImg3
 - type: text
-  name: footerNavigationLink1
-  label: footerNavigationLink1
+  name: useCasesItemTitle3
+  label: useCasesItemTitle3
+- type: textarea
+  name: useCasesItemDescription3
+  label: useCasesItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: findTeamImg
+  label: findTeamImg
 - type: text
-  name: footerNavigationLink2
-  label: footerNavigationLink2
+  name: findTeamTitle
+  label: findTeamTitle
+- type: textarea
+  name: findTeamDescription
+  label: findTeamDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 - type: text
-  name: footerNavigationLink3
-  label: footerNavigationLink3
-- type: text
-  name: footerNavigationTitle2
-  label: footerNavigationTitle2
-- type: text
-  name: footerNavigationLink4
-  label: footerNavigationLink4
-- type: text
-  name: footerNavigationLink5
-  label: footerNavigationLink5
-- type: text
-  name: footerNavigationLink6
-  label: footerNavigationLink6
-- type: text
-  name: footerNavigationLink7
-  label: footerNavigationLink7
-- type: text
-  name: footerNavigationLink8
-  label: footerNavigationLink8
-- type: text
-  name: footerNavigationLink9
-  label: footerNavigationLink9
-- type: text
-  name: footerNavigationTitle3
-  label: footerNavigationTitle3
-- type: text
-  name: footerNavigationLink10
-  label: footerNavigationLink10
-- type: text
-  name: footerNavigationLink11
-  label: footerNavigationLink11
-- type: text
-  name: footerNavigationLink12
-  label: footerNavigationLink12
-- type: text
-  name: footerNavigationLink13
-  label: footerNavigationLink13
-- type: text
-  name: footerNavigationLink14
-  label: footerNavigationLink14
-- type: text
-  name: footerNavigationTitle4
-  label: footerNavigationTitle4
-- type: text
-  name: footerNavigationLink15
-  label: footerNavigationLink15
-- type: text
-  name: footerNavigationLink16
-  label: footerNavigationLink16
+  name: findTeamButton
+  label: findTeamButton

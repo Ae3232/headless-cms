@@ -10,14 +10,20 @@ topSectionDescription: CoTeams is a collaborative platform where you find a perf
 whyTeamsTitle: Why CoTeams?
 whyTeamsSubTitle: ''
 whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
-whyCoteamsItemTitle1: Easy access
-whyCoteamsItemDescription1: a wide pool of global IT talents.
+whyCoteamsItemTitle1: Paying less
+whyCoteamsItemDescription1: "High quality at 20%-50% lower costs than when working with recruitment agencies and outsourcing companies due to minimized overheads."
 whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
-whyCoteamsItemTitle2: 1-2 Weeks to start
-whyCoteamsItemDescription2: "— due to the access to the thousands of the talents"
+whyCoteamsItemTitle2: Quick start
+whyCoteamsItemDescription2: "Ready-to-go teams that can be hired in a matter of days or even hours."
 whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
-whyCoteamsItemTitle3: 1-2 Days to scale up
-whyCoteamsItemDescription3: "— due to the access to the thousands of the talents"
+whyCoteamsItemTitle3: The best matches
+whyCoteamsItemDescription3: "Select skills, areas of expertise, seniority levels, etc. Work with individual talents or hire entire teams from all over the world."
+whyCoteamsItemImg4: "/images/why-coteams-img3.svg"
+whyCoteamsItemTitle4: Focus on what matters
+whyCoteamsItemDescription4: "Access teams directly, no intermediaries and excessive administrative burden."
+whyCoteamsItemImg5: "/images/why-coteams-img3.svg"
+whyCoteamsItemTitle5: Exactly when you need
+whyCoteamsItemDescription5: "Check real-time talent availability in seconds. Offer full-time/part-time involvements or just ask a question. Easily scale on demand."
 howCoteamsTitle: How does it work?
 howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
@@ -46,16 +52,6 @@ howCoteamsItemTitle4: Pay and revise/give feedback
 howCoteamsItemDescription4: "10)\tYou pay monthly (for T&M model) or upon the successful
   project completion (for fixed-price model).\n11)\tYou provide the final feedback
   to the team/talent and rate their job."
-howCoteamsItemImg5: "/images/how-coteams-img5.svg"
-howCoteamsItemTitle5: ''
-howCoteamsItemDescription5: ''
-howCoteamsItemImg6: "/images/how-coteams-img5.svg"
-howCoteamsItemTitle6: Taxes
-howCoteamsItemDescription6: he process is designed to provide the best experience
-  for the players, the viewers, and ultimately the game. We have already developed
-  several games with this methodology. There are three basic steps Developing the
-  game - Programming the game - Verifying the game to make sure all code is working.
-  The process can be applied in many ways, however, we believe that
 useCasesTitle: Use Cases
 useCasesSubTitle: A wonderful serenity has taken
 useCasesItemImg1: "/images/use-cases-img1.png"
@@ -76,6 +72,7 @@ findTeamImg: "/images/find-team.svg"
 findTeamTitle: Find a Team
 findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+findTeamButton: Find a team
 menu:
   main:
     SectionPagesMenu: main
