@@ -93,3 +93,21 @@
     }
   }
 }
+.content-list-item {
+  position: relative;
+  color: $gray-900;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: $font-weight-normal;
+  padding-left: rem(18px);
+  &:before {
+    content: '';
+    background-color: $gray-900;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    left: 0;
+    top: rem(8px);
+    position: absolute;
+  }
+}
