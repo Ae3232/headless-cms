@@ -44,16 +44,16 @@ quickSectionItemImg1: "/images/quickstart-image1.svg"
 quickSectionItemTitle1: For businesses
 quickSectionItemDescription1: Need help with an IT project? We may have a perfect
   team for it! Let’s explore your options!
-quickSectionItemButton1: Continue as a client
+quickSectionItemButton1: Continue as a Client
 quickSectionItemImg2: "/images/quickstart-image2.svg"
 quickSectionItemTitle2: For IT talents
 quickSectionItemDescription2: Let’s find the teams and projects that will help you
   nurture your specific skills, talents and abilities!
-quickSectionItemButton2: Continue as a talent
+quickSectionItemButton2: Continue as a Talent
 quickSectionItemImg3: "/images/quickstart-image3.svg"
 quickSectionItemTitle3: For leaders
 quickSectionItemDescription3: Shall we build a rock star team and conquer interesting
   challenges?
-quickSectionItemButton3: Continue as a team manager
+quickSectionItemButton3: Continue as a Team Manager
 
 ---
