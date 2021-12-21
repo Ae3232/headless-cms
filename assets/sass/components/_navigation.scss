@@ -62,6 +62,14 @@
         color: $green-dark;
       }
     }
+    &:hover,
+    &:active {
+      background-color: #669a3d;
+      border-radius: 11px;
+      .navigation__link {
+        color: $white;
+      }
+    }
     &._desktop-none {
       @include media-breakpoint-up(lg) {
         display: none;

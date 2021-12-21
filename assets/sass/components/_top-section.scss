@@ -31,9 +31,9 @@
     color: $white;
     text-align: left;
     @include media-breakpoint-up(lg) {
-      font-size: rem(28px);
-      line-height: rem(38px);
-      margin-top: rem(-3px);
+      font-size: rem(24px);
+      line-height: rem(32px);
+      margin-top: rem(12px);
     }
   }
   &__img-wrap {

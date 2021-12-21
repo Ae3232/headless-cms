@@ -15,6 +15,10 @@
   width: 100%;
   font-weight: $font-weight-bold;
   max-width: rem(350px);
+  &:hover,
+  &:active {
+    background-color: #ed611f;
+  }
   @include media-breakpoint-up(xl) {
     border-color: $white;
   }
@@ -22,9 +26,16 @@
     font-size: rem(16px);
     background-color: $white;
     color: $pink;
+    padding-top: rem(6px);
+    padding-bottom: rem(6px);
+    &:hover,
+    &:active {
+      border-color: #ed611f;
+      color: #ed611f;
+    }
     @include media-breakpoint-up(xl) {
       border-color: $pink;
-      max-width: rem(220px);
+      max-width: rem(350px);
     }
   }
 }

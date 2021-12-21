@@ -28,6 +28,8 @@
     margin-top: rem(10px);
     @include media-breakpoint-up(xl) {
       text-align: left;
+      font-size: rem(16px);
+      line-height: rem(24px);
     }
   }
   .button {
@@ -39,6 +41,7 @@
   .button-wrapper {
     @include media-breakpoint-up(xl) {
       text-align: left;
+      margin-top: rem(28px);
     }
   }
 }

@@ -63,6 +63,14 @@
   }
   &__right-menu-item {
     padding: rem(0 6px);
+    &:hover,
+    &:active {
+      background-color: #669a3d;
+      border-radius: 11px;
+      .navigation__link {
+        color: $white;
+      }
+    }
     &._active {
       border-radius: 11px;
       background-color: $white;
@@ -77,7 +85,7 @@
       i {
         margin-right: rem(4px);
         &:before {
-          font-size: rem(25px);
+          font-size: rem(24px);
           vertical-align: middle;
         }
       }
@@ -104,6 +112,10 @@
       border: solid 2px $white;
       background-color: $pink;
       margin-right: rem(4px);
+      &:hover,
+      &:active {
+        background-color: #ed611f;
+      }
       span {
         font-size: rem(14px);
         line-height: rem(20px);
