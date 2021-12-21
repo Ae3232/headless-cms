@@ -5,8 +5,11 @@ topSectionTitle: CoTeams
 topSectionDescription: A new, simple and smart way to connect IT projects and IT talents
   from all over the world. Max cooperation flexibility, no unnecessary costs and administrative
   burden.
-videoSectionTitle: 'How CoTeams works? '
-videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and transparent ecosystem where companies and independent IT teams/individual talents from all over the world find each other in a matter of minutes and collaborate on interesting challenges in a simple and effective way. In the CoTeams platform:'
+videoSectionTitle: 'How CoTeams works '
+videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and transparent
+  ecosystem where companies and independent IT teams/individual talents from all over
+  the world find each other in a matter of minutes and collaborate on interesting
+  challenges in a simple and effective way. In the CoTeams platform:'
 talentsTitle: For businesses
 talentsSubtitle: Why is CoTeams a better way to solve your IT tasks?
 talentsItemTitle1: Quick start
