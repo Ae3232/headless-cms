@@ -1,10 +1,10 @@
 <section class="sidebar">
     <ul class="sidebar__list">
         <li class="sidebar__item">
-            <a href="javascript:void(0);" class="sidebar__link">General</a>
+            <a href="javascript:void(0);" class="sidebar__link close">General</a>
             <ul class="sidebar__sublist" style="display:flex;">
                 <li class="sidebar__sublist-item">
-                    <a href="javascript:void(0);" class="sidebar__sublist-link">Registration</a>
+                    <a href="javascript:void(0);" class="sidebar__sublist-link close">Registration</a>
                     <ul class="sidebar__thirdlist" style="display:flex;">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar9 }}
@@ -48,10 +48,10 @@
             </ul>
         </li>
         <li class="sidebar__item">
-            <a href="javascript:void(0);" class="sidebar__link close">For Talents</a>
+            <a href="javascript:void(0);" class="sidebar__link">For Talents</a>
             <ul class="sidebar__sublist">
                 <li class="sidebar__sublist-item">
-                    <a href="javascript:void(0);" class="sidebar__sublist-link close">Talent Profile Details</a>
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Talent Profile Details</a>
                     <ul class="sidebar__thirdlist">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar }}
