@@ -55,3 +55,9 @@ $(document).ready(function() {
 		]
 	});
 });
+$(document).ready(function() {
+	$(".sidebar-mobile-button").click(function() {
+		$(this).toggleClass('active');
+		$(".sidebar").slideToggle('fast');
+	});
+});

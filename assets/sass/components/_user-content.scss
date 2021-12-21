@@ -1,9 +1,17 @@
 .content-wrapper {
   display: flex;
   margin: rem(64px 0 120px);
+  @include media-breakpoint-down(sm) {
+    margin-top: rem(40px);
+    margin-bottom: rem(80px);
+    padding: rem(0 16px);
+  }
 }
 .user-content {
   width: 100%;
+  @include media-breakpoint-down(sm) {
+    margin-top: rem(48px);
+  }
   &__section-title {
     font-size: rem(16px);
     line-height: 1.5;
@@ -11,6 +19,9 @@
     color: $gray-900;
     display: block;
     margin-bottom: rem(-7px);
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
   }
   h1 {
     font-size: rem(48px);
@@ -20,8 +31,65 @@
     color: $gray-900;
     margin-bottom: rem(32px);
     margin-top: 0;
+    @include media-breakpoint-down(md) {
+      font-size: rem(32px);
+      line-height: rem(40px);
+      margin-bottom: rem(25px);
+    }
   }
   p {
     margin-bottom: rem(40px);
+    @include media-breakpoint-down(md) {
+      font-size: rem(14px);
+      line-height: rem(20px);
+      margin-bottom: rem(32px);
+      font-weight: 500;
+    }
+  }
+}
+.content-table {
+  table {
+    max-width: rem(400px);
+    tr {
+      display: flex;
+      margin-bottom: rem(6px);
+      background-color: #00acea;
+      border-radius: 10px;
+      &:first-child {
+        td {
+          font-size: rem(14px);
+          font-weight: $font-weight-bold;
+          border-color: $white !important;
+        }
+      }
+      td {
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:first-child {
+          font-weight: $font-weight-semi-bold;
+          border-right: 2px solid rgba(34,34,34,.1);
+          min-width: rem(100px);
+          max-width: rem(100px);
+        }
+      }
+      &:not(:first-child) {
+        -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+        -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+        box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+        background-color: $white;
+        td {
+          color: $gray-900;
+        }
+      }
+    }
+    td {
+      padding: rem(16px 20px);
+      color: $gray-900;
+      font-weight: $font-weight-normal;
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
   }
 }
