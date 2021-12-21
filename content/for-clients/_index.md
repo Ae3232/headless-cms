@@ -58,27 +58,31 @@ howCoteamsItemTitle4: Pay and revise/give feedback
 howCoteamsItemDescription4: "10)\tYou pay monthly (for T&M model) or upon the successful
   project completion (for fixed-price model).\n11)\tYou provide the final feedback
   to the team/talent and rate their job."
-useCasesTitle: Use Cases
-useCasesSubTitle: A wonderful serenity has taken
+useCasesTitle: Recommended use of CoTeams
+useCasesSubTitle: ''
 useCasesItemImg1: "/images/use-cases-img1.png"
-useCasesItemTitle1: MVP & product development
-useCasesItemDescription1: The European languages are members of the same family. Their
-  separate existence is a myth. For science, music, sport, etc, Europe uses the same
-  vocabulary.
+useCasesItemTitle1: MVP development
+useCasesItemDescription1: 'Promptly verify a new software idea: get help with choosing
+  MVP tech stack and architecture, MVP UX and UI design, MVP development and testing.
+  <br>CoTeams’ tip: Teams with business analysts on board can also help you with professional
+  idea conceptualization and feature management.'
 useCasesItemImg2: "/images/use-cases-img2.png"
-useCasesItemTitle2: New application development
-useCasesItemDescription2: But I must explain to you how all this mistaken idea of
-  denouncing pleasure and praising pain was born and I will give you
+useCasesItemTitle2: New product / enterprise application development
+useCasesItemDescription2: 'A pool of creators, inventors and innovators is at your
+  disposal to plan and develop new effective software solutions.<br>CoTeams’ tip:
+  If you plan specific capabilities for your app (AI/ML, on-demand scalability, blockchain,
+  VR/AR) better state explicitly that you need such experts on the team.'
 useCasesItemImg3: "/images/use-cases-img3.png"
-useCasesItemTitle3: Migration & modernization
-useCasesItemDescription3: A wonderful serenity has taken possession of my entire soul,
-  like these sweet mornings of spring which I enjoy with my whole heart. I am alone,
-  and feel the charm
+useCasesItemTitle3: Software evolution, modernization, migration
+useCasesItemDescription3: 'Add new functionality and migrate to new versions, designs
+  and infrastructures (incl., cloud-based).<br>CoTeams’ tip: For cloud migrations,
+  your team may include: security engineers, certified cloud (AWS, Azure, Google,
+  your other target cloud) architects, test automation engineers.'
 findTeamImg: "/images/find-team.svg"
-findTeamTitle: Find a Team
-findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-findTeamButton: Find a team
+findTeamTitle: Have a new or pending IT project/task in mind?
+findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
+  it!
+findTeamButton: Sign Up as a Client
 menu:
   main:
     SectionPagesMenu: main
