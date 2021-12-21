@@ -39,7 +39,7 @@ clientsItemDescription3: Build your own team and become a team manager, if you e
 clientsItemTitle4: Global reach
 clientsItemDescription4: Work from anywhere and join global talents from all over
   the world.
-quickSectionTitle: Quick Start
+quickSectionTitle: Quick start
 quickSectionItemImg1: "/images/quickstart-image1.svg"
 quickSectionItemTitle1: For businesses
 quickSectionItemDescription1: Need help with an IT project? We may have a perfect
