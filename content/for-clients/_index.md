@@ -9,24 +9,24 @@ topSectionDescription: CoTeams is a collaborative platform where you find a perf
   burden.
 whyTeamsTitle: Why CoTeams?
 whyTeamsSubTitle: ''
-whyCoteamsItemImg1: "/images/why-coteams-img1.svg"
+whyCoteamsItemImg1: "/2021/12/21/paying-less.svg"
 whyCoteamsItemTitle1: Paying less
 whyCoteamsItemDescription1: High quality at <strong>20%-50% lower costs</strong> than
   when working with recruitment agencies and outsourcing companies due to minimized
   overheads.
-whyCoteamsItemImg2: "/images/why-coteams-img2.svg"
+whyCoteamsItemImg2: "/2021/12/21/quick-start.svg"
 whyCoteamsItemTitle2: Quick start
 whyCoteamsItemDescription2: Ready-to-go teams that can be hired in a matter of days
   or even hours.
-whyCoteamsItemImg3: "/images/why-coteams-img3.svg"
+whyCoteamsItemImg3: "/2021/12/21/the-best-matches.svg"
 whyCoteamsItemTitle3: The best matches
 whyCoteamsItemDescription3: Select skills, areas of expertise, seniority levels, etc.
   Work with individual talents or hire entire teams from all over the world.
-whyCoteamsItemImg4: "/images/why-coteams-img3.svg"
+whyCoteamsItemImg4: "/2021/12/21/focus-on-what-matters.svg"
 whyCoteamsItemTitle4: Focus on what matters
 whyCoteamsItemDescription4: Access teams directly, no intermediaries and excessive
   administrative burden.
-whyCoteamsItemImg5: "/images/why-coteams-img3.svg"
+whyCoteamsItemImg5: "/2021/12/21/exactly-when-you-need.svg"
 whyCoteamsItemTitle5: Exactly when you need
 whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offer
   full-time/part-time involvements or just ask a question. Easily scale on demand.
