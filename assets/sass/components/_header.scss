@@ -161,6 +161,7 @@
       background-position: 50%;
       width: rem(68px);
       height: rem(54px);
+      z-index: -1;
       @include media-breakpoint-down(lg) {
         content: none;
       }
