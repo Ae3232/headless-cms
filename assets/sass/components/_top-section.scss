@@ -14,6 +14,7 @@
     background-repeat: repeat;
     background-position: center center;
     z-index: -1;
+    margin: rem(0 -30px);
     @include media-breakpoint-up(xl) {
       margin: 0 -10000px;
     }
@@ -41,9 +42,16 @@
     background-repeat: no-repeat;
     background-position: center center;
     @include media-breakpoint-up(lg) {
-      background-image: url('/images/dots.svg');
-      background-repeat: no-repeat;
-      background-position: center center;
+      background: none;
+      &:before {
+        content: '';
+        position: absolute;
+        background-image: url('/images/dots.svg');
+        width: rem(820px);
+        height: rem(580px);
+        z-index: -1;
+        margin-left: rem(-120px);
+      }
     }
     img {
       max-width: rem(254px);

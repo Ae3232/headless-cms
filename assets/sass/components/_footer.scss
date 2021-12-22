@@ -3,16 +3,6 @@
   background-position: bottom right;
   text-align: center;
   flex: 0 0;
-  &:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background-image: url(/images/footer-bottom-bg.png);
-    width: 277px;
-    height: 207px;
-    background-repeat: no-repeat;
-  }
   &__head {
     padding: rem(40px 0 24px 0);
     @include media-breakpoint-up(xl) {
@@ -176,6 +166,7 @@
         background-repeat: repeat;
         background-position: center center;
         z-index: -1;
+        margin: rem(0 -30px);
         @include media-breakpoint-up(xl) {
           margin: 0 -10000px;
         }

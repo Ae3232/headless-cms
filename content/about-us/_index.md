@@ -79,6 +79,9 @@ valuesItemTitle7: Equal opportunities
 valuesItemDescription7: 'We are convinced that everyone should have a chance to do
   the work they enjoy, prove themselves, grow professionally, lead, without being
   restrained by organizational hierarchies and personal judgments '
+valuesItemItemImg8: "/images/values-img8.svg"
+valuesItemTitle8: Excellence
+valuesItemDescription8: 'Quality is our top priority. We foster continuous improvement in every aspect of our business.'
 menu:
   main:
     SectionPagesMenu: main

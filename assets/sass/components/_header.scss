@@ -1,51 +1,17 @@
 .header {
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: rem(48px);
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-image: url("/images/top-background.jpg");
   background-repeat: repeat;
   background-position: center center;
   padding: $mobile-section-padding;
   z-index: $zindex-modal;
-  max-width: rem(1200px);
-  -webkit-transform: translate(-50%);
-  -moz-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  -o-transform: translate(-50%);
-  transform: translate(-50%);
   @include media-breakpoint-up(xl) {
     justify-content: flex-start;
-  }
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 100%;
-    background-image: url("/images/top-background.jpg");
-    background-repeat: repeat;
-    background-position: center center;
-    z-index: -1;
-    @include media-breakpoint-up(xl) {
-      margin: 0 -10000px;
-    }
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    right: rem(-51px);
-    bottom: rem(6px);
-    background-image: url(/images/header-bottom-background.svg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    width: rem(68px);
-    height: rem(54px);
   }
   @include media-breakpoint-up(lg) {
     align-items: center;
@@ -169,6 +135,35 @@
     cursor: pointer;
     @include media-breakpoint-up(lg) {
       display: none;
+    }
+  }
+  &__wrapper {
+    max-width: 75rem;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    @include media-breakpoint-up(lg) {
+      padding: rem(0 20px);
+    }
+    @include media-breakpoint-up(xl) {
+      padding: 0;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      right: rem(-51px);
+      bottom: rem(-23px);
+      background-image: url(/images/header-bottom-background.svg);
+      background-repeat: no-repeat;
+      background-position: 50%;
+      width: rem(68px);
+      height: rem(54px);
+      @include media-breakpoint-down(lg) {
+        content: none;
+      }
     }
   }
 }

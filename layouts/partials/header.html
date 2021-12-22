@@ -1,23 +1,25 @@
 <header class="header">
-    <div class="header__sandwich">
-        <i class="icon-ham"></i>
-    </div>
-    {{- partial "navigation.html" . -}}
-    <a href="/" class="header__logo">
-        <img src="/images/logo.svg" alt="">
-    </a>
-    <div class="header__right-menu">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.secondary }}
-        <a href="{{ .URL | relURL }}" class="header__right-menu-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
-            <span class="header__right-menu-link">{{ .Name }}</span>
+    <div class="header__wrapper">
+        <div class="header__sandwich">
+            <i class="icon-ham"></i>
+        </div>
+        {{- partial "navigation.html" . -}}
+        <a href="/" class="header__logo">
+            <img src="/images/logo.svg" alt="">
         </a>
-        {{ end }}
-        <a href="https://tfp.staging.coteams.co/" target="_blank" class="header__right-menu-item">
-            <span class="header__right-menu-link">Sign In</span>
-        </a>
-        <a href="https://tfp.staging.coteams.co/register-talent" class="header__right-menu-item _background">
-            <span class="header__right-menu-link">Sign Up</span>
-        </a>
+        <div class="header__right-menu">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.secondary }}
+            <a href="{{ .URL | relURL }}" class="header__right-menu-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                <span class="header__right-menu-link">{{ .Name }}</span>
+            </a>
+            {{ end }}
+            <a href="https://tfp.staging.coteams.co/" target="_blank" class="header__right-menu-item">
+                <span class="header__right-menu-link">Sign In</span>
+            </a>
+            <a href="https://tfp.staging.coteams.co/register-talent" class="header__right-menu-item _background">
+                <span class="header__right-menu-link">Sign Up</span>
+            </a>
+        </div>
     </div>
 </header>

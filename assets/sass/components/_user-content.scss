@@ -49,6 +49,8 @@
     color: $gray-900;
     display: block;
     margin-bottom: rem(-7px);
+    position: absolute;
+    margin-top: -30px;
     @include media-breakpoint-down(sm) {
       display: none;
     }
