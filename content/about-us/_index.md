@@ -37,14 +37,15 @@ missionTitle: CoTeams’ mission
 missionImg: "/images/coteams-mission-bg.png"
 missionDescription: "<p>CoTeams promotes and supports digital and technological innovation
   all over the world. Our mission is to democratize the way how business and IT talents
-  meet and collaborate. </p><p>We aim to:</p><ul><li><p>Create a dynamic collaboration
-  environment by bringing together established enterprises and startups and all kinds
-  of independent IT teams and individual IT talents from different IT domains and
-  locations.</p></li><li><p>Build a lively and inspiring community of top IT talents
-  across the world.</p></li></ul><p>CoTeams provides a safe environment, cares deeply
-  about value both parties get, and is committed to collaboration that respects transparency,
-  integrity, and agility. We aim to create the future of remote work, allowing IT
-  professionals to seize new opportunities and adding value to the world’s economy.</p>"
+  meet and collaborate.</p><p><strong>We aim to</strong>:</p><ul><li><p>Create a dynamic
+  collaboration environment by bringing together established enterprises and startups
+  and all kinds of independent IT teams and individual IT talents from different IT
+  domains and locations.</p></li><li><p>Build a lively and inspiring community of
+  top IT talents across the world.</p></li></ul><p>CoTeams provides a safe environment,
+  cares deeply about value both parties get, and is committed to collaboration that
+  respects transparency, integrity, and agility. We aim to create the future of remote
+  work, allowing IT professionals to seize new opportunities and adding value to the
+  world’s economy.</p>"
 valuesTitle: CoTeams’ values
 valuesItemItemImg1: "/images/values-img1.svg"
 valuesItemTitle1: Win-win cooperation
