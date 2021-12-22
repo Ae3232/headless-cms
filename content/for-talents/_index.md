@@ -83,7 +83,7 @@ howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>Finding 
   the team’s work and communicate with the client. The team gets paid monthly (for
   TM projects) or upon successful project completion (for fixed-price projects). The
   client and team members give you the final feedback and rate your job.</p>"
-findTeamImg: "/images/find-team.svg"
+findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Join the growing community of IT talents at CoTeams
 whoCanTitle: Who can work via CoTeams? Is it for me?
 whoCanSubTitle: We welcome talents from all IT fields and a variety of roles from

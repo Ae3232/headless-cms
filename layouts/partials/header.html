@@ -7,13 +7,12 @@
         <img src="/images/logo.svg" alt="">
     </a>
     <div class="header__right-menu">
-        <a href="/search" class="header__right-menu-item">
-            <i class="icon-search"></i>
-            <span class="header__right-menu-link">Search</span>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.secondary }}
+        <a href="{{ .URL | relURL }}" class="header__right-menu-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+            <span class="header__right-menu-link">{{ .Name }}</span>
         </a>
-        <a href="/help/general/general-Information-for-sign-up/" class="header__right-menu-item">
-            <span class="header__right-menu-link">Help</span>
-        </a>
+        {{ end }}
         <a href="https://tfp.staging.coteams.co/" target="_blank" class="header__right-menu-item">
             <span class="header__right-menu-link">Sign In</span>
         </a>

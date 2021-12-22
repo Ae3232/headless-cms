@@ -63,6 +63,19 @@
   }
   &__right-menu-item {
     padding: rem(0 6px);
+    margin: rem(0 6px);
+
+    &:first-child {
+      &:before {
+        content: '';
+        background-image: url("/images/search-icon.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        width: rem(16px);
+        height: rem(16px);
+        margin-right: rem(8px);
+      }
+    }
     &:hover,
     &:active {
       background-color: #669a3d;
@@ -74,6 +87,17 @@
     &._active {
       border-radius: 11px;
       background-color: $white;
+      &:first-child {
+        &:before {
+          content: '';
+          background-image: url("/images/search-icon-black.svg");
+          background-repeat: no-repeat;
+          background-position: left center;
+          width: rem(16px);
+          height: rem(16px);
+          margin-right: rem(8px);
+        }
+      }
       span {
         color: $green-dark;
       }

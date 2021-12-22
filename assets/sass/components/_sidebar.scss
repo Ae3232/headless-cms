@@ -168,6 +168,8 @@
   cursor: pointer;
   position: absolute;
   transition: .3s;
+  background-color: $white;
+  z-index: $zindex-modal;
   &:after {
     content: '';
     background-image: url("/images/sidebar-open-icon.svg");

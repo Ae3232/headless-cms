@@ -14,7 +14,7 @@ whyCoteamsItemTitle1: Paying less
 whyCoteamsItemDescription1: High quality at <strong>20%-50% lower costs</strong> than
   when working with recruitment agencies and outsourcing companies due to minimized
   overheads.
-whyCoteamsItemImg2: "/2021/12/21/quick-start.svg"
+whyCoteamsItemImg2: "/images/clients-why-quick-start.svg"
 whyCoteamsItemTitle2: Quick start
 whyCoteamsItemDescription2: Ready-to-go teams that can be hired in a matter of days
   or even hours.
@@ -32,13 +32,13 @@ whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offe
   full-time/part-time involvements or just ask a question. Easily scale on demand.
 howCoteamsTitle: How does it work?
 howCoteamsSubTitle: ''
-howCoteamsItemImg1: "/images/how-coteams-img1.svg"
+howCoteamsItemImg1: "/images/clients/sourcing.svg"
 howCoteamsItemTitle1: Passive or active sourcing
 howCoteamsItemDescription1: |-
   Answer a few questions about your project or task and your project/task will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
 
   You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. to find the right talents/teams for your project needs on your own and invite them for bidding.
-howCoteamsItemImg2: "/images/how-coteams-img2.svg"
+howCoteamsItemImg2: "/images/clients/negotiate.svg"
 howCoteamsItemTitle2: Negotiation
 howCoteamsItemDescription2: Use the chat to talk to IT Teams and individual talents
   and proceed with interviewing IT teams/individual talents you like and select the
@@ -46,13 +46,13 @@ howCoteamsItemDescription2: Use the chat to talk to IT Teams and individual tale
   project progress and negotiate SLA, including penalties for security breaches. You
   can use standard CoTeams contract or adjust it to reflect individual project specifics
   and you needs.
-howCoteamsItemImg3: "/images/how-coteams-img3.svg"
+howCoteamsItemImg3: "/images/clients/collaboration.svg"
 howCoteamsItemTitle3: Collaboration
 howCoteamsItemDescription3: Organize the transfer of the necessary knowledge to the
   new remote team or freelancer. Together with the team, choose the convenient communication
   channel, frequency and the depth of reporting. Monitor the project progress till
   its successful completion.
-howCoteamsItemImg4: "/images/how-coteams-img4.svg"
+howCoteamsItemImg4: "/images/clients/taxes.svg"
 howCoteamsItemTitle4: Payment and feedback
 howCoteamsItemDescription4: Pay monthly (for T&M model) or upon the successful project
   completion (for fixed-price model). At the end of collaboration, you’ll be asked
@@ -77,7 +77,7 @@ useCasesItemDescription3: 'Add new functionality and migrate to new versions, de
   and infrastructures (incl., cloud-based).<br>CoTeams’ tip: For cloud migrations,
   your team may include: security engineers, certified cloud (AWS, Azure, Google,
   your other target cloud) architects, test automation engineers.'
-findTeamImg: "/images/find-team.svg"
+findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Need help with a new or ongoing IT project?
 findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
   it!

@@ -25,6 +25,8 @@
   font-family: $font-family-second;
   @include media-breakpoint-up(xl) {
     font-size: rem(48px);
+    margin-bottom: 1rem;
+    line-height: 1;
   }
 }
 .h2 {

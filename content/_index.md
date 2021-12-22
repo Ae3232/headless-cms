@@ -12,30 +12,38 @@ videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and trans
   challenges in a simple and effective way. In the CoTeams platform:'
 talentsTitle: For businesses
 talentsSubtitle: Why is CoTeams a better way to solve your IT tasks?
+talentsItemImg1: "/images/home/quick-start.svg"
 talentsItemTitle1: Quick start
 talentsItemDescription1: 'Ability to find teams within hours, not days and weeks.1-2
   weeks to start a project. '
+talentsItemImg2: "/images/home/flexibility.svg"
 talentsItemTitle2: Flexibility
 talentsItemDescription2: On-demand workforce adaptable to you ever-changing needs.
+talentsItemImg3: "/images/home/reduced_bureaucracy.svg"
 talentsItemTitle3: Reduced bureaucracy
 talentsItemDescription3: Less administrative burden than cooperating with a traditional
   company. Standard contract terms that can be customized to reflect your particular
   project details.
+talentsItemImg4: "/images/home/cost.svg"
 talentsItemTitle4: Cost efficiency
 talentsItemDescription4: High quality at 20%-50% lower costs than when working with
   recruitment agencies and outsourcing companies due to minimized overheads. Payment
   only for the work done.
 clientsTitle: For talents
 clientsSubtitle: Why does working via CoTeams bring more satisfaction and joy?
+clientsItemImg1: "/images/home/balance_independence_and_community.svg"
 clientsItemTitle1: Balance independence and community
 clientsItemDescription1: Freelance flexibility combined with knowledge sharing and
   inspiration from other CoTeamers.
+clientsItemImg2: "/images/home/drive_your_career.svg"
 clientsItemTitle2: Drive your career
 clientsItemDescription2: Nurture your specific passions and strength. Choose people
   you work with. Choose the length and scope of the engagements.
+clientsItemImg3: "/images/home/escape_from_hard-to-shift hierarchy.svg"
 clientsItemTitle3: Escape from hard-to-shift hierarchy
 clientsItemDescription3: Build your own team and become a team manager, if you enjoy
   taking more responsibility.
+clientsItemImg4: "/images/home/global_reach.svg"
 clientsItemTitle4: Global reach
 clientsItemDescription4: Work from anywhere and join global talents from all over
   the world.
