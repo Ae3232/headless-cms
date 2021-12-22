@@ -80,6 +80,7 @@
   }
   table {
     max-width: rem(400px);
+    float: right;
     tr {
       display: flex;
       margin-bottom: rem(6px);
@@ -90,6 +91,7 @@
           font-size: rem(14px);
           font-weight: $font-weight-bold;
           border-color: $white !important;
+          width: 100%;
         }
       }
       td {
