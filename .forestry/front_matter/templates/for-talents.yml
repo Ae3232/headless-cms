@@ -17,6 +17,15 @@ fields:
 - type: text
   name: topSectionTitle
   label: topSectionTitle
+- name: topsectiondescription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: topSectionDescription
 - type: text
   name: whyTeamsTitle
   label: whyTeamsTitle
