@@ -190,13 +190,29 @@ fields:
 - type: text
   name: findTeamTitle
   label: findTeamTitle
+- type: text
+  name: findTeamSubTitle1
+  label: findTeamSubTitle1
 - type: textarea
-  name: findTeamDescription
-  label: findTeamDescription
+  name: findTeamDescription1
+  label: findTeamDescription1
   config:
     wysiwyg: true
     schema:
       format: html-blocks
 - type: text
-  name: findTeamButton
-  label: findTeamButton
+  name: findTeamButton1
+  label: findTeamButton1
+- type: text
+  name: findTeamSubTitle2
+  label: findTeamSubTitle2
+- type: textarea
+  name: findTeamDescription2
+  label: findTeamDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: findTeamButton2
+  label: findTeamButton2
