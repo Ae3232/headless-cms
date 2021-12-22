@@ -201,7 +201,7 @@ policyTopDescription: '<p>Last updated on December 20, 2021</p><p>The aim of thi
   posting a notice of such changes before they take effect or by directly sending
   You a notification.</p><h4><strong>How to Contact Us</strong></h4><p>If You have
   a privacy concern, complaint, or question to Data Protection Officer, please email
-  Us at <a href="mailto:data-protection-officer@scnsoft.com">data-protection-officer@scnsoft.com</a>We
+  Us at <a href="mailto:data-protection-officer@scnsoft.com">data-protection-officer@scnsoft.com</a>.</p><p>We
   will respond within 30 days.</p>'
 
 ---
