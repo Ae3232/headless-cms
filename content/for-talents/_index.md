@@ -47,10 +47,10 @@ whoCanItemDescription3: Developers, Architects, PMs, BAs, DevOps, Engineers, QA 
 howCoteamsTitle: How CoTeams works
 howCoteamsItemImg1: "/images/talents-how-coteams-img1.svg"
 howCoteamsItemTitle1: For team-players
-howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>searching
+howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searching
   for the teams</strong> you’d like to join to embark on new challenges together.
   This can be a team with complementing skills, experience and interests or a team
-  where you can acquire new knowledge and practice new skills.</p></li><li><p><strong>finding
+  where you can acquire new knowledge and practice new skills.</p></li><li><p><strong>Finding
   the project</strong> you’d like to work on and check the teams that are working
   on the project or have applied for this project.</p></li></ul><p>Once you’ve found
   the teams you like, you contact their team managers and discuss your involvement
@@ -59,10 +59,10 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>searchin
   members and get feedback on your work. You get paid monthly (for TM projects) or
   upon successful project completion (for fixed-price projects).</p><p>The team manager
   and the client can give you the final feedback and rates your job, and – so do you
-  :) – you can evaluate your manager’s performance.</p>"
+  – you can evaluate your manager’s performance.</p>"
 howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
 howCoteamsItemTitle2: For freelancers
-howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>finding the projects
+howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>Finding the projects
   or tasks you’d like to work on</strong>, according to your skills and preferences.
   </p></li></ul><p>Once you found something interesting, you contact the clients,
   discuss the projects and get interviewed. If approved by the client, you work on
@@ -71,11 +71,11 @@ howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>finding the
   projects). The client gives you the final feedback and rates your job.</p>"
 howCoteamsItemImg3: "/images/talents-how-coteams-img3.svg"
 howCoteamsItemTitle3: For leaders
-howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding an
+howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>Finding an
   inspiring opportunity</strong> in the CoTeams project pool. You can connect with
   the clients to discuss the project details. Once the one is found, you select the
   right talents among CoTeamers (or bring your friends and colleagues :) and invite
-  them to team up.</p></li><li><p><strong>forming a new great team</strong> from available
+  them to team up.</p></li><li><p><strong>Forming a new great team</strong> from available
   CoTeamers or by inviting your friends and jointly search for inspiring challenges.
   You can connect with clients to discuss the interesting opportunities in more details.</p></li></ul><p>Once
   you’ve found a project you like, you send out your team’s proposal to the client.</p><p>If
