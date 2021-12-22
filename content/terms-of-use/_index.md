@@ -169,7 +169,7 @@ policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read thes
   (including, but not limited to, direct, incidental, consequential, exemplary and
   indirect damages), and reasonable attorneys'' fees, resulting from or arising out
   of your use, misuse, or inability to use the Site and the Application or the Content,
-  or any violation by you of these Terms.<strong>MISCELLANEOUS</strong></p><p>These
+  or any violation by you of these Terms.</p><p><strong>MISCELLANEOUS</strong></p><p>These
   Terms constitute the entire agreement between the parties with respect to the subject
   matter hereof. A Company’s failure to insist upon or enforce strict performance
   of any term or provision of these Terms shall not be construed as a waiver of any
@@ -179,7 +179,7 @@ policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read thes
   of these Terms is fully enforceable and legally binding.</p><p>You are responsible
   for complying with the laws of the jurisdiction from which you are accessing the
   Site and the Application and you agree that you will not access or use the information
-  on the Site and the Application in violation of such laws.<em>Copyright 2021. All
-  rights reserved</em></p>'
+  on the Site and the Application in violation of such laws.</p><p><em>Copyright 2021.
+  All rights reserved</em></p>'
 
 ---
