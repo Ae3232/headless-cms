@@ -48,6 +48,8 @@
   &__item {
     @include media-breakpoint-up(lg) {
       padding: rem(0 10px);
+      margin-right: rem(6px);
+      margin-left: rem(6px);
     }
     &:not(:last-child) {
       margin-bottom: rem(28px);
