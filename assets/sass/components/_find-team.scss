@@ -48,9 +48,30 @@
     }
   }
   .h3 {
-    font-size: rem(18px);
-    line-height: rem(24px);
+    font-size: rem(14px);
+    line-height: rem(20px);
+    text-align: center;
+    margin-top: rem(10px);
     color: $white;
+    font-weight: $font-weight-medium;
+    font-family: $font-family-base;
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
+  }
+  p {
+    font-size: rem(14px);
+    line-height: rem(20px);
+    font-weight: $font-weight-medium;
+    text-align: center;
+    margin-top: rem(10px);
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
   }
 }
 
