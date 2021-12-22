@@ -4,4 +4,4 @@ title = "Coteams"
 [[menu.secondary]]
 name = "Search"
 url = "/search/"
-weight = 2
+weight = 1
