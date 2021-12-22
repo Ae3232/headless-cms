@@ -79,7 +79,7 @@ useCasesItemDescription3: 'Add new functionality and migrate to new versions, de
   your team may include: security engineers, certified cloud (AWS, Azure, Google,
   your other target cloud) architects, test automation engineers.'
 findTeamImg: "/images/find-team.svg"
-findTeamTitle: Have a new or pending IT project/task in mind?
+findTeamTitle: Need help with a new or ongoing IT project?
 findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
   it!
 findTeamButton: Sign Up as a Client
