@@ -49,6 +49,10 @@
       margin-bottom: rem(12px);
     }
   }
+  a {
+    color: $gray-900;
+    text-decoration: underline;
+  }
   p {
     font-size: rem(16px);
     font-weight: $font-weight-normal;
