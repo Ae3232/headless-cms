@@ -9,6 +9,8 @@ sections:
   label: About Us
   create: all
   match: "**/*"
+  templates:
+  - about-us
 - type: directory
   path: content
   label: Home Page
