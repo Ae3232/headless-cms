@@ -2,10 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
 [[menu.secondary]]
-    name = "Help"
-    url = "/help/general/general-Information-for-sign-up/"
-    weight = 2
-[[menu.secondary]]
-    name = "Search"
-    url = "/search/"
-    weight = 1
+name = "Search"
+url = "/search/"
+weight = 1
