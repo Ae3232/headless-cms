@@ -33,31 +33,30 @@ whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offe
 howCoteamsTitle: How does it work?
 howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/how-coteams-img1.svg"
-howCoteamsItemTitle1: Start
-howCoteamsItemDescription1: "1)\tYou sign up. Registration is fast and easy. \n2)\tPassive
-  sourcing: You answer a few questions about your task/project needs and your project
-  appears in the pool. Available teams receive recommended projects based on skills
-  and skill gaps. The interested teams send you their proposals. \n\nActive sourcing:
-  You access the CoTeams’ pool of available IT talents. You can quickly search, sort,
-  and filter by skills, team category, etc. to find the right talents/teams for your
-  project needs and invite them for bidding."
+howCoteamsItemTitle1: Passive or active sourcing
+howCoteamsItemDescription1: |-
+  Answer a few questions about your project or task and your project/task will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
+
+  You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. to find the right talents/teams for your project needs on your own and invite them for bidding.
 howCoteamsItemImg2: "/images/how-coteams-img2.svg"
-howCoteamsItemTitle2: Negotiate
-howCoteamsItemDescription2: "3)\tYou interview IT teams/ individual talents you like.\n4)\tYou
-  select the one :)\n5)\tYou agree on KPIs to track the performance of the remote
-  team and the project progress.\nYou negotiate SLA, including penalties for security
-  breaches.\n6)\tYou can use a standard CoTeams contract or adjust it to reflect individual
-  project specifics and you needs."
+howCoteamsItemTitle2: Negotiation
+howCoteamsItemDescription2: Use the chat to talk to IT Teams and individual talents
+  and proceed with interviewing IT teams/individual talents you like and select the
+  one. You agree on KPIs to track the performance of the remote team/talent and the
+  project progress and negotiate SLA, including penalties for security breaches. You
+  can use standard CoTeams contract or adjust it to reflect individual project specifics
+  and you needs.
 howCoteamsItemImg3: "/images/how-coteams-img3.svg"
-howCoteamsItemTitle3: Collaborate
-howCoteamsItemDescription3: "7)\tYou organize knowledge transfer to the remote team.\n8)\tYou
-  choose the convenient communication channel, frequency and the depth of reporting.\n9)\tYou
-  monitor the project progress."
+howCoteamsItemTitle3: Collaboration
+howCoteamsItemDescription3: Organize the transfer of the necessary knowledge to the
+  new remote team or freelancer. Together with the team, choose the convenient communication
+  channel, frequency and the depth of reporting. Monitor the project progress till
+  its successful completion.
 howCoteamsItemImg4: "/images/how-coteams-img4.svg"
-howCoteamsItemTitle4: Pay and revise/give feedback
-howCoteamsItemDescription4: "10)\tYou pay monthly (for T&M model) or upon the successful
-  project completion (for fixed-price model).\n11)\tYou provide the final feedback
-  to the team/talent and rate their job."
+howCoteamsItemTitle4: Payment and feedback
+howCoteamsItemDescription4: Pay monthly (for T&M model) or upon the successful project
+  completion (for fixed-price model). At the end of collaboration, you’ll be asked
+  to provide the final feedback to the team/talent and rate their job.
 useCasesTitle: Recommended use of CoTeams
 useCasesSubTitle: ''
 useCasesItemImg1: "/images/use-cases-img1.png"
