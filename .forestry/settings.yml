@@ -5,6 +5,13 @@ admin_path: "/static/admin"
 webhook_url: https://app.forestry.io/git/bitbucket/hook
 sections:
 - type: directory
+  path: content/for-talent
+  label: For Talents
+  create: all
+  match: "**/*"
+  templates:
+  - for-talents
+- type: directory
   path: content
   label: Home Page
   create: all
@@ -13,7 +20,7 @@ sections:
   - home-page-fm
 - type: directory
   path: content/for-clients
-  label: For Talents
+  label: For Clients
   create: all
   match: "**/*"
   templates:
