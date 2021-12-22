@@ -7,7 +7,7 @@ userContentDescription = "<p>If you want to join the CoTeams Portal, you need to
 userContentTitle = "General Information for Sign Up"
 [menu.secondary]
 name = "Help"
-weight = 2
+weight = 1
 [menu.sidebar9]
 weight = 1
 
