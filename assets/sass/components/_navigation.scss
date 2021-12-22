@@ -13,6 +13,7 @@
   border-radius: 0 0 20px 20px;
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.22);
   overflow: hidden;
+  margin: rem(0 -20px);
   @include media-breakpoint-up(lg) {
     position: static;
     max-height: none;

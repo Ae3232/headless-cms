@@ -1,10 +1,12 @@
+$search-height: rem(493px);
 .search-wrapper {
-  margin-top: rem(64px);
-  margin-bottom: rem(116px);
-  @include media-breakpoint-down(md) {
-    padding: rem(0 16px);
-    margin-top: rem(40px);
-    margin-bottom: rem(100px);
+  padding-top: rem(64px);
+  padding-bottom: rem(116px);
+  min-height: calc(100vh - #{$search-height});
+  @include media-breakpoint-down(lg) {
+    padding: rem(40px 20px 100px);
+  }
+  @include media-breakpoint-down(xl) {
   }
   .h1 {
     font-size: rem(48px);
