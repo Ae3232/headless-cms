@@ -28,9 +28,6 @@ whyCoteamsItemImg5: "/images/talents-why-coteams-img5.svg"
 whyCoteamsItemTitle5: Nurture your leadership potential
 whyCoteamsItemDescription5: 'CoTeams eagerly supports those with the desire to lead
   and take more responsibility. Build your dream team and do the dream work. '
-whoCanTitle: Who can work via CoTeams? Is it for me?
-whoCanSubTitle: We welcome talents from all IT fields and a variety of roles from
-  anywhere in the world
 whoCanItemImg1: "/images/talents-who-can-work-img1.png"
 whoCanItemTitle1: For any type of work schedule
 whoCanItemDescription1: Full-time. Working more than 35 hours per week, often equally
@@ -65,13 +62,13 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>searchin
   :) – you can evaluate your manager’s performance.</p>"
 howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
 howCoteamsItemTitle2: For freelancers
-howCoteamsItemDescription2: "<p>You start by finding the projects or tasks you’d like
-  to work on, according to your skills and preferences. Once you found something interesting,
-  you contact the clients, discuss the projects and get interviewed. If approved by
-  the client, you work on the selected project/task individually or as a part of a
-  client’s team.</p><p>You get paid monthly (for TM projects) or upon successful project
-  completion (for fixed-price projects). The client gives you the final feedback and
-  rates your job.</p>"
+howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>finding the projects
+  or tasks you’d like to work on</strong>, according to your skills and preferences.
+  </p></li></ul><p>Once you found something interesting, you contact the clients,
+  discuss the projects and get interviewed. If approved by the client, you work on
+  the selected project/task individually or as a part of a client’s team.</p><p>You
+  get paid monthly (for TM projects) or upon successful project completion (for fixed-price
+  projects). The client gives you the final feedback and rates your job.</p>"
 howCoteamsItemImg3: "/images/talents-how-coteams-img3.svg"
 howCoteamsItemTitle3: For leaders
 howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding an
@@ -87,13 +84,18 @@ howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding 
   TM projects) or upon successful project completion (for fixed-price projects). The
   client and team members give you the final feedback and rate your job.</p>"
 findTeamImg: "/images/find-team.svg"
-findTeamTitle: "Join the growing community of IT talents at CoTeams"
-findTeamSubTitle1: "You’d like to work on new exciting challenges and earn?"
-findTeamDescription1: "You’ve come to the right place. Let’s find the team and projects that suits you best!"
-findTeamButton1: "Sign Up as a Talent"
-findTeamSubTitle2: "Ready to drive new initiatives?"
-findTeamDescription2: "Get inspired by opportunities and talents (or invite friends and colleaguesJ) from all over the world!"
-findTeamButton2: "Sign Up as a Leader"
+findTeamTitle: Join the growing community of IT talents at CoTeams
+whoCanTitle: Who can work via CoTeams? Is it for me?
+whoCanSubTitle: We welcome talents from all IT fields and a variety of roles from
+  anywhere in the world
+findTeamSubTitle1: You’d like to work on new exciting challenges and earn?
+findTeamDescription1: You’ve come to the right place. Let’s find the team and projects
+  that suits you best!
+findTeamButton1: Sign Up as a Talent
+findTeamSubTitle2: Ready to drive new initiatives?
+findTeamDescription2: Get inspired by opportunities and talents (or invite friends
+  and colleaguesJ) from all over the world!
+findTeamButton2: Sign Up as a Leader
 menu:
   main:
     SectionPagesMenu: main
