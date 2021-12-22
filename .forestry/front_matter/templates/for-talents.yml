@@ -200,5 +200,3 @@ fields:
 - type: text
   name: findTeamButton
   label: findTeamButton
-pages:
-- content/for-talent/for-talents.md
