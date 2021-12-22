@@ -20,7 +20,7 @@
       margin-bottom: rem(21px);
     }
   }
-  .h2 {
+  h4 {
     font-size: rem(36px);
     font-family: $font-family-second;
     font-weight: $font-weight-semi-bold;
@@ -34,7 +34,7 @@
       margin-bottom: rem(16px);
     }
   }
-  .h3 {
+  h5 {
     font-size: rem(30px);
     font-family: $font-family-second;
     font-weight: $font-weight-semi-bold;
@@ -49,11 +49,33 @@
       margin-bottom: rem(12px);
     }
   }
-  .description {
+  p {
     font-size: rem(16px);
     font-weight: $font-weight-normal;
     line-height: 1.5;
     color: $gray-900;
+    margin-bottom: rem(24px);
+  }
+  li {
+    position: relative;
+    color: $gray-900;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: $font-weight-normal;
+    padding-left: rem(18px);
+    &:before {
+      content: '';
+      background-color: $gray-900;
+      border-radius: 50%;
+      width: 6px;
+      height: 6px;
+      left: 0;
+      top: rem(8px);
+      position: absolute;
+    }
+    p {
+      margin-bottom: rem(12px);
+    }
   }
 }
 .policy-section {
