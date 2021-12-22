@@ -29,9 +29,9 @@
       line-height: rem(30px);
       margin: rem(8px 0 10px 0);
       @include media-breakpoint-up(xl) {
-        font-size: rem(30px);
-        line-height: rem(32px);
+        line-height: rem(34px);
         margin-top: 0;
+        margin-bottom: rem(8px);
       }
     }
     .description {
@@ -39,7 +39,6 @@
       font-size: rem(14px);
       line-height: rem(20px);
       text-align: left;
-      font-weight: $font-weight-medium;
       @include media-breakpoint-up(lg) {
         max-height: rem(140px);
         min-height: rem(140px);
@@ -57,7 +56,7 @@
     }
   }
   &__item-wrapper {
-    padding: rem(16px 16px 24px);
+    padding: rem(20px 24px 28px);
     border-radius: 10px;
     -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);

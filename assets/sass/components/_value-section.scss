@@ -1,0 +1,32 @@
+.value-section {
+  @include media-breakpoint-up(xl) {
+  }
+  .talents-clients-section__item {
+    @include media-breakpoint-up(xl) {
+      flex: 100% 0 0;
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+  .talents-clients-section__list {
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: rem(0 -20px);
+    }
+  }
+  .talents-clients-section__list-item {
+    @include media-breakpoint-up(xl) {
+      flex: 50% 0 0;
+      min-width: 50%;
+      max-width: 50%;
+      padding: rem(0 20px);
+    }
+    .description {
+      @include media-breakpoint-up(xl) {
+        max-height: none;
+        min-height: auto;
+      }
+    }
+  }
+}

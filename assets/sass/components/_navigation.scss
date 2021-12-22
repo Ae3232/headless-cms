@@ -64,10 +64,12 @@
     }
     &:hover,
     &:active {
-      background-color: #669a3d;
-      border-radius: 11px;
-      .navigation__link {
-        color: $white;
+      @include media-breakpoint-up(xl) {
+        background-color: #669a3d;
+        border-radius: 11px;
+        .navigation__link {
+          color: $white;
+        }
       }
     }
     &._desktop-none {

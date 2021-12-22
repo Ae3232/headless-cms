@@ -1,0 +1,9 @@
+<section class="coteams-mission section-mt">
+  <h2 class="h2">{{ .Page.Params.missionTitle }}</h2>
+  <div class="coteams-mission-wrapper">
+    <div class="coteams-mission__img-wrap">
+      <img src="{{ .Page.Params.missionImg | relURL }}" alt="">
+    </div>
+    <p class="description">{{ .Page.Params.missionDescription }}</p>
+  </div>
+</section>

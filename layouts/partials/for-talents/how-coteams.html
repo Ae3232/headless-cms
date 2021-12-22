@@ -1,0 +1,35 @@
+<section class="how-coteams">
+    <div class="talents-how-coteams">
+        <h2 class="h2">{{ .Page.Params.howCoteamsTitle }}</h2>
+        <h4 class="h4">{{ .Page.Params.howCoteamsSubTitle }}</h4>
+        <div class="how-coteams__wrapper">
+            <div class="how-coteams__item">
+                <div class="how-coteams__item-wrapper">
+                    <img src="{{ .Page.Params.howCoteamsItemImg1 }}" alt="">
+                    <div class="how-coteams__text-wrapper">
+                        <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle1 }}</h3>
+                        <p class="description">{{ .Page.Params.howCoteamsItemDescription1 | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="how-coteams__item">
+                <div class="how-coteams__item-wrapper">
+                    <img src="{{ .Page.Params.howCoteamsItemImg2 }}" alt="">
+                    <div class="how-coteams__text-wrapper">
+                        <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle2 }}</h3>
+                        <p class="description">{{ .Page.Params.howCoteamsItemDescription2 | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="how-coteams__item">
+                <div class="how-coteams__item-wrapper">
+                    <img src="{{ .Page.Params.howCoteamsItemImg3 }}" alt="">
+                    <div class="how-coteams__text-wrapper">
+                        <h3 class="h3">{{ .Page.Params.howCoteamsItemTitle3 }}</h3>
+                        <p class="description">{{ .Page.Params.howCoteamsItemDescription3 | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

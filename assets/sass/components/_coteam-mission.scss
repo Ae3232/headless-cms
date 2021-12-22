@@ -1,0 +1,28 @@
+.coteams-mission {
+  @include section-mt;
+  padding: rem(0 16px);
+  .coteams-mission-wrapper {
+    text-align: center;
+    margin-top: rem(32px);
+    @include media-breakpoint-up(xl) {
+      display: flex;
+    }
+  }
+  &__img-wrap {
+    margin-bottom: rem(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    @include media-breakpoint-up(xl) {
+      margin-right: rem(40px);
+      min-width: rem(580px)
+    }
+  }
+  .description {
+    max-width: rem(580px);
+    margin: 0 auto;
+    @include media-breakpoint-up(xl) {
+      max-width: none;
+      text-align: left;
+    }
+  }
+}

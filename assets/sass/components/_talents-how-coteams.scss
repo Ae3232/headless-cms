@@ -1,0 +1,20 @@
+.talents-how-coteams {
+  .how-coteams__item {
+    flex: 100% 0 0;
+    min-width: auto;
+    max-width: none;
+    text-align: left;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    .description {
+      max-height: none;
+      min-height: auto;
+      column-count: 2;
+      column-gap: rem(68px);
+      @include media-breakpoint-down(md) {
+        column-count: auto;
+      }
+    }
+  }
+}

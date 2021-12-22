@@ -1,0 +1,23 @@
+<section class="use-cases">
+    <div class="who-can-work">
+        <h2 class="h2">{{ .Page.Params.whoCanTitle }}</h2>
+        <h4 class="h4">{{ .Page.Params.whoCanSubTitle }}</h4>
+        <div class="use-cases__wrapper">
+            <div class="use-cases__item">
+                <img src="{{ .Page.Params.whoCanItemImg1 }}" alt="">
+                <h3 class="h3">{{ .Page.Params.whoCanItemTitle1 }}</h3>
+                <p class="description">{{ .Page.Params.whoCanItemDescription1 | safeHTML }}</p>
+            </div>
+            <div class="use-cases__item">
+                <img src="{{ .Page.Params.whoCanItemImg2 }}" alt="">
+                <h3 class="h3">{{ .Page.Params.whoCanItemTitle2 }}</h3>
+                <p class="description">{{ .Page.Params.whoCanItemDescription2 | safeHTML }}</p>
+            </div>
+            <div class="use-cases__item">
+                <img src="{{ .Page.Params.whoCanItemImg3 }}" alt="">
+                <h3 class="h3">{{ .Page.Params.whoCanItemTitle3 }}</h3>
+                <p class="description">{{ .Page.Params.whoCanItemDescription3 | safeHTML }}</p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,41 @@
+<section class="who-are section-mt">
+  <h2 class="h2">{{ .Page.Params.whoAreTitle }}</h2>
+  <div class="who-are__wrapper">
+    <div class="who-are__item">
+      <div class="who-are__img-wrap">
+        <img src="{{ .Page.Params.whoAreItemImg1 | relURL }}" alt="">
+      </div>
+      <div class="who-are__text-wrap">
+        <h3 class="h3">{{ .Page.Params.whoAreItemTitle1 }}</h3>
+        <p class="description">{{ .Page.Params.whoAreItemDescription1 }}</p>
+      </div>
+    </div>
+    <div class="who-are__item">
+      <div class="who-are__img-wrap">
+        <img src="{{ .Page.Params.whoAreItemImg3 | relURL }}" alt="">
+      </div>
+      <div class="who-are__text-wrap">
+        <h3 class="h3">{{ .Page.Params.whoAreItemTitle3 }}</h3>
+        <p class="description">{{ .Page.Params.whoAreItemDescription3 }}</p>
+      </div>
+    </div>
+    <div class="who-are__item">
+      <div class="who-are__img-wrap">
+        <img src="{{ .Page.Params.whoAreItemImg2 | relURL }}" alt="">
+      </div>
+      <div class="who-are__text-wrap">
+        <h3 class="h3">{{ .Page.Params.whoAreItemTitle2 }}</h3>
+        <p class="description">{{ .Page.Params.whoAreItemDescription2 }}</p>
+      </div>
+    </div>
+    <div class="who-are__item">
+      <div class="who-are__img-wrap">
+        <img src="{{ .Page.Params.whoAreItemImg4 | relURL }}" alt="">
+      </div>
+      <div class="who-are__text-wrap">
+        <h3 class="h3">{{ .Page.Params.whoAreItemTitle4 }}</h3>
+        <p class="description">{{ .Page.Params.whoAreItemDescription4 }}</p>
+      </div>
+    </div>
+  </div>
+</section>

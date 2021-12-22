@@ -1,0 +1,17 @@
+.who-can-work {
+  .h3 {
+    min-height: auto;
+  }
+  .description {
+    max-height: none;
+    min-height: auto;
+  }
+  .use-cases__item {
+    img {
+      max-width: rem(373px);
+      @include media-breakpoint-down(xs) {
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.who-are {
+  @include section-mt;
+  padding: rem(0 16px);
+  &__wrapper {
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: rem(0 -20px);
+    }
+  }
+  &__item {
+    text-align: center;
+    margin-top: rem(32px);
+    @include media-breakpoint-up(lg) {
+      flex: 50% 0 0;
+      min-width: rem(50%);
+      max-width: rem(50%);
+      display: flex;
+      padding: rem(0 20px);
+    }
+    img {
+      margin-bottom: rem(20px);
+    }
+    .h3 {
+      font-size: rem(20px);
+      line-height: rem(26px);
+      margin-bottom: rem(8px);
+      @include media-breakpoint-up(lg) {
+        text-align: left;
+      }
+      @include media-breakpoint-up(xl) {
+        font-size: rem(24px);
+        line-height: rem(34px);
+      }
+    }
+    .description {
+      font-size: rem(14px);
+      line-height: rem(20px);
+      font-weight: $font-weight-normal;
+      text-align: left;
+      max-width: rem(343px);
+      margin: 0 auto;
+      @include media-breakpoint-up(xl) {
+        font-size: rem(16px);
+        line-height: rem(24px);
+        max-width: none;
+      }
+    }
+  }
+
+  &__img-wrap {
+    min-width: rem(164px);
+    @include media-breakpoint-up(lg) {
+      margin-right: rem(24px);
+    }
+  }
+}
