@@ -81,11 +81,11 @@ howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding 
   them to team up.</p></li><li><p><strong>forming a new great team</strong> from available
   CoTeamers or by inviting your friends and jointly search for inspiring challenges.
   You can connect with clients to discuss the interesting opportunities in more details.</p></li></ul><p>Once
-  you’ve send out your team’s proposal to the client.</p><p>If your proposal wins,
-  you sign the contract and get to work.</p><p>You coordinate the team’s work and
-  communicate with the client. The team gets paid monthly (for TM projects) or upon
-  successful project completion (for fixed-price projects). The client and team members
-  give you the final feedback and rate your job.</p>"
+  you’ve found a project you like, you send out your team’s proposal to the client.</p><p>If
+  your proposal wins, you sign the contract and get to work.</p><p>You coordinate
+  the team’s work and communicate with the client. The team gets paid monthly (for
+  TM projects) or upon successful project completion (for fixed-price projects). The
+  client and team members give you the final feedback and rate your job.</p>"
 findTeamImg: "/images/find-team.svg"
 findTeamTitle: Join Coteams Community
 findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
