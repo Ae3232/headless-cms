@@ -77,7 +77,7 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: html
+      format: html-blocks
 - type: text
   name: valuesTitle
   label: valuesTitle
