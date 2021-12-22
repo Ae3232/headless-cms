@@ -87,7 +87,7 @@ howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding 
   TM projects) or upon successful project completion (for fixed-price projects). The
   client and team members give you the final feedback and rate your job.</p>"
 findTeamImg: "/images/find-team.svg"
-findTeamTitle: Join Coteams Community
+findTeamTitle: Join the growing community of IT talents at CoTeams
 findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
 findTeamButton: Join Our Community
