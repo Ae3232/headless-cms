@@ -74,6 +74,10 @@ fields:
 - type: textarea
   name: missionDescription
   label: missionDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 - type: text
   name: valuesTitle
   label: valuesTitle
