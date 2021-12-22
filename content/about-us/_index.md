@@ -8,10 +8,6 @@ topSectionDescription: "Sed ut perspiciatis unde omnis iste natus error sit volu
 whatIsTitle: "What is CoTeams?"
 whatIsDescription: "CoTeams changes the way companies and IT talents find each other and collaborate. Our platform directly connects businesses and independent IT teams or freelancers and makes the process of team-opportunity matching more democratic, convenient, and agile."
 
-whyCoteamsItemImg1: "/images/talents-why-coteams-img1.svg"
-whyCoteamsItemTitle1: "Shape your career"
-whyCoteamsItemDescription1: "Choose only the right assignments, projects and opportunities for your skills and career objectives."
-
 whoAreTitle: "Who are our clients and talents?"
 whoAreItemImg1: "/images/who-are-img1.svg"
 whoAreItemTitle1: "IT managers "
