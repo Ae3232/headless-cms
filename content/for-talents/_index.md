@@ -62,7 +62,7 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>searchin
   members and get feedback on your work. You get paid monthly (for TM projects) or
   upon successful project completion (for fixed-price projects).</p><p>The team manager
   and the client can give you the final feedback and rates your job, and – so do you
-  :) - you can evaluate your manager’s performance.</p>"
+  :) – you can evaluate your manager’s performance.</p>"
 howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
 howCoteamsItemTitle2: For freelancers
 howCoteamsItemDescription2: "<p>You start by finding the projects or tasks you’d like
