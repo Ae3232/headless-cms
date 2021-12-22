@@ -28,8 +28,8 @@ whyCoteamsItemImg5: "/images/talents-why-coteams-img5.svg"
 whyCoteamsItemTitle5: Nurture your leadership potential
 whyCoteamsItemDescription5: 'CoTeams eagerly supports those with the desire to lead
   and take more responsibility. Build your dream team and do the dream work. '
-useCasesTitle: Who can work via CoTeams? Is it for me?
-useCasesSubTitle: We welcome talents from all IT fields and a variety of roles from
+whoCanTitle: Who can work via CoTeams? Is it for me?
+whoCanSubTitle: We welcome talents from all IT fields and a variety of roles from
   anywhere in the world
 whoCanItemImg1: "/images/talents-who-can-work-img1.png"
 whoCanItemTitle1: For any type of work schedule
@@ -87,10 +87,13 @@ howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>finding 
   successful project completion (for fixed-price projects). The client and team members
   give you the final feedback and rate your job.</p>"
 findTeamImg: "/images/find-team.svg"
-findTeamTitle: Join Coteams Community
-findTeamDescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-findTeamButton: Join Our Community
+findTeamTitle: "Join the growing community of IT talents at CoTeams"
+findTeamSubTitle1: "You’d like to work on new exciting challenges and earn?"
+findTeamDescription1: "You’ve come to the right place. Let’s find the team and projects that suits you best!"
+findTeamButton1: "Sign Up as a Talent"
+findTeamSubTitle2: "Ready to drive new initiatives?"
+findTeamDescription2: "Get inspired by opportunities and talents (or invite friends and colleaguesJ) from all over the world!"
+findTeamButton2: "Sign Up as a Leader"
 menu:
   main:
     SectionPagesMenu: main

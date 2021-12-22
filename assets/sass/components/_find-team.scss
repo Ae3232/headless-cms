@@ -1,6 +1,9 @@
 .find-team {
   margin-top: rem(78px);
   padding-bottom: rem(56px);
+  &._talents {
+    padding-top: rem(36px);
+  }
   .icon-search {
     margin-right: rem(4px);
     &:before {
@@ -43,5 +46,17 @@
       text-align: left;
       margin-top: rem(28px);
     }
+  }
+  .h3 {
+    font-size: rem(18px);
+    line-height: rem(24px);
+    color: $white;
+  }
+}
+
+.find-team__wrapper {
+  margin-bottom: rem(24px);
+  &._not-mb {
+    margin-bottom: 0;
   }
 }

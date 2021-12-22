@@ -8,10 +8,12 @@
       line-height: rem(36px);
       margin-top: rem(10px);
       @include media-breakpoint-up(xl) {
-        font-size: rem(30px);
-        margin-top: rem(20px);
-        margin-bottom: rem(2px);
-        line-height: normal;
+        margin-bottom: rem(11px);
+        line-height: 1.1;
+        min-height: rem(66px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
     .description {

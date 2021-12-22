@@ -1,14 +1,26 @@
-<section class="top-section find-team">
+<section class="top-section find-team _talents">
     <div class="top-section__img-wrap">
         <img src="{{ .Page.Params.findTeamImg | relURL }}">
     </div>
     <div class="top-section__title-wrap">
         <h2 class="h1 top-Section__title">{{ .Page.Params.findTeamTitle }}</h2>
-        <p class="description">
-            {{ .Page.Params.findTeamDescription | safeHTML }}
-        </p>
-        <div class="button-wrapper">
-            <a href="https://tfp.staging.coteams.co/register-talent" target="_blank" class="button primary">{{ .Page.Params.findTeamButton }}</a>
+        <div class="find-team__wrapper">
+            <h3 class="h3">{{ .Page.Params.findTeamSubTitle1 }}</h3>
+            <p class="description">
+                {{ .Page.Params.findTeamDescription1 | safeHTML }}
+            </p>
+            <div class="button-wrapper">
+                <a href="https://tfp.staging.coteams.co/register-as-client" target="_blank" class="button primary">{{ .Page.Params.findTeamButton1 }}</a>
+            </div>
+        </div>
+        <div class="find-team__wrapper _not-mb">
+            <h3 class="h3">{{ .Page.Params.findTeamSubTitle2 }}</h3>
+            <p class="description">
+                {{ .Page.Params.findTeamDescription2 | safeHTML }}
+            </p>
+            <div class="button-wrapper">
+                <a href="https://tfp.staging.coteams.co/register-talent" target="_blank" class="button primary">{{ .Page.Params.findTeamButton2 }}</a>
+            </div>
         </div>
     </div>
 </section>
