@@ -88,14 +88,13 @@ findTeamTitle: Join the growing community of IT talents at CoTeams
 whoCanTitle: Who can work via CoTeams? Is it for me?
 whoCanSubTitle: We welcome talents from all IT fields and a variety of roles from
   anywhere in the world
-findTeamSubTitle1: You’d like to work on new exciting challenges and earn?
-findTeamDescription1: You’ve come to the right place. Let’s find the team and projects
-  that suits you best!
+findTeamSubTitle1: You’d like to work on new exciting challenges or lead new initiatives?
+findTeamDescription1: "<p>You’ve come to the right place! Get inspired by our opportunities
+  and talents from all over the world. Join can create new powerful teams.</p>"
 findTeamButton1: Sign Up as a Talent
-findTeamSubTitle2: Ready to drive new initiatives?
-findTeamDescription2: Get inspired by opportunities and talents (or invite friends
-  and colleaguesJ) from all over the world!
-findTeamButton2: Sign Up as a Leader
+findTeamSubTitle2: ''
+findTeamDescription2: "<p></p>"
+findTeamButton2: ''
 menu:
   main:
     SectionPagesMenu: main
