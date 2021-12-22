@@ -8,8 +8,8 @@ topSectionDescription: CoTeams changes the way companies and IT talents find eac
   other and collaborate. Our platform directly connects businesses and independent
   IT teams or freelancers and makes the process of team-opportunity matching more
   democratic, convenient, and agile.
-whatIsTitle: ''
-whatIsDescription: ''
+whatIsTitle: 'What is CoTeams?'
+whatIsDescription: 'CoTeams changes the way companies and IT talents find each other and collaborate. Our platform directly connects businesses and independent IT teams or freelancers and makes the process of team-opportunity matching more democratic, convenient, and agile.'
 whoAreTitle: Who are our clients and talents?
 whoAreItemImg1: "/images/who-are-img1.svg"
 whoAreItemTitle1: 'IT managers '
