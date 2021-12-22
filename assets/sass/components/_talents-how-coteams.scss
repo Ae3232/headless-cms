@@ -10,8 +10,6 @@
     .description {
       max-height: none;
       min-height: auto;
-      column-count: 2;
-      column-gap: rem(68px);
       @include media-breakpoint-down(md) {
         column-count: auto;
       }
