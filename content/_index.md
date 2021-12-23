@@ -20,8 +20,8 @@ talentsItemImg2: "/images/home/flexibility.svg"
 talentsItemTitle2: Flexibility
 talentsItemDescription2: On-demand workforce adaptable to you ever-changing needs.
 talentsItemImg3: "/images/home/reduced_bureaucracy.svg"
-talentsItemTitle3: Reduced bureaucracy
-talentsItemDescription3: Less administrative burden than cooperating with a traditional
+talentsItemTitle3: Easy cooperation
+talentsItemDescription3: Less administrative burden than working with a traditional
   company. Standard contract terms that can be customized to reflect your particular
   project details.
 talentsItemImg4: "/images/home/cost.svg"
