@@ -14,8 +14,8 @@ talentsTitle: For businesses
 talentsSubtitle: Why is CoTeams a better way to solve your IT tasks?
 talentsItemImg1: "/images/home/quick-start.svg"
 talentsItemTitle1: Quick start
-talentsItemDescription1: 'Ability to find teams within hours, not days and weeks.1-2
-  weeks to start a project. '
+talentsItemDescription1: 'Ability to find teams within hours, not days and weeks.
+  1-2 weeks to start a project. '
 talentsItemImg2: "/images/home/flexibility.svg"
 talentsItemTitle2: Flexibility
 talentsItemDescription2: On-demand workforce adaptable to you ever-changing needs.
