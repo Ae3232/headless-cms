@@ -3,19 +3,19 @@ title: Privacy Policy
 type: page
 layout: privacy-policy
 policyTitle: Privacy Policy
-policyTopDescription: '<p>Last updated on December 20, 2021</p><p>The aim of this
-  Privacy Policy is to let You know Our policies and procedures regarding the collection,
-  use and disclosure of information through the CoTeams website («the Site») and the
-  application («the Application») and any other sites, features, applications, widgets
-  or online services that are owned or controlled by Us and that post a link to this
-  Privacy Policy (together with the Site, the «Service»), as well as any information
-  We collect offline in connection with the Service. It also describes the choices
-  available to You regarding the use of, Your access to, and how to update and correct
-  Your personal information.</p><p class="western">This Privacy Policy explains what
-  Personal Data We collect from You and how We use that data.</p><h4><strong>Terms
-  Used in the Policy</strong></h4><p><strong>You </strong>– All users of the Website
-  and the Application, including but not limited to registered clients, freelancers
-  and IT team members, Site visitors.</p><p class="western"><strong>GDPR</strong>
+policyTopDescription: '<p>Last updated on December 20, 2021</p><p>CoTeams Inc. («We»,
+  «Us», «Our») provides this Privacy Policy to let You know Our policies and procedures
+  regarding the collection, use and disclosure of information through the CoTeams
+  website («the Site») and the application («the Application») and any other sites,
+  features, applications, widgets or online services that are owned or controlled
+  by Us and that post a link to this Privacy Policy (together with the Site, the «Service»),
+  as well as any information We collect offline in connection with the Service. It
+  also describes the choices available to You regarding the use of, Your access to,
+  and how to update and correct Your personal information.</p><p class="western">This
+  Privacy Policy explains what Personal Data We collect from You and how We use that
+  data.</p><h4><strong>Terms Used in the Policy</strong></h4><p><strong>You </strong>–
+  All users of the Website and the Application, including but not limited to registered
+  clients, freelancers and IT team members, Site visitors.</p><p class="western"><strong>GDPR</strong>
   – Refers to the European Parliament and Council Regulation (EU) 2016/679 of 27 April
   2016 on the protection of natural persons with regard to the processing of Personal
   Data and on the free movement of such data (a general data protection regulation).</p><p
