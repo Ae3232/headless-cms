@@ -7,10 +7,18 @@
 }
 .slick-track {
   display: flex;
+  @include media-breakpoint-up(xl) {
+    margin: rem(0 -16px);
+  }
 }
 .slick-list {
   overflow: hidden;
   margin: rem(0 12px);
+}
+.slick-slide {
+  @include media-breakpoint-up(xl) {
+    padding: rem(0 16px);
+  }
 }
 .slick-arrow {
   position: absolute;
