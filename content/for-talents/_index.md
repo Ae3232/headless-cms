@@ -30,15 +30,15 @@ whyCoteamsItemDescription5: 'CoTeams eagerly supports those with the desire to l
   and take more responsibility. Build your dream team and do the dream work. '
 whoCanItemImg1: "/2021/12/23/clients-img1.png"
 whoCanItemTitle1: For any type of work schedule
-whoCanItemDescription1: Full-time. Working more than 35 hours per week, often equally
-  spread over 4-5 days a week. Part-time. Working 2-3 days a week. Flexitime. Working
-  a specific set number of hours in a week, month or year.
+whoCanItemDescription1: "<p>Work full-time (more than 35 hours per week, spread over
+  4-5 days a week) part-time. (2-3 days a week) or flexitime (a set number of hours
+  in a week, month or year).</p>"
 whoCanItemImg2: "/2021/12/23/clients-img2.png"
 whoCanItemTitle2: For any seniority level
-whoCanItemDescription2: Seniors. Assume responsibility for strategic decisions on
-  the project and take on the role of a Tech Lead or a Team Manager. Mids. Work on
-  challenging tasks in a team or as a freelancer. Juniors. Work under the mentorship
-  of senior/middle specialists and refine knowledge and skills.
+whoCanItemDescription2: "<p>Seniors who assume responsibility for strategic decisions
+  on the project and take on the role of a Tech Lead or a Team Manager. Mids who on
+  challenging tasks in a team or as a freelancer. Juniors who benefit from the mentorship
+  of senior/middle specialists and refine knowledge and skills.</p>"
 whoCanItemImg3: "/2021/12/23/clients-img3.png"
 whoCanItemTitle3: For any project role
 whoCanItemDescription3: Developers, Architects, PMs, BAs, DevOps, Engineers, QA engineers,
