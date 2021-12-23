@@ -5,25 +5,25 @@ layout: terms-of-use
 policyTitle: Terms of Use ("Terms")
 policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read these
   Terms of Use ("Terms", "Terms of Use") carefully before using the CoTeams website
-  ("the Site"), and the Application (“the Application”) as they contain important
-  information regarding your legal rights, remedies, and obligations.</p><p>This Site
-  and the Application provide online access to a marketplace where Clients, Freelancers,
-  and IT Teams can identify each other and advertise, buy, and sell IT Services online.
-  Subject to the Terms of Service, CoTeams provides Services to Users, including but
-  not limited to hosting and maintaining the Site, the Portal, and the Application,
-  facilitating the formation of IT Teams, and matching IT Teams or individual Freelancers
-  and Clients.</p><p><strong>Your access to and use of the Site and the Application
-  is conditioned on your acceptance of and compliance with these Terms. These Terms
-  apply to all visitors, users and others who access or use the Site</strong> <strong>the
-  Portal, or the Application.</strong></p><p><strong>You understand that by using
-  the Site</strong> <strong>the Portal, or the Application, you agree to be bound
-  by the Terms. If you do not accept the Terms in its entirety, you must not access
-  or use the Site except as permitted by the Terms.</strong></p><p>If you agree to
-  the terms of service on behalf of an entity or agency, or in connection with providing
-  or receiving services on behalf of an entity or agency, you represent and warrant
-  that you have the authority to bind that entity or agency to the Terms and agree
-  that you are binding both you and that entity or agency to the Terms. In that event,
-  “you” and “your” will refer and apply to you and that entity or agency.</p><p>You
+  ("the Site"), and the Application (“the Application”) operated by CoTeams Inc. ("The
+  Company", "us", "we", or "our") as they contain important information regarding
+  your legal rights, remedies, and obligations.</p><p>This Site and the Application
+  provide online access to a marketplace where Clients, Freelancers, and IT Teams
+  can identify each other and advertise, buy, and sell IT Services online. Subject
+  to the Terms of Service, CoTeams provides Services to Users, including but not limited
+  to hosting and maintaining the Site, the Portal, and the Application, facilitating
+  the formation of IT Teams, and matching IT Teams or individual Freelancers and Clients.</p><p><strong>Your
+  access to and use of the Site and the Application is conditioned on your acceptance
+  of and compliance with these Terms. These Terms apply to all visitors, users and
+  others who access or use the Site</strong> <strong>the Portal, or the Application.</strong></p><p><strong>You
+  understand that by using the Site</strong> <strong>the Portal, or the Application,
+  you agree to be bound by the Terms. If you do not accept the Terms in its entirety,
+  you must not access or use the Site except as permitted by the Terms.</strong></p><p>If
+  you agree to the terms of service on behalf of an entity or agency, or in connection
+  with providing or receiving services on behalf of an entity or agency, you represent
+  and warrant that you have the authority to bind that entity or agency to the Terms
+  and agree that you are binding both you and that entity or agency to the Terms.
+  In that event, “you” and “your” will refer and apply to you and that entity or agency.</p><p>You
   represent and warrant that: (i) you have full legal authority to accept these Terms;
   (ii) you have read and have understood the Terms, and (iii) you agree on the Terms.</p><p>The
   effectiveness of these Terms is subject to your acceptance (hereinafter, the “Acceptance”),
@@ -179,7 +179,7 @@ policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read thes
   of these Terms is fully enforceable and legally binding.</p><p>You are responsible
   for complying with the laws of the jurisdiction from which you are accessing the
   Site and the Application and you agree that you will not access or use the information
-  on the Site and the Application in violation of such laws.</p><p><em>Copyright 2021.
-  All rights reserved</em></p>'
+  on the Site and the Application in violation of such laws.</p><p><em>Copyright 2021
+  CoTeams Inc. All rights reserved</em></p>'
 
 ---
