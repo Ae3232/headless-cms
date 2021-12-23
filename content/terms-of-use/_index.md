@@ -32,7 +32,7 @@ policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read thes
   important agreements, as they may be in effect and modified from time to time: Privacy
   Policy; Terms of Service.</p><h5><strong>USE OF SITE</strong></h5><p>If you have
   any questions regarding the use of the CoTeams Site or Application, you may contact
-  us in one of the following ways:</p><p>* send the request to <a href="mailto:contact@coteams.co">contact@coteams.co</a></p><p><strong>TERMINATION</strong></p><p>We
+  us by sending a request to <a href="mailto:contact@coteams.co">contact@coteams.co</a></p><p><strong>TERMINATION</strong></p><p>We
   may terminate or suspend access to the Site and the Application immediately, without
   prior notice or liability, for any reason whatsoever, including without limitation
   if you breach the Terms.</p><p>All provisions of the Terms which by their nature
