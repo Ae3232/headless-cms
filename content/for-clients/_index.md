@@ -25,7 +25,7 @@ whyCoteamsItemDescription3: Select skills, areas of expertise, seniority levels,
 whyCoteamsItemImg4: "/2021/12/21/focus-on-what-matters.svg"
 whyCoteamsItemTitle4: Direct access to teams
 whyCoteamsItemDescription4: No any intermediaries between you and the teams and no
-  excessive administrative burden
+  excessive administrative burden.
 whyCoteamsItemImg5: "/2021/12/21/exactly-when-you-need.svg"
 whyCoteamsItemTitle5: Exactly when you need
 whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offer
