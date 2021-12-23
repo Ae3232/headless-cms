@@ -70,7 +70,7 @@ useCasesItemDescription2: A pool of creators, inventors and innovators is at you
 useCasesItemImg3: "/2021/12/23/image5.png"
 useCasesItemTitle3: Software evolution, modernization, migration
 useCasesItemDescription3: Add new functionality and migrate to new versions, designs
-  and infrastructures (incl., cloud-based).
+  and infrastructures (including cloud-based).
 findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Need help with a new or ongoing IT project?
 findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
