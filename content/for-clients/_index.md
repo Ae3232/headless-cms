@@ -35,9 +35,9 @@ howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/clients/sourcing.svg"
 howCoteamsItemTitle1: Talent search
 howCoteamsItemDescription1: |-
-  Answer a few questions about your project or task and your project/task will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
+  Answer a few questions about your project or task and it will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
 
-  You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. to find the right talents/teams for your project needs on your own and invite them for bidding.
+  You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. and invite them for bidding.
 howCoteamsItemImg2: "/images/clients/negotiate.svg"
 howCoteamsItemTitle2: Negotiation
 howCoteamsItemDescription2: Use the chat to talk to IT Teams and individual talents
