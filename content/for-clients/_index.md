@@ -40,12 +40,11 @@ howCoteamsItemDescription1: |-
   You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. and invite them for bidding.
 howCoteamsItemImg2: "/images/clients/negotiate.svg"
 howCoteamsItemTitle2: Negotiation
-howCoteamsItemDescription2: Use the chat to talk to IT Teams and individual talents
-  and proceed with interviewing IT teams/individual talents you like and select the
-  one. You agree on KPIs to track the performance of the remote team/talent and the
-  project progress and negotiate SLA, including penalties for security breaches. You
-  can use standard CoTeams contract or adjust it to reflect individual project specifics
-  and you needs.
+howCoteamsItemDescription2: Use the chat to talk to IT teams and individual talents
+  and proceed with interviewing. You agree on KPIs to track the performance of the
+  remote team/talent and the project progress and negotiate SLA, including penalties
+  for security breaches. You can use standard CoTeams contract or adjust it to reflect
+  individual project specifics and you needs.
 howCoteamsItemImg3: "/images/clients/collaboration.svg"
 howCoteamsItemTitle3: Collaboration
 howCoteamsItemDescription3: Organize the transfer of the necessary knowledge to the
