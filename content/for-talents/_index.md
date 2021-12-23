@@ -36,9 +36,9 @@ whoCanItemDescription1: "<p>Work full-time (more than 35 hours per week, spread 
 whoCanItemImg2: "/2021/12/23/clients-img2.png"
 whoCanItemTitle2: For any seniority level
 whoCanItemDescription2: "<p>Seniors who assume responsibility for strategic decisions
-  on the project and take on the role of a Tech Lead or a Team Manager. Mids who on
-  challenging tasks in a team or as a freelancer. Juniors who benefit from the mentorship
-  of senior/middle specialists and refine knowledge and skills.</p>"
+  and take on the role of a tech lead or a team manager. Mids who work on challenging
+  tasks in a team or individually. Juniors who benefit from the mentorship of more
+  senior specialists and refine skills.</p>"
 whoCanItemImg3: "/2021/12/23/clients-img3.png"
 whoCanItemTitle3: For any project role
 whoCanItemDescription3: Developers, Architects, PMs, BAs, DevOps, Engineers, QA engineers,
