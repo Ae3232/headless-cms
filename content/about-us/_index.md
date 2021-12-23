@@ -55,7 +55,7 @@ valuesItemDescription1: We believe that shared goals and mutual support lead to 
   success. There has to be a fair and mutual exchange of value between talents and
   clients.
 valuesItemItemImg2: "/images/values-img2.svg"
-valuesItemTitle2: 'Transparent and honest cooperation '
+valuesItemTitle2: Transparency and honesty
 valuesItemDescription2: Being truthful is key to mutually beneficial relationships.
   We value, support, and foster quality, transparency, productivity, and honesty in
   collaboration.
@@ -81,7 +81,8 @@ valuesItemDescription7: 'We are convinced that everyone should have a chance to 
   restrained by organizational hierarchies and personal judgments '
 valuesItemItemImg8: "/images/values-img8.svg"
 valuesItemTitle8: Excellence
-valuesItemDescription8: 'Quality is our top priority. We foster continuous improvement in every aspect of our business.'
+valuesItemDescription8: Quality is our top priority. We foster continuous improvement
+  in every aspect of our business.
 menu:
   main:
     SectionPagesMenu: main
