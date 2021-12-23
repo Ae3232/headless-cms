@@ -62,20 +62,15 @@ useCasesItemImg1: "/images/use-cases-img1.png"
 useCasesItemTitle1: MVP development
 useCasesItemDescription1: 'Promptly verify a new software idea: get help with choosing
   MVP tech stack and architecture, MVP UX and UI design, MVP development and testing.
-  <br>CoTeams’ tip: Teams with business analysts on board can also help you with professional
-  idea conceptualization and feature management.'
+  <br>'
 useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New product / enterprise application development
-useCasesItemDescription2: 'A pool of creators, inventors and innovators is at your
-  disposal to plan and develop new effective software solutions.<br>CoTeams’ tip:
-  If you plan specific capabilities for your app (AI/ML, on-demand scalability, blockchain,
-  VR/AR) better state explicitly that you need such experts on the team.'
+useCasesItemDescription2: A pool of creators, inventors and innovators is at your
+  disposal to plan and develop new effective software solutions.
 useCasesItemImg3: "/2021/12/23/image5.png"
 useCasesItemTitle3: Software evolution, modernization, migration
-useCasesItemDescription3: 'Add new functionality and migrate to new versions, designs
-  and infrastructures (incl., cloud-based).<br>CoTeams’ tip: For cloud migrations,
-  your team may include: security engineers, certified cloud (AWS, Azure, Google,
-  your other target cloud) architects, test automation engineers.'
+useCasesItemDescription3: Add new functionality and migrate to new versions, designs
+  and infrastructures (incl., cloud-based).
 findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Need help with a new or ongoing IT project?
 findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
