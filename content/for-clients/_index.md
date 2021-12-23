@@ -71,7 +71,7 @@ useCasesItemDescription2: 'A pool of creators, inventors and innovators is at yo
   disposal to plan and develop new effective software solutions.<br>CoTeams’ tip:
   If you plan specific capabilities for your app (AI/ML, on-demand scalability, blockchain,
   VR/AR) better state explicitly that you need such experts on the team.'
-useCasesItemImg3: "/images/use-cases-img3.png"
+useCasesItemImg3: "/2021/12/23/image5.png"
 useCasesItemTitle3: Software evolution, modernization, migration
 useCasesItemDescription3: 'Add new functionality and migrate to new versions, designs
   and infrastructures (incl., cloud-based).<br>CoTeams’ tip: For cloud migrations,
