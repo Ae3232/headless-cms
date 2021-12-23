@@ -23,9 +23,9 @@ whyCoteamsItemTitle3: The best matches
 whyCoteamsItemDescription3: Select skills, areas of expertise, seniority levels, etc.
   Work with individual talents or hire entire teams from all over the world.
 whyCoteamsItemImg4: "/2021/12/21/focus-on-what-matters.svg"
-whyCoteamsItemTitle4: Focus on what matters
-whyCoteamsItemDescription4: Access teams directly, no intermediaries and excessive
-  administrative burden.
+whyCoteamsItemTitle4: Direct access to teams
+whyCoteamsItemDescription4: No any intermediaries between you and the teams and no
+  excessive administrative burden
 whyCoteamsItemImg5: "/2021/12/21/exactly-when-you-need.svg"
 whyCoteamsItemTitle5: Exactly when you need
 whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offer
