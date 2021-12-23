@@ -39,12 +39,14 @@
       min-height: rem(48px);
     }
   }
-  .description {
+  .description, p {
     font-size: rem(14px);
     line-height: rem(20px);
     text-align: left;
     max-width: rem(750px);
     display: inline-block;
+    color: $gray-900;
+    font-weight: $font-weight-normal;
     @include media-breakpoint-up(xl) {
       max-width: none;
       font-size: rem(16px);
