@@ -61,7 +61,7 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searchin
   and the client can give you the final feedback and rates your job, and – so do you
   – you can evaluate your manager’s performance.</p>"
 howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
-howCoteamsItemTitle2: For freelancers
+howCoteamsItemTitle2: For individualists
 howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>Finding the projects
   or tasks you’d like to work on</strong>, according to your skills and preferences.
   </p></li></ul><p>Once you found something interesting, you contact the clients,
