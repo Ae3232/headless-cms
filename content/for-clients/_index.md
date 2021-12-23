@@ -33,7 +33,7 @@ whyCoteamsItemDescription5: Check real-time talent availability in seconds. Offe
 howCoteamsTitle: How does it work?
 howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/clients/sourcing.svg"
-howCoteamsItemTitle1: Passive or active sourcing
+howCoteamsItemTitle1: Talent search
 howCoteamsItemDescription1: |-
   Answer a few questions about your project or task and your project/task will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
 
