@@ -62,13 +62,13 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searchin
   – you can evaluate your manager’s performance.</p>"
 howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
 howCoteamsItemTitle2: For individualists
-howCoteamsItemDescription2: "<p>You start by: </p><ul><li><p><strong>Finding the projects
-  or tasks you’d like to work on</strong>, according to your skills and preferences.
-  </p></li></ul><p>Once you found something interesting, you contact the clients,
-  discuss the projects and get interviewed. If approved by the client, you work on
-  the selected project/task individually or as a part of a client’s team.</p><p>You
-  get paid monthly (for TM projects) or upon successful project completion (for fixed-price
-  projects). The client gives you the final feedback and rates your job.</p>"
+howCoteamsItemDescription2: "<p>You can start by:</p><ul><li><p><strong>Finding the
+  projects or tasks you’d like to work on</strong>, according to your skills and preferences.</p></li></ul><p>Once
+  you found something interesting, you contact the clients, discuss the projects and
+  get interviewed. If approved by the client, you work on the selected project/task
+  individually or as a part of a client’s team.</p><p>You get paid monthly (for TM
+  projects) or upon successful project completion (for fixed-price projects). The
+  client gives you the final feedback and rates your job.</p>"
 howCoteamsItemImg3: "/images/talents-how-coteams-img3.svg"
 howCoteamsItemTitle3: For leaders
 howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>Finding an
