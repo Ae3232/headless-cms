@@ -31,7 +31,7 @@ whyCoteamsItemDescription5: 'CoTeams eagerly supports those with the desire to l
 whoCanItemImg1: "/2021/12/23/clients-img1.png"
 whoCanItemTitle1: For any type of work schedule
 whoCanItemDescription1: "<p>Work full-time (more than 35 hours per week, spread over
-  4-5 days a week) part-time. (2-3 days a week) or flexitime (a set number of hours
+  4-5 days a week), part-time (2-3 days a week), or flexitime (a set number of hours
   in a week, month or year).</p>"
 whoCanItemImg2: "/2021/12/23/clients-img2.png"
 whoCanItemTitle2: For any seniority level
@@ -41,9 +41,9 @@ whoCanItemDescription2: "<p>Seniors who assume responsibility for strategic deci
   skills.</p>"
 whoCanItemImg3: "/2021/12/23/clients-img3.png"
 whoCanItemTitle3: For any project role
-whoCanItemDescription3: Developers, Architects, PMs, BAs, DevOps, Engineers, QA engineers,
-  incl test automation engineers, Security engineers, Support engineers, Data analysts,
-  UX/UI designers, and more.
+whoCanItemDescription3: "<p>Developers, architects, project managers, business analysts,
+  DevOps, Engineers, QA engineers, security engineers, support engineers, data analysts,
+  UX/UI designers, and more.</p>"
 howCoteamsTitle: How CoTeams works
 howCoteamsItemImg1: "/images/talents-how-coteams-img1.svg"
 howCoteamsItemTitle1: For team-players
