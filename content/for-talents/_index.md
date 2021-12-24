@@ -51,9 +51,9 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searchin
   for the teams</strong> you’d like to join to embark on new challenges together.
   This can be a team with complementing skills, experience and interests or a team
   where you can acquire new knowledge and practice new skills.</p></li><li><p><strong>Finding
-  the project</strong> you’d like to work on and check the teams that are working
-  on have applied for the project.</p></li></ul><p>Once you’ve found the teams you
-  like, you contact their team managers to discuss your involvement and get interviewed.</p><p>If
+  the project</strong> you'd like to work on and checking the teams that work on or
+  have applied for this project.</p></li></ul><p>Once you’ve found the teams you like,
+  you contact their team managers to discuss your involvement and get interviewed.</p><p>If
   approved by the team manager, you can join the selected team.</p><p>You work on
   the selected project/projects, collaborate with other team members and get feedback
   on your work. You get paid monthly (for TM projects) or upon successful project
