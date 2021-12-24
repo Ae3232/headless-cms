@@ -4,7 +4,7 @@ type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
 topSectionTitle: CoTeams for Businesses
-topSectionDescription: CoTeams is a collaborative platform where you find a perfect
+topSectionDescription: CoTeams is a collaborative platform where you can find a perfect
   IT team or individual talents to handle your IT tasks, quickly and with less administrative
   burden.
 whyTeamsTitle: Why CoTeams?
