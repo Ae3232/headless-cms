@@ -22,7 +22,7 @@ whoAreItemDescription1: who search for a fast and cost-efficient way to solve th
 whoAreItemImg2: "/images/who-are-img2.svg"
 whoAreItemTitle2: 'Business managers '
 whoAreItemDescription2: who need to increase the efficiency of business processes
-  with the help of technology, or build new technology-powered processes. Using CoTeams,
+  with the help of technology or build new technology-powered processes. Using CoTeams,
   you can find the team with experience in the relevant business domain to plan, develop,
   and support truly effective software solutions.
 whoAreItemImg3: "/images/who-are-img3.svg"
@@ -51,8 +51,9 @@ missionDescription: "<p>CoTeams promotes and supports digital innovation all ove
 valuesTitle: CoTeams’ values
 valuesItemItemImg1: "/images/values-img1.svg"
 valuesItemTitle1: Win-win cooperation
-valuesItemDescription1: We believe that shared goals and mutual support lead to greater
-  success. There has to be a fair mutual exchange of value between talents and clients.
+valuesItemDescription1: We believe that shared goals and mutual support lead to a
+  greater success. There has to be a fair mutual exchange of value between talents
+  and clients.
 valuesItemItemImg2: "/images/values-img2.svg"
 valuesItemTitle2: Transparency and honesty
 valuesItemDescription2: Being truthful is key to mutually beneficial relationships.
