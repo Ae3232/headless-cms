@@ -18,7 +18,7 @@ talentsItemDescription1: 'Ability to find teams within hours, not days and weeks
   1-2 weeks to start a project. '
 talentsItemImg2: "/images/home/flexibility.svg"
 talentsItemTitle2: Flexibility
-talentsItemDescription2: On-demand workforce adaptable to you ever-changing needs.
+talentsItemDescription2: On-demand workforce adaptable to your ever-changing needs.
 talentsItemImg3: "/images/home/reduced_bureaucracy.svg"
 talentsItemTitle3: Easy cooperation
 talentsItemDescription3: Less administrative burden than working with a traditional
