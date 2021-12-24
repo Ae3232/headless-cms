@@ -37,14 +37,14 @@ howCoteamsItemTitle1: Talent search
 howCoteamsItemDescription1: |-
   Answer a few questions about your project or task and it will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
 
-  You can also access the CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. and invite them for bidding.
+  You can also access CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. and invite them for bidding.
 howCoteamsItemImg2: "/images/clients/negotiate.svg"
 howCoteamsItemTitle2: Negotiation
 howCoteamsItemDescription2: Use the chat to talk to IT teams and individual talents
   and proceed with interviewing. You agree on KPIs to track the performance of the
   remote team/talent and the project progress and negotiate SLA, including penalties
-  for security breaches. You can use standard CoTeams contract or adjust it to reflect
-  individual project specifics and you needs.
+  for security breaches. You can use a standard CoTeams contract or adjust it to reflect
+  individual project specifics.
 howCoteamsItemImg3: "/images/clients/collaboration.svg"
 howCoteamsItemTitle3: Collaboration
 howCoteamsItemDescription3: Organize the transfer of the necessary knowledge to the
