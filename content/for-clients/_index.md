@@ -48,21 +48,21 @@ howCoteamsItemDescription2: Use the chat to talk to IT teams and individual tale
 howCoteamsItemImg3: "/images/clients/collaboration.svg"
 howCoteamsItemTitle3: Collaboration
 howCoteamsItemDescription3: Organize the transfer of the necessary knowledge to the
-  new remote team or freelancer. Together with the team, choose the convenient communication
-  channel, frequency and the depth of reporting. Monitor the project progress till
-  its successful completion.
+  new remote team or individual talent. Together with the team, choose the convenient
+  communication channel, the frequency and depth of reporting. Monitor the project
+  progress till its successful completion.
 howCoteamsItemImg4: "/images/clients/taxes.svg"
 howCoteamsItemTitle4: Payment and feedback
-howCoteamsItemDescription4: Pay monthly (for T&M model) or upon the successful project
-  completion (for fixed-price model). At the end of collaboration, you’ll be asked
-  to provide the final feedback to the team/talent and rate their job.
+howCoteamsItemDescription4: Pay monthly (for the T&M model) or upon the successful
+  project completion (for the fixed-price model). At the end of the collaboration,
+  you’ll be asked to provide the final feedback to the team/talent and rate their
+  job.
 useCasesTitle: Recommended use of CoTeams
 useCasesSubTitle: ''
 useCasesItemImg1: "/images/use-cases-img1.png"
 useCasesItemTitle1: MVP development
 useCasesItemDescription1: 'Promptly verify a new software idea: get help with choosing
-  MVP tech stack and architecture, MVP UX and UI design, MVP development and testing.
-  <br>'
+  MVP tech stack and architecture, UX and UI design, development and testing. <br>'
 useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New product / enterprise application development
 useCasesItemDescription2: A pool of creators, inventors and innovators is at your
