@@ -6,12 +6,12 @@ topSectionImg: "/images/about-us.svg"
 topSectionTitle: About CoTeams
 topSectionDescription: CoTeams changes the way companies and IT talents find each
   other and collaborate. Our platform directly connects businesses and independent
-  IT teams or freelancers and makes the process of team-opportunity matching more
-  democratic, convenient, and agile.
+  IT teams or individual talents and makes the process of team-opportunity matching
+  more democratic, convenient, and agile.
 whatIsTitle: What is CoTeams?
 whatIsDescription: CoTeams changes the way companies and IT talents find each other
   and collaborate. Our platform directly connects businesses and independent IT teams
-  or freelancers and makes the process of team-opportunity matching more democratic,
+  or individual talents and makes the process of team-opportunity matching more democratic,
   convenient, and agile.
 whoAreTitle: Who are our clients and talents?
 whoAreItemImg1: "/images/who-are-img1.svg"
@@ -37,23 +37,22 @@ whoAreItemDescription4: "(developers, architects, PMs, business analysists, DevO
   from more experienced colleagues."
 missionTitle: CoTeams’ mission
 missionImg: "/images/coteams-mission-bg.png"
-missionDescription: "<p>CoTeams promotes and supports digital and technological innovation
-  all over the world. Our mission is to democratize the way how business and IT talents
-  meet and collaborate.</p><p><strong>We aim to</strong>:</p><ul><li><p>Create a dynamic
+missionDescription: "<p>CoTeams promotes and supports digital innovation all over
+  the world. Our mission is to democratize the way how business and IT talents meet
+  and collaborate.</p><p><strong>We aim to</strong>:</p><ul><li><p>Create a dynamic
   collaboration environment by bringing together established enterprises and startups
   and all kinds of independent IT teams and individual IT talents from different IT
   domains and locations.</p></li><li><p>Build a lively and inspiring community of
   top IT talents across the world.</p></li></ul><p>CoTeams provides a safe environment,
-  cares deeply about value both parties get, and is committed to collaboration that
-  respects transparency, integrity, and agility. We aim to create the future of remote
-  work, allowing IT professionals to seize new opportunities and adding value to the
-  world’s economy.</p>"
+  cares deeply about the value both parties get, and is committed to collaboration
+  that respects transparency, integrity, and agility. We aim to create the future
+  of remote work, allowing IT professionals to seize new opportunities and adding
+  value to the world’s economy.</p>"
 valuesTitle: CoTeams’ values
 valuesItemItemImg1: "/images/values-img1.svg"
 valuesItemTitle1: Win-win cooperation
 valuesItemDescription1: We believe that shared goals and mutual support lead to greater
-  success. There has to be a fair and mutual exchange of value between talents and
-  clients.
+  success. There has to be a fair mutual exchange of value between talents and clients.
 valuesItemItemImg2: "/images/values-img2.svg"
 valuesItemTitle2: Transparency and honesty
 valuesItemDescription2: Being truthful is key to mutually beneficial relationships.
@@ -72,8 +71,8 @@ valuesItemDescription5: We believe in who we are and what we do. We value leader
 valuesItemItemImg6: "/images/values-img6.svg"
 valuesItemTitle6: Passion
 valuesItemDescription6: We are passionate about the changes we make in the global
-  talent matching processes, about the positive impact we make on the career paths
-  and business development.
+  talent matching processes, about the positive impact we make on career paths and
+  business growth.
 valuesItemItemImg7: "/images/values-img7.svg"
 valuesItemTitle7: Equal opportunities
 valuesItemDescription7: 'We are convinced that everyone should have a chance to do
