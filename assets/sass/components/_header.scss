@@ -1,5 +1,5 @@
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -9,7 +9,7 @@
   background-repeat: repeat;
   background-position: center center;
   padding: $mobile-section-padding;
-  z-index: $zindex-modal;
+  z-index: $zindex-popover;
   @include media-breakpoint-up(xl) {
     justify-content: flex-start;
   }

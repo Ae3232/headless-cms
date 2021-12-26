@@ -59,7 +59,7 @@ valuesItemTitle2: Transparency and honesty
 valuesItemDescription2: Being truthful is key to mutually beneficial relationships.
   We value, support, and foster quality, transparency, productivity, and honesty in
   collaboration.
-valuesItemItemImg3: "/images/values-img3.svg"
+valuesItemItemImg3: "/images/team-spirit.svg"
 valuesItemTitle3: Team spirit
 valuesItemDescription3: 'We believe that we build on each other’s strengths. We keep
   an open mind and listen. We treat each other with respect. '

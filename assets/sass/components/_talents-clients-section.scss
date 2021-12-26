@@ -81,6 +81,10 @@
         margin-top: 2px;
 
     }
+    img {
+      width: rem(28px);
+      height: rem(28px);
+    }
     @include media-breakpoint-up(xl) {
       flex: rem(80px) 0 0;
       min-width: rem(80px);

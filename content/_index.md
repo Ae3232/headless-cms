@@ -19,7 +19,7 @@ talentsItemDescription1: 'Ability to find teams within hours, not days and weeks
 talentsItemImg2: "/images/home/flexibility.svg"
 talentsItemTitle2: Flexibility
 talentsItemDescription2: On-demand workforce adaptable to your ever-changing needs.
-talentsItemImg3: "/images/home/reduced_bureaucracy.svg"
+talentsItemImg3: "/images/home/easy-cooperation.svg"
 talentsItemTitle3: Easy cooperation
 talentsItemDescription3: Less administrative burden than working with a traditional
   company. Standard contract terms that can be customized to reflect your particular
@@ -39,7 +39,7 @@ clientsItemImg2: "/images/home/drive_your_career.svg"
 clientsItemTitle2: Drive your career
 clientsItemDescription2: Nurture your specific passions and strength. Choose people
   you work with. Choose the length and scope of the engagements.
-clientsItemImg3: "/images/home/escape_from_hard-to-shift hierarchy.svg"
+clientsItemImg3: "/images/home/escape-from-hard.svg"
 clientsItemTitle3: Escape from hard-to-shift hierarchy
 clientsItemDescription3: Build your own team and become a team manager, if you enjoy
   taking more responsibility.

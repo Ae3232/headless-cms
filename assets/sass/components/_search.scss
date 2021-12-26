@@ -166,3 +166,15 @@ input.gsc-input {
 table.gsc-search-box td.gsc-input {
   padding-right: 0 !important;
 }
+
+.gsc-modal-background-image {
+  display: none !important;
+}
+.gsc-results-wrapper-overlay.gsc-results-wrapper-overlay {
+  width: 100% !important;
+  position: static !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  height: auto !important;
+}

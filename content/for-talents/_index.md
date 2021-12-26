@@ -45,7 +45,7 @@ whoCanItemDescription3: "<p>Developers, architects, project managers, business a
   DevOps, Engineers, QA engineers, security engineers, support engineers, data analysts,
   UX/UI designers, and more.</p>"
 howCoteamsTitle: How CoTeams works
-howCoteamsItemImg1: "/images/talents-how-coteams-img1.svg"
+howCoteamsItemImg1: "/images/talents/team-player.svg"
 howCoteamsItemTitle1: For team-players
 howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searching
   for the teams</strong> you’d like to join to embark on new challenges together.
@@ -60,7 +60,7 @@ howCoteamsItemDescription1: "<p>You can start by:</p><ul><li><p><strong>Searchin
   completion (for fixed-price projects).</p><p>The team manager and the client can
   give you the final feedback and rate your job, and – so do you – you can evaluate
   your manager’s performance.</p>"
-howCoteamsItemImg2: "/images/talents-how-coteams-img2.svg"
+howCoteamsItemImg2: "/images/talents/freelancer.svg"
 howCoteamsItemTitle2: For individualists
 howCoteamsItemDescription2: "<p>You can start by:</p><ul><li><p><strong>Finding the
   projects or tasks you’d like to work on</strong>, according to your skills and preferences.</p></li></ul><p>Once
@@ -69,7 +69,7 @@ howCoteamsItemDescription2: "<p>You can start by:</p><ul><li><p><strong>Finding 
   individually or as a part of a client’s team.</p><p>You get paid monthly (for TM
   projects) or upon successful project completion (for fixed-price projects). The
   client gives you the final feedback and rates your job.</p>"
-howCoteamsItemImg3: "/images/talents-how-coteams-img3.svg"
+howCoteamsItemImg3: "/images/talents/leader.svg"
 howCoteamsItemTitle3: For leaders
 howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>Finding an
   inspiring opportunity</strong> in CoTeams' project pool. You can connect with the
@@ -99,6 +99,6 @@ menu:
   main:
     SectionPagesMenu: main
     url: "/for-talents/"
-    weight: 3
+    weight: 2
 
 ---

@@ -4,14 +4,17 @@
 		const toolTipBtnClose = document.querySelector('.icon-close');
 		const navDropDown = document.querySelector('.navigation');
 		const overlay = document.querySelector('.overlay');
+		const html = document.querySelector('html');
 
 		btnToolTip.addEventListener('click', e => {
 			navDropDown.classList.toggle('_open');
 			overlay.classList.toggle('_open');
+			html.classList.toggle('open');
 		});
 		toolTipBtnClose.addEventListener('click', e => {
 			navDropDown.classList.remove('_open');
 			overlay.classList.remove('_open');
+			html.classList.remove('open');
 		});
 	});
 })();
@@ -59,5 +62,6 @@ $(document).ready(function() {
 	$(".sidebar-mobile-button").click(function() {
 		$(this).toggleClass('active');
 		$(".sidebar").slideToggle('fast');
+		$('html').toggleClass('open');
 	});
 });

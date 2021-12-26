@@ -67,7 +67,7 @@ useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New product / enterprise application development
 useCasesItemDescription2: A pool of creators, inventors and innovators is at your
   disposal to plan and develop new effective software solutions.
-useCasesItemImg3: "/2021/12/23/image5.png"
+useCasesItemImg3: "/images/clients/migration.png"
 useCasesItemTitle3: Software evolution, modernization, migration
 useCasesItemDescription3: Add new functionality and migrate to new versions, designs
   and infrastructures (including cloud-based).
@@ -80,6 +80,6 @@ menu:
   main:
     SectionPagesMenu: main
     url: "/for-clients/"
-    weight: 2
+    weight: 3
 
 ---
