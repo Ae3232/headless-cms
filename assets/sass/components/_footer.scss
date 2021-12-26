@@ -124,6 +124,9 @@
     @include media-breakpoint-up(xl) {
       padding: rem(0 6px);
     }
+    img {
+      opacity: 0.5;
+    }
   }
   &__copyright-list {
     display: flex;

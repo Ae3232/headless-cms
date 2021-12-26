@@ -1,6 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
+[params]
+favicon = "/static/images/favicon.svg"
 [[menu.secondary]]
 name = "Search"
 url = "/search/"
