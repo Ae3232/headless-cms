@@ -30,7 +30,7 @@
   &__right-menu-item {
     padding: rem(0 6px);
     margin: rem(0 6px);
-
+    display: none;
     &:first-child {
       &:before {
         content: '';
@@ -80,11 +80,8 @@
         }
       }
     }
-    &:not(:last-child) {
-      display: none;
-      @include media-breakpoint-up(lg) {
-        display: flex;
-      }
+    @include media-breakpoint-up(lg) {
+      display: flex;
     }
     &:not(:first-child) {
       i {
@@ -115,7 +112,7 @@
       @include media-breakpoint-up(lg) {
         margin-left: rem(10px);
         margin-right: 0;
-        padding: rem(4px 21px);
+        padding: rem(4px 7px);
         border-radius: rem(16px);
         border: solid 2px $white;
         background-color: $pink;
@@ -123,16 +120,28 @@
           font-weight: $font-weight-bold;
         }
       }
+      @include media-breakpoint-up(lgP) {
+        padding: rem(4px 21px);
+      }
     }
   }
   &__logo {
-    margin-left: rem(55px);
+    width: 100%;
+    text-align: center;
+    margin-left: rem(-32px);
     @include media-breakpoint-up(lg) {
       margin-left: 0;
+      width: auto;
+      text-align: left;
     }
   }
   &__sandwich {
     cursor: pointer;
+    display: flex;
+    z-index: 1;
+    &.close {
+      display: none;
+    }
     @include media-breakpoint-up(lg) {
       display: none;
     }
@@ -142,7 +151,6 @@
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
     display: flex;
     position: relative;
     @include media-breakpoint-up(lg) {

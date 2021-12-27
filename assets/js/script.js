@@ -5,13 +5,18 @@
 		const navDropDown = document.querySelector('.navigation');
 		const overlay = document.querySelector('.overlay');
 		const html = document.querySelector('html');
+		const delay = 250;
 
 		btnToolTip.addEventListener('click', e => {
+			btnToolTip.classList.toggle('close');
 			navDropDown.classList.toggle('_open');
 			overlay.classList.toggle('_open');
 			html.classList.toggle('open');
 		});
 		toolTipBtnClose.addEventListener('click', e => {
+			setTimeout(function() {
+				btnToolTip.classList.remove('close');
+			}, delay);
 			navDropDown.classList.remove('_open');
 			overlay.classList.remove('_open');
 			html.classList.remove('open');
