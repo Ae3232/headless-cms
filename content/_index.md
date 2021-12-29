@@ -1,5 +1,5 @@
 ---
-title: Home page
+title: CoTeams
 topSectionImg: "/images/people.png"
 topSectionTitle: CoTeams
 topSectionDescription: A new, simple and smart way to connect IT projects and IT talents

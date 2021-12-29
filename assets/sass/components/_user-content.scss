@@ -43,6 +43,9 @@
       margin-bottom: rem(12px);
     }
   }
+  a {
+    color: #00acea;
+  }
   @include media-breakpoint-down(sm) {
     margin-top: rem(48px);
   }
