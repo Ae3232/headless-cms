@@ -19,7 +19,7 @@
 	{{ with site.Params.author }}
 	<meta name="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
-	<link rel="shortcut icon" href="./images/favicon.svg">
+	<link rel="shortcut icon" href="/images/favicon.svg">
 	{{ $styleSass := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
 	{{ $styleCSS := $styleSass | resources.ToCSS }}
 	{{ $styleCSS := $styleSass | resources.ToCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) | minify }}
