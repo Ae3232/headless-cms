@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Coteams"
+enableRobotsTXT = true
 [params]
 favicon = "/static/images/favicon.svg"
 [[menu.secondary]]

@@ -2,11 +2,11 @@
     <span class="user-content__section-title">Help</span>
     <ul class="sidebar__list">
         <li class="sidebar__item">
-            <a href="javascript:void(0);" class="sidebar__link close">General</a>
-            <ul class="sidebar__sublist" style="display:flex;">
+            <a href="javascript:void(0);" class="sidebar__link">General</a>
+            <ul class="sidebar__sublist">
                 <li class="sidebar__sublist-item">
-                    <a href="javascript:void(0);" class="sidebar__sublist-link close">Registration</a>
-                    <ul class="sidebar__thirdlist" style="display:flex;">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">Registration</a>
+                    <ul class="sidebar__thirdlist">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.sidebar9 }}
                         <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
@@ -37,15 +37,11 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/general/image-upload" class="sidebar__sublist-link _no-arrow">Image upload</a>
+                {{ range .Site.Menus.sidebar12 }}
+                <li class="sidebar__sublist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                    <a href="{{ .URL | relURL }}" class="sidebar__sublist-link _no-arrow">{{ .Name }}</a>
                 </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/general/messaging" class="sidebar__sublist-link _no-arrow">Messaging</a>
-                </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/general/search" class="sidebar__sublist-link _no-arrow">Search</a>
-                </li>
+                {{ end }}
             </ul>
         </li>
         <li class="sidebar__item">
@@ -62,9 +58,11 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/profile-visibility/" class="sidebar__sublist-link _no-arrow">Profile Visibility</a>
+                {{ range .Site.Menus.sidebar13 }}
+                <li class="sidebar__sublist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                    <a href="{{ .URL | relURL }}" class="sidebar__sublist-link _no-arrow">{{ .Name }}</a>
                 </li>
+                {{ end }}
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link">Participate in Opportunities</a>
                     <ul class="sidebar__thirdlist">
@@ -103,9 +101,11 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/for-clients/about-opportunity" class="sidebar__sublist-link _no-arrow">About "Opportunity"</a>
+                {{ range .Site.Menus.sidebar14 }}
+                <li class="sidebar__sublist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                    <a href="{{ .URL | relURL }}" class="sidebar__sublist-link _no-arrow">{{ .Name }}</a>
                 </li>
+                {{ end }}
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link">"Opportunity" setting</a>
                     <ul class="sidebar__thirdlist">
@@ -117,9 +117,11 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="sidebar__sublist-item">
-                    <a href="/help/for-clients/bidding-and-assigning/" class="sidebar__sublist-link _no-arrow">Bidding and assigning</a>
+                {{ range .Site.Menus.sidebar15 }}
+                <li class="sidebar__sublist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                    <a href="{{ .URL | relURL }}" class="sidebar__sublist-link _no-arrow">{{ .Name }}</a>
                 </li>
+                {{ end }}
                 <li class="sidebar__sublist-item">
                     <a href="javascript:void(0);" class="sidebar__sublist-link">Opportunity statuses</a>
                     <ul class="sidebar__thirdlist">

@@ -10,9 +10,7 @@
     right: 0;
     top: 0;
     height: 100%;
-    background-image: url("/images/top-background.jpg");
-    background-repeat: repeat;
-    background-position: center center;
+    background-color: #8BC34A;
     z-index: -1;
     margin: rem(0 -30px);
     @include media-breakpoint-up(xl) {

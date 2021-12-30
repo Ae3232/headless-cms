@@ -75,7 +75,7 @@
     padding: rem(32px 0);
     margin-bottom: rem(-16px);
     flex-direction: column;
-    &._open {
+    &.open {
       display: block;
     }
   }
@@ -83,6 +83,10 @@
     padding: rem(0 16px);
     &:not(:last-child) {
       margin-bottom: rem(24px);
+    }
+    &._active {
+      border-radius: 13.5px;
+      background-color: rgba(169, 169, 169, .19);
     }
   }
   &__sublist-link {
@@ -126,7 +130,7 @@
     padding: rem(26px 16px);
     margin-bottom: rem(-26px);
     flex-direction: column;
-    &._open {
+    &.open {
       display: block;
     }
   }

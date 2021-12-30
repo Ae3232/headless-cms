@@ -5,9 +5,7 @@
   right: 0;
   height: rem(48px);
   display: flex;
-  background-image: url("/images/top-background.jpg");
-  background-repeat: repeat;
-  background-position: center center;
+  background-color: #8BC34A;
   padding: $mobile-section-padding;
   z-index: $zindex-popover;
   @include media-breakpoint-up(xl) {

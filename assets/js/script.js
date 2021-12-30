@@ -25,21 +25,33 @@
 })();
 
 $(document).ready(function() {
-	if ($('.sidebar__sublist').is(':empty')) {
-		$this = $(this);
-	}
 	$(".sidebar__link").click(function() {
 		$this = $(this);
 		$this.next().slideToggle("fast");
 		$this.toggleClass('close');
-		if ($this.next().length >= 0) {
-			$this.addClass('has-li');
-		}
 	});
 	$(".sidebar__sublist-link").click(function() {
 		$this = $(this);
 		$this.next().slideToggle("fast");
 		$this.toggleClass('close');
+	});
+});
+$(window).on("load", function() {
+	$('.sidebar__thirdlist-item').each(function() {
+		if ($(this).hasClass('_active')) {
+			$(this).parent().parent().parent().addClass('open') &&
+			$(this).parent().addClass('open') &&
+			$(this).parent().prev().addClass('close') &&
+			$(this).parent().parent().parent().prev().addClass('close');
+		}
+	});
+	$('.sidebar__sublist-item').each(function() {
+		if ($(this).hasClass('_active')) {
+			$(this).parent().parent().parent().addClass('open') &&
+			$(this).parent().addClass('open') &&
+			$(this).parent().prev().addClass('close') &&
+			$(this).parent().parent().parent().prev().addClass('close');
+		}
 	});
 });
 $(document).ready(function() {
