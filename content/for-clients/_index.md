@@ -1,5 +1,5 @@
 ---
-title: For Clients
+title: Perfect teams for your IT tasks – CoTeams for Businesses
 type: page
 layout: for-clients
 topSectionImg: "/images/for-clients.png"
