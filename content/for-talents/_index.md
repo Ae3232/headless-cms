@@ -1,5 +1,5 @@
 ---
-title: For Talents
+title: IT teams and projects to your liking – CoTeams for IT talents
 type: page
 layout: for-talents
 topSectionImg: "/images/for-talents.svg"
