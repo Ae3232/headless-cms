@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: About CoTeams
 type: page
 layout: about-us
 topSectionImg: "/images/about-us.svg"
