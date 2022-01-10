@@ -1,5 +1,5 @@
 ---
-title: CoTeams
+title: A place where IT projects & teams meet - CoTeams
 topSectionImg: "/images/people.png"
 topSectionTitle: CoTeams
 topSectionDescription: A new, simple and smart way to connect IT projects and IT talents
