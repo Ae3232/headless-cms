@@ -32,12 +32,12 @@ talentsItemDescription4: High quality at 20%-50% lower costs than when working w
 clientsTitle: For talents
 clientsSubtitle: Why does working via CoTeams bring more satisfaction and joy?
 clientsItemImg1: "/images/home/balance_independence_and_community.svg"
-clientsItemTitle1: Balance independence and community
-clientsItemDescription1: Freelance flexibility combined with knowledge sharing and
+clientsItemTitle1: Get both independence and community spirit
+clientsItemDescription1: Combine freelance flexibility with knowledge sharing and
   inspiration from other CoTeamers.
 clientsItemImg2: "/images/home/drive_your_career.svg"
 clientsItemTitle2: Drive your career
-clientsItemDescription2: Nurture your specific passions and strength. Choose people
+clientsItemDescription2: Nurture your specific passions and strengths. Choose people
   you work with. Choose the length and scope of the engagements.
 clientsItemImg3: "/images/home/escape-from-hard.svg"
 clientsItemTitle3: Escape from hard-to-shift hierarchy
