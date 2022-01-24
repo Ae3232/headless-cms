@@ -7,7 +7,7 @@ fields:
   label: title
 - type: text
   name: description
-  label: description
+  label: meta-description
 - type: file
   name: topSectionImg
   label: topSectionImg

@@ -6,14 +6,14 @@ fields:
   name: title
   label: title
 - type: text
+  name: description
+  label: meta-description
+- type: text
   name: type
   label: type
 - type: text
   name: layout
   label: layout
-- type: text
-  name: description
-  label: description
 - type: text
   name: url
   label: url
