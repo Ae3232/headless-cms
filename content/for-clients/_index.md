@@ -78,6 +78,7 @@ findTeamDescription: Let’s find the skilled, dedicated, and motivated team to 
 findTeamButton: Sign Up as a Client
 menu:
   main:
+    name: For Clients
     SectionPagesMenu: main
     url: "/for-clients/"
     weight: 3

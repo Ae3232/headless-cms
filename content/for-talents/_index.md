@@ -96,6 +96,7 @@ findTeamDescription2: "<p></p>"
 findTeamButton2: ''
 menu:
   main:
+    name: For Talents
     SectionPagesMenu: main
     url: "/for-talents/"
     weight: 2
