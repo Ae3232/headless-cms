@@ -94,7 +94,7 @@ findTeamButton1: Sign Up as a Talent
 findTeamSubTitle2: ''
 findTeamDescription2: "<p></p>"
 findTeamButton2: ''
-description: For Talents Description Description
+description: For Talents Description
 menu:
   main:
     name: For Talents
