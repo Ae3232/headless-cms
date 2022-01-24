@@ -11,6 +11,9 @@ fields:
 - type: text
   name: layout
   label: layout
+- type: text
+  name: description
+  label: description
 - type: file
   name: topSectionImg
   label: topSectionImg

@@ -12,6 +12,9 @@ fields:
   name: layout
   label: layout
 - type: text
+  name: description
+  label: description
+- type: text
   name: policyTitle
   label: policyTitle
 - type: textarea

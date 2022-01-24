@@ -2,6 +2,7 @@
 title: Terms of Use
 type: page
 layout: terms-of-use
+description: "Term of Use Description"
 policyTitle: Terms of Use ("Terms")
 policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read these
   Terms of Use ("Terms", "Terms of Use") carefully before using the CoTeams website

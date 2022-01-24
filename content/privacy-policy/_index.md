@@ -2,6 +2,7 @@
 title: Privacy Policy
 type: page
 layout: privacy-policy
+description: "Privacy Policy Description"
 policyTitle: Privacy Policy
 policyTopDescription: '<p>Last updated on December 20, 2021</p><p>CoTeams Inc. («We»,
   «Us», «Our») provides this Privacy Policy to let You know Our policies and procedures
