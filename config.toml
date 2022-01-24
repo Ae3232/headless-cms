@@ -1,10 +1,10 @@
 baseURL = "/"
+enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
-enableRobotsTXT = true
-[params]
-favicon = "/static/images/favicon.svg"
 [[menu.secondary]]
 name = "Search"
 url = "/search/"
 weight = 1
+[params]
+favicon = "/static/images/favicon.svg"

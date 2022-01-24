@@ -80,6 +80,7 @@ valuesItemDescription8: Quality is our top priority. We foster continuous improv
   in every aspect of our business.
 menu:
   main:
+    name: About Us
     SectionPagesMenu: main
     url: "/about-us/"
     weight: 1
