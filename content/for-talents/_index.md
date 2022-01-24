@@ -2,7 +2,6 @@
 title: IT teams and projects to your liking – CoTeams for IT talents
 type: page
 layout: for-talents
-description: "For Talents Description"
 topSectionImg: "/images/for-talents.svg"
 topSectionTitle: CoTeams for Talents
 topSectionDescription: CoTeams is where IT talents nurture their specific skills and
@@ -11,8 +10,8 @@ whyTeamsTitle: Why CoTeams?
 whyTeamsSubTitle: ''
 whyCoteamsItemImg1: "/images/talents-why-coteams-img1.svg"
 whyCoteamsItemTitle1: Shape your career
-whyCoteamsItemDescription1: Choose only the right assignments, projects and opportunities
-  for your skills and career objectives.
+whyCoteamsItemDescription1: "<p>Choose only the right assignments, projects and opportunities
+  for your skills and career objectives.</p>"
 whyCoteamsItemImg2: "/images/talents-why-coteams-img2.svg"
 whyCoteamsItemTitle2: Get joy from work
 whyCoteamsItemDescription2: Choose people you work with. Learn from and get inspired
@@ -95,6 +94,7 @@ findTeamButton1: Sign Up as a Talent
 findTeamSubTitle2: ''
 findTeamDescription2: "<p></p>"
 findTeamButton2: ''
+description: For Talents Description
 menu:
   main:
     name: For Talents
