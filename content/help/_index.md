@@ -2,6 +2,7 @@
 title: Help
 type: page
 layout: help
+description: "Help Description"
 userContentTitle: 
 userContentDescription:
 userContentImg:

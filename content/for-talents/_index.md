@@ -2,6 +2,7 @@
 title: IT teams and projects to your liking – CoTeams for IT talents
 type: page
 layout: for-talents
+description: "For Talents Description"
 topSectionImg: "/images/for-talents.svg"
 topSectionTitle: CoTeams for Talents
 topSectionDescription: CoTeams is where IT talents nurture their specific skills and

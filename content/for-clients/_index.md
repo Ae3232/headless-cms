@@ -2,6 +2,7 @@
 title: Perfect teams for your IT tasks – CoTeams for Businesses
 type: page
 layout: for-clients
+description: "For Clients Description"
 topSectionImg: "/images/for-clients.png"
 topSectionTitle: CoTeams for Businesses
 topSectionDescription: CoTeams is a collaborative platform where you can find a perfect
