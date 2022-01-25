@@ -68,16 +68,16 @@ useCasesItemDescription1: 'Promptly verify a new software idea: get help with ch
   MVP tech stack and architecture, UX and UI design, development and testing. <br>'
 useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New product / enterprise application development
-useCasesItemDescription2: Software development teams of creators, inventors and innovators
-  are at your disposal to plan and develop new effective software solutions.
+useCasesItemDescription2: Hire development teams of creators, inventors and innovators
+  to plan and develop new effective software solutions.
 useCasesItemImg3: "/images/clients/migration.png"
 useCasesItemTitle3: Software evolution, modernization, migration
 useCasesItemDescription3: Add new functionality and migrate to new versions, designs
   and infrastructures (including cloud-based).
 findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Need help with a new or ongoing IT project?
-findTeamDescription: Let’s find the skilled, dedicated, and motivated team of developers,
-  designers, QA engineers, DevOps engineers, BAs, etc. to nail it!
+findTeamDescription: Let’s find and hire a team of developers, designers, QA engineers,
+  DevOps engineers, BAs, etc. to nail it - skilled, dedicated, and motivated!
 findTeamButton: Sign Up as a Client
 menu:
   main:
