@@ -1,5 +1,5 @@
 ---
-title: IT teams and projects to your liking – CoTeams for IT talents
+title: IT Teams and Projects to Your Liking – CoTeams for IT talents
 type: page
 layout: for-talents
 topSectionImg: "/images/for-talents.svg"
@@ -94,7 +94,8 @@ findTeamButton1: Sign Up as a Talent
 findTeamSubTitle2: ''
 findTeamDescription2: "<p></p>"
 findTeamButton2: ''
-description: For Talents Description
+description: СoTeams is a collaborative platform where IT talents earn and team up
+  to work on projects of their choice. Direct collaboration with clients.
 menu:
   main:
     name: For Talents
