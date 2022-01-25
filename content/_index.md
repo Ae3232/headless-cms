@@ -1,5 +1,5 @@
 ---
-title: A place where IT projects & teams meet - CoTeams
+title: A Place Where IT Projects & Teams Meet - CoTeams
 description: A platform that provides simple, transparent, and fun way for businesses
   and IT teams to connect, meet and collaborate. Post projects & hire IT talents.
   Find jobs & team up with other IT talents.
