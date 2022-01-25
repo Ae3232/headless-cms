@@ -89,7 +89,8 @@ whoCanSubTitle: We welcome talents from all IT fields and a variety of roles fro
   anywhere in the world
 findTeamSubTitle1: You’d like to work on exciting challenges or lead new initiatives?
 findTeamDescription1: "<p>You’ve come to the right place! Get inspired by our opportunities
-  and talents from all over the world. Join powerful teams or create your own ones.</p>"
+  and talents from all over the world. Find powerful teams to join or create your
+  own ones.</p>"
 findTeamButton1: Sign Up as a Talent
 findTeamSubTitle2: ''
 findTeamDescription2: "<p></p>"
