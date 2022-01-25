@@ -67,7 +67,7 @@ howCoteamsItemDescription2: "<p>You can start by:</p><ul><li><p><strong>Finding 
   get interviewed. If approved by the client, you work on the selected project/task
   individually or as a part of a client’s team.</p><p>You get paid monthly (for TM
   projects) or upon successful project completion (for fixed-price projects). The
-  client gives you the final feedback and rates your job.</p>"
+  client gives you the final feedback and rates your jobs.</p>"
 howCoteamsItemImg3: "/images/talents/leader.svg"
 howCoteamsItemTitle3: For leaders
 howCoteamsItemDescription3: "<p>You can start by:</p><ul><li><p><strong>Finding an
