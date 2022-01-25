@@ -1,6 +1,8 @@
 ---
 title: A place where IT projects & teams meet - CoTeams
-description: "Home Page Description"
+description: A platform that provides simple, transparent, and fun way for businesses
+  and IT teams to connect, meet and collaborate. Post projects & hire IT talents.
+  Find jobs & team up with other IT talents.
 topSectionImg: "/images/people.png"
 topSectionTitle: CoTeams
 topSectionDescription: A new, simple and smart way to connect IT projects and IT talents
