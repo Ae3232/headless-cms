@@ -54,8 +54,7 @@ quickSectionTitle: Quick start
 quickSectionItemImg1: "/images/quickstart-image1.svg"
 quickSectionItemTitle1: For businesses
 quickSectionItemDescription1: Need help with an IT project? We may have a perfect
-  team of developers, designers, QA engineers, BAs, etc. for it! Let’s explore your
-  options!
+  team of developers, designers, testers, BAs, etc. for it! Let’s explore your options!
 quickSectionItemButton1: Continue as a Client
 quickSectionItemImg2: "/images/quickstart-image2.svg"
 quickSectionItemTitle2: For IT talents
