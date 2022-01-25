@@ -76,8 +76,8 @@ useCasesItemDescription3: Add new functionality and migrate to new versions, des
   and infrastructures (including cloud-based).
 findTeamImg: "/images/how-coteams-img-bg.svg"
 findTeamTitle: Need help with a new or ongoing IT project?
-findTeamDescription: Let’s find the skilled, dedicated, and motivated team to nail
-  it!
+findTeamDescription: Let’s find the skilled, dedicated, and motivated team of developers,
+  designers, QA engineers, DevOps engineers, BAs, etc. to nail it!
 findTeamButton: Sign Up as a Client
 menu:
   main:
