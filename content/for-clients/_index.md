@@ -38,7 +38,7 @@ howCoteamsSubTitle: ''
 howCoteamsItemImg1: "/images/clients/sourcing.svg"
 howCoteamsItemTitle1: Talent search
 howCoteamsItemDescription1: |-
-  Answer a few questions about your project or task and it will appear in the pool. Available teams receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
+  Answer a few questions about your project or task and it will appear in the pool. Available teams and individual talents (a developer, a designer, a tester, etc.) receive recommended projects based on the required skills and other information you provide. The interested teams send you their proposals.
 
   You can also access CoTeams’ pool of available IT talents and quickly search, sort, and filter by skills, team category, etc. and invite them for bidding.
 howCoteamsItemImg2: "/images/clients/negotiate.svg"
@@ -68,8 +68,8 @@ useCasesItemDescription1: 'Promptly verify a new software idea: get help with ch
   MVP tech stack and architecture, UX and UI design, development and testing. <br>'
 useCasesItemImg2: "/images/use-cases-img2.png"
 useCasesItemTitle2: New product / enterprise application development
-useCasesItemDescription2: A pool of creators, inventors and innovators is at your
-  disposal to plan and develop new effective software solutions.
+useCasesItemDescription2: Software development teams of creators, inventors and innovators
+  are at your disposal to plan and develop new effective software solutions.
 useCasesItemImg3: "/images/clients/migration.png"
 useCasesItemTitle3: Software evolution, modernization, migration
 useCasesItemDescription3: Add new functionality and migrate to new versions, designs
