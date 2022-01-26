@@ -1,10 +1,10 @@
 ---
-title: Perfect teams for your IT tasks – CoTeams for Businesses
+title: Hire Perfect Teams for Your IT tasks – CoTeams for Businesses
 type: page
 layout: for-clients
 description: СoTeams is a collaborative platform where enterprises and startups find
-  and hire the right teams for their IT endeavors and build software faster, cheaper,
-  and more transparently.
+  and hire the right development teams for their IT endeavors and build software faster,
+  cheaper, and more transparently.
 topSectionImg: "/images/for-clients.png"
 topSectionTitle: CoTeams for Businesses
 topSectionDescription: CoTeams is a collaborative platform where you can find a perfect
