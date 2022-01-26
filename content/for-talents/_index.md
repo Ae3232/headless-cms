@@ -1,5 +1,5 @@
 ---
-title: IT Teams and Projects to Your Liking – CoTeams for IT talents
+title: Build Teams and Find Projects to Your Liking – CoTeams for IT talents
 type: page
 layout: for-talents
 topSectionImg: "/images/for-talents.svg"
@@ -95,8 +95,8 @@ findTeamButton1: Sign Up as a Talent
 findTeamSubTitle2: ''
 findTeamDescription2: "<p></p>"
 findTeamButton2: ''
-description: СoTeams is a collaborative platform where IT talents earn and team up
-  to work on projects of their choice. Direct collaboration with clients.
+description: СoTeams is a collaborative platform where IT talents build teams and
+  find software development projects to work on. Direct collaboration with clients.
 topsectiondescription: CoTeams is where IT talents nurture their specific skills and
   work with people they like, and leaders build and manage powerful remote teams.
 menu:
