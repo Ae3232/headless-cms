@@ -180,7 +180,7 @@ policyTopDescription: '<p>Last updated: December 20, 2021</p><p>Please read thes
   of these Terms is fully enforceable and legally binding.</p><p>You are responsible
   for complying with the laws of the jurisdiction from which you are accessing the
   Site and the Application and you agree that you will not access or use the information
-  on the Site and the Application in violation of such laws.</p><p><em>Copyright 2021
+  on the Site and the Application in violation of such laws.</p><p><em>Copyright 2022
   CoTeams Inc. All rights reserved</em></p>'
 
 ---

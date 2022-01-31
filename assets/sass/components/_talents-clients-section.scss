@@ -34,6 +34,8 @@
     &:not(:last-child) {
       margin-bottom: rem(48px);
       @include media-breakpoint-up(xl) {
+        display: flex;
+        flex-direction: column;
         margin-bottom: 0;
         background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
         background-position: right;
