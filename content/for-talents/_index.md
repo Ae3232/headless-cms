@@ -1,4 +1,5 @@
 ---
+date: 2022-02-07
 title: Build Teams and Find Projects to Your Liking – CoTeams for IT talents
 type: page
 layout: for-talents

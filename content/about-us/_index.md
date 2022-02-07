@@ -1,4 +1,5 @@
 ---
+date: 2022-02-07
 title: About CoTeams
 type: page
 layout: about-us

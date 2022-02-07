@@ -1,4 +1,5 @@
 +++
+date = "2022-02-07"
 layout = "help"
 title = "Delete a Team"
 type = "page"

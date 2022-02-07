@@ -1,4 +1,5 @@
 +++
+date = "2022-02-07"
 layout = "help"
 title = "General Information for Sign Up"
 type = "page"

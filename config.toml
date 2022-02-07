@@ -1,11 +1,13 @@
-baseURL = "/"
+baseURL = "https://coteams.co/"
 enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
 [sitemap]
   changefreq = "monthly"
-  priority = 0.8
+  priority = 1
   filename = "sitemap.xml"
+[Taxonomies]
+  tag = "tags"
 [[menu.secondary]]
 name = "Search"
 url = "/search/"

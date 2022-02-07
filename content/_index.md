@@ -1,4 +1,5 @@
 ---
+date: 2022-02-07
 title: A Place Where IT Projects & Teams Meet - CoTeams
 description: A platform that provides simple, transparent, and fun way for businesses
   and IT teams to connect, meet and collaborate. Post projects & hire IT talents.

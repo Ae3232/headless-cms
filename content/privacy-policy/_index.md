@@ -1,4 +1,5 @@
 ---
+date: 2022-02-07
 title: Privacy Policy
 type: page
 layout: privacy-policy

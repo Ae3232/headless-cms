@@ -1,4 +1,5 @@
 +++
+date = "2022-02-07"
 layout = "help"
 title = "Log out from the CoTeams account"
 type = "page"
