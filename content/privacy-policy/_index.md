@@ -2,7 +2,7 @@
 title: Privacy Policy
 type: page
 layout: privacy-policy
-description: "Privacy Policy Description"
+description: Privacy Policy Description
 policyTitle: Privacy Policy
 policyTopDescription: '<p>Last updated on December 20, 2021</p><p>CoTeams Inc. («We»,
   «Us», «Our») provides this Privacy Policy to let You know Our policies and procedures
@@ -202,7 +202,7 @@ policyTopDescription: '<p>Last updated on December 20, 2021</p><p>CoTeams Inc. (
   posting a notice of such changes before they take effect or by directly sending
   You a notification.</p><h4><strong>How to Contact Us</strong></h4><p>If You have
   a privacy concern, complaint, or question to Data Protection Officer, please email
-  Us at <a href="mailto:data-protection-officer@scnsoft.com">data-protection-officer@scnsoft.com</a>.</p><p>We
+  Us at <a href="mailto:data-protection-officer@coteams.co">data-protection-officer@coteams.co</a>.</p><p>We
   will respond within 30 days.</p>'
 
 ---
