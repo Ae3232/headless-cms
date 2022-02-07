@@ -160,7 +160,7 @@ policyTopDescription: '<p>Last updated on December 20, 2021</p><p>CoTeams Inc. (
   is processed with Your consent, You have the right to withdraw Your consent at any
   time. The withdrawal of consent will not affect the lawfulness of its processing
   based on consent before its withdrawal.</p></li></ul><p class="western">Email Your
-  request to data protection officer Dmitry Kurskov at <a href="mailto:data-protection-officer@scnsoft.com">data-protection-officer@scnsoft.com</a>.
+  request to Our data protection officer at <a href="mailto:data-protection-officer@coteams.co">data-protection-officer@coteams.co</a>.
   We will respond to requests to access or delete Your Personal Data within 30 days.</p><h4><strong>Cookies
   &amp; Similar Technologies</strong></h4><p>We use cookies (small text files placed
   on Your device) and similar technologies to provide Our online services and to help
