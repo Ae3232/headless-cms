@@ -16,10 +16,10 @@ collections:
     name: "settings"
     files:
       - file: "config.toml"
-        label: "Navigation"
-        name: "menu"
+        label: "Navigation Top"
+        name: "menu.main"
         fields:
-          - label: "Main menu"
+          - label: "Navigation Top List"
             name: "menu.main"
             widget: list
             fields:
