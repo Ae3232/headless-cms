@@ -3,6 +3,7 @@ date: 2022-02-07
 title: About CoTeams
 type: page
 layout: about-us
+permalink: /about-us/
 description: "About Us Description"
 topSectionImg: "/images/about-us.svg"
 topSectionTitle: About CoTeams
