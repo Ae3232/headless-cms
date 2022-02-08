@@ -20,7 +20,7 @@ collections:
         name: navigation
         fields:
           - label: Navigation
-            name: menu
+            name: menu.main
             widget: list
             fields:
               - { label: Label, name: name, widget: string }
