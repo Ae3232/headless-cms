@@ -12,16 +12,20 @@ media_library:
     publicKey: 770d59abb88e58b8d65c
 
 collections:
-  - label: Settings
-    name: settings
+  - label: "Settings"
+    name: "settings"
     files:
-      - file: config.toml
-        label: Navigation
-        name: menu
+      - file: "config.toml"
+        label: "Navigation"
+        name: "menu"
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Path, name: url, widget: string }
-          - { label: Position, name: weight, widget: string }
+          - label: "Main menu"
+            name: "menu.main"
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Path, name: url, widget: string }
+              - { label: Position, name: weight, widget: string }
   - label: "Pages"
     name: "page"
     files:
