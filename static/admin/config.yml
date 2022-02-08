@@ -15,12 +15,12 @@ collections:
   - label: "Settings"
     name: "settings"
     files:
-      - file: "data/settings/navigation.yml"
+      - file: "content/navigation/_index.md"
         label: "Navigation Top"
         name: "navigation"
         fields:
           - label: "Navigation Top List"
-            name: "menu.main"
+            name: "menu"
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
