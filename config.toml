@@ -2,6 +2,7 @@ baseURL = "/"
 enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
+"menu.main" = []
 
 [sitemap]
 changefreq = "monthly"
@@ -37,8 +38,3 @@ weight = "4"
 name = "Search"
 url = "/search/"
 weight = "5"
-
-[["menu.main"]]
-weight = "7"
-name = "Download"
-url = "/download/"
