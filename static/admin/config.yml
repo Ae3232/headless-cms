@@ -34,20 +34,20 @@ collections:
           - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
           - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
       - label: "For Clients"
-          name: "for-clients"
-          file: "content/for-clients/_index.md"
-          fields:
-            - { label: Title, name: title, widget: string }
-            - { label: Description, name: description, widget: markdown }
-            - { label: topSectionImg, name: topSectionImg, widget: image }
-            - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
-            - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
+        name: "for-clients"
+        file: "content/for-clients/_index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: markdown }
+          - { label: topSectionImg, name: topSectionImg, widget: image }
+          - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+          - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
       - label: "For Talents"
-          name: "for-talents"
-          file: "content/for-talents/_index.md"
-          fields:
-            - { label: Title, name: title, widget: string }
-            - { label: Description, name: description, widget: markdown }
-            - { label: topSectionImg, name: topSectionImg, widget: image }
-            - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
-            - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
+        name: "for-talents"
+        file: "content/for-talents/_index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: markdown }
+          - { label: topSectionImg, name: topSectionImg, widget: image }
+          - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+          - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
