@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Ae3232/headless-cms.git
+  repo: https://github.com/Ae3232/headless-cms.git
   branch: main
 
 publish_mode: editorial_workflow
