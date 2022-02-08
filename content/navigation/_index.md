@@ -1,5 +1,6 @@
 ---
 title: Navigation
+type: settings
 layout: navigation
 menu:
     main:

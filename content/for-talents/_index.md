@@ -100,11 +100,5 @@ description: СoTeams is a collaborative platform where IT talents build teams a
   find software development projects to work on. Direct collaboration with clients.
 topsectiondescription: CoTeams is where IT talents nurture their specific skills and
   work with people they like, and leaders build and manage powerful remote teams.
-menu:
-  main:
-    name: For Talents
-    SectionPagesMenu: main
-    url: "/for-talents/"
-    weight: 2
 
 ---

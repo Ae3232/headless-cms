@@ -80,11 +80,4 @@ findTeamTitle: Need help with a new or ongoing IT project?
 findTeamDescription: Let’s find and hire a team of developers, designers, QA engineers,
   DevOps engineers, BAs, etc. to nail it - skilled, dedicated, and motivated!
 findTeamButton: Sign Up as a Client
-menu:
-  main:
-    name: For Clients
-    SectionPagesMenu: main
-    url: "/for-clients/"
-    weight: 3
-
 ---
