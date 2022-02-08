@@ -2,29 +2,43 @@ baseURL = "/"
 enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
+
 [sitemap]
-  changefreq = "monthly"
-  priority = 1
-  filename = "sitemap.xml"
+changefreq = "monthly"
+priority = 1
+filename = "sitemap.xml"
+
 [params]
 favicon = "/static/images/favicon.svg"
-# [[menu.main]]
-#     name = "Home"
-#     url = "/"
-#     weight = "1"
-# [[menu.main]]
-#     name = "About Us"
-#     url = "/about-us/"
-#     weight = "2"
-# [[menu.main]]
-#     name = "For Talents"
-#     url = "/for-talents/"
-#     weight = "3"
-# [[menu.main]]
-#     name = "For Clients"
-#     url = "/for-clients/"
-#     weight = "4"
-# [[menu.main]]
-#     name = "Search"
-#     url = "/search/"
-#     weight = "5"
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = "1"
+
+[[menu.main]]
+name = "About Us"
+url = "/about-us/"
+weight = "2"
+
+[[menu.main]]
+name = "For Talents"
+url = "/for-talents/"
+weight = "3"
+
+[[menu.main]]
+name = "For Clients"
+url = "/for-clients/"
+weight = "4"
+
+[[menu.main]]
+name = "Search"
+url = "/search/"
+weight = "5"
+
+[["menu.main"]]
+weight = "7"
+name = "Download"
+url = "/download/"
