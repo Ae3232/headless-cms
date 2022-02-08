@@ -12,7 +12,6 @@ media_library:
     publicKey: 770d59abb88e58b8d65c
 
 collections:
-  collections:
     - name: settings
       label: Settings
       files:
