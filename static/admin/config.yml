@@ -12,20 +12,20 @@ media_library:
     publicKey: 770d59abb88e58b8d65c
 
 collections:
-  - label: "Settings"
-    name: "menu"
-    files:
-      - file: "config.toml"
-        label: "Navigation Top"
-        name: "main"
-        fields:
-          - label: "Navigation Top List"
-            name: "menuList"
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Path, name: url, widget: string }
-              - { label: Position, name: weight, widget: string }
+  collections:
+    - name: settings
+      label: Settings
+      files:
+        - file: data/settings/navigation.yml
+          label: Navigation
+          name: navigation
+          fields:
+            - label: Navigation
+              name: nav_items
+              widget: list
+              fields:
+                - { label: Label, name: label, widget: string }
+                - { label: Path, name: path, widget: string }
   - label: "Pages"
     name: "page"
     files:
