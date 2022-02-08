@@ -19,7 +19,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields: # The fields for each document, usually in front matter
       - {label: "title", name: "title", widget: "markdown", default: "editor_components"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "url", name: "url", widget: "string"}
       - {label: "description", name: "description", widget: "markdown"}
       - {label: "topSectionImg", name: "topSectionImg", widget: "image"}
       - {label: "topSectionTitle", name: "topSectionTitle", widget: "markdown"}
