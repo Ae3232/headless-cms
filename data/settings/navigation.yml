@@ -1,0 +1,7 @@
+menu:
+  main:
+  - {name: 'Home', url: '/', weight: 1}
+  - {name: 'About Us', url: '/about-us', weight: 2}
+  - {name: 'For Talents', url: '/for-talent', weight: 3}
+  - {name: 'For Clients', url: '/for-clients', weight: 4}
+  - {name: 'Search', url: '/search', weight: 5}

@@ -15,9 +15,9 @@ collections:
   - label: "Settings"
     name: "settings"
     files:
-      - file: "config.toml"
+      - file: "data/settings/navigation.yml"
         label: "Navigation Top"
-        name: "menu.main"
+        name: "navigation"
         fields:
           - label: "Navigation Top List"
             name: "menu.main"
