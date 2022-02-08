@@ -17,7 +17,7 @@ collections:
     files:
       - file: content/settings/navigation.yml
         label: Navigation
-        name: navigation
+        name: menu
         fields:
           - label: Navigation
             name: main
