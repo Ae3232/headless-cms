@@ -10,7 +10,7 @@ whoAreTitle: Who are our clients and talents?
 whoAreItemTitle2: "Business managers "
 whoAreItemTitle3: "Startup founders "
 whoAreItemTitle4: IT talents
-topSectionTitle: About CoTeams
+topSectionTitle: About CoTeams HELLO BLYAT
 layout: about-us
 valuesItemDescription1: We believe that shared goals and mutual support lead to
   a greater success. There has to be a fair mutual exchange of value between
@@ -64,7 +64,7 @@ whoAreItemImg1: /images/who-are-img1.svg
 missionImg: /images/coteams-mission-bg.png
 valuesItemItemImg3: /images/team-spirit.svg
 whoAreItemImg2: /images/who-are-img2.svg
-title: About CoTeams fasdf
+title: About CoTeams
 valuesItemItemImg4: /images/values-img4.svg
 whoAreItemImg3: /images/who-are-img3.svg
 valuesItemItemImg5: /images/values-img5.svg
