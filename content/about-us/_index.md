@@ -6,7 +6,7 @@ layout: about-us
 description: "About Us Description"
 topSectionImg: "/images/about-us.svg"
 topSectionTitle: About CoTeams
-topSectionDescription: CoTeams changes the way companies and IT talents find each
+topSectionDescription: CoTeams a changes the way companies and IT talents find each
   other and collaborate. Our platform directly connects businesses and independent
   IT teams or individual talents and makes the process of team-opportunity matching
   more democratic, convenient, and agile.
