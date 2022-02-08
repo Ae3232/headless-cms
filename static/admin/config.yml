@@ -1,0 +1,7 @@
+backend:
+  name: bitbucket
+  repo: arakots/stsol.tfp-website.git
+  branch: master/feature/front-end
+  publish_mode: editorial_workflow
+  media_folder: "static/images"
+  public_folder: "/images"
