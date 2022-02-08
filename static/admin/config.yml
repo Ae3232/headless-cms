@@ -12,14 +12,42 @@ media_library:
     publicKey: 770d59abb88e58b8d65c
 
 collections:
-  - name: 'about-us'
-    label: 'about-us'
-    folder: 'content/about-us'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields: # The fields for each document, usually in front matter
-      - {label: "title", name: "title", widget: "markdown", default: "editor_components"}
-      - {label: "url", name: "url", widget: "string"}
-      - {label: "description", name: "description", widget: "markdown"}
-      - {label: "topSectionImg", name: "topSectionImg", widget: "image"}
-      - {label: "topSectionTitle", name: "topSectionTitle", widget: "markdown"}
+  - label: "Pages"
+    name: "page"
+    files:
+      - label: "index"
+        name: "index"
+        file: "content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - { label: topSectionImg, name: topSectionImg, widget: image }
+          - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+          - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
+      - label: "About Us"
+        name: "about-us"
+        file: "content/about-us/_index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: markdown }
+          - { label: topSectionImg, name: topSectionImg, widget: image }
+          - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+          - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
+      - label: "For Clients"
+          name: "for-clients"
+          file: "content/for-clients/_index.md"
+          fields:
+            - { label: Title, name: title, widget: string }
+            - { label: Description, name: description, widget: markdown }
+            - { label: topSectionImg, name: topSectionImg, widget: image }
+            - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+            - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
+      - label: "For Talents"
+          name: "for-talents"
+          file: "content/for-talents/_index.md"
+          fields:
+            - { label: Title, name: title, widget: string }
+            - { label: Description, name: description, widget: markdown }
+            - { label: topSectionImg, name: topSectionImg, widget: image }
+            - { label: topSectionTitle, name: topSectionTitle, widget: markdown }
+            - { label: topSectionDescription, name: topSectionDescription, widget: markdown }
