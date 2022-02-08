@@ -30,7 +30,7 @@ valuesItemTitle1: Win-win cooperation
 valuesItemDescription5: We believe in who we are and what we do. We value leadership
 date: 2022-02-07
 valuesItemTitle2: Transparency and honesty
-url: /about-us-test
+url: /about-us/
 valuesItemDescription6: We are passionate about the changes we make in the
   global talent matching processes, about the positive impact we make on career
   paths and business growth.
