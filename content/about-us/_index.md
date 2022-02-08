@@ -80,4 +80,11 @@ valuesItemItemImg8: "/images/values-img8.svg"
 valuesItemTitle8: Excellence
 valuesItemDescription8: Quality is our top priority. We foster continuous improvement
   in every aspect of our business.
+menu:
+  main:
+    name: About Us
+    SectionPagesMenu: main
+    url: "/about-us/"
+    weight: 1
+
 ---

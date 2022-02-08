@@ -1,4 +1,5 @@
-nav_items:
-  - {label: 'Home', path: '/'}
-  - {label: 'Products', path: '/products/'}
-  - {label: 'News', path: '/news/'}
+menu:
+  main:
+  - {name: 'About Us', url: '/about-us/', weight: '1'}
+  - {name: 'For Talents', url: '/for-talents/', weight: '2'}
+  - {name: 'For Clients', url: '/for-clients/', weight: '3'}

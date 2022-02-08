@@ -20,11 +20,12 @@ collections:
         name: navigation
         fields:
           - label: Navigation
-            name: nav_items
+            name: menu
             widget: list
             fields:
-              - { label: Label, name: label, widget: string }
-              - { label: Path, name: path, widget: string }
+              - { label: Label, name: name, widget: string }
+              - { label: Path, name: url, widget: string }
+              - { label: Weight, name: weight, widget: string }
   - label: "Pages"
     name: "page"
     files:
