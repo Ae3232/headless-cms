@@ -1,7 +1,9 @@
 ---
 date: 2022-02-07
 title: A Place Where IT Projects & Teams Meet - CoTeams
-description: VSEM GORET V ADU
+description: A platform that provides simple, transparent, and fun way for businesses
+  and IT teams to connect, meet and collaborate. Post projects & hire IT talents.
+  Find jobs & team up with other IT talents.
 topSectionImg: "/images/people.png"
 topSectionTitle: CoTeams
 topSectionDescription: A new, simple and smart way to connect IT projects and IT talents
