@@ -5,10 +5,11 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
-media_library:
-  config:
-    multiple: true
 public_folder: "/images"
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 770d59abb88e58b8d65c
 
 collections:
   - name: 'posts'
