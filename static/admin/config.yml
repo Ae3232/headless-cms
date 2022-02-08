@@ -1,7 +1,7 @@
 backend:
-  name: bitbucket
-  repo: arakots/stsol.tfp-website.git
-  branch: master/feature/front-end
+  name: github
+  repo: Ae3232/headless-cms.git
+  branch: main
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
