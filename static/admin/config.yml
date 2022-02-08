@@ -13,14 +13,14 @@ media_library:
 
 collections:
   - label: "Settings"
-    name: "settings"
+    name: "menu"
     files:
-      - label: "Navigation Top"
-      - name: "navigation"
-      - file: "content/navigation/_index.md"
+      - file: "config.toml"
+        label: "Navigation Top"
+        name: "main"
         fields:
           - label: "Navigation Top List"
-            name: "menu"
+            name: "menuList"
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
