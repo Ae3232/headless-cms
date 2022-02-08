@@ -21,7 +21,7 @@ favicon = "/static/images/favicon.svg"
         name = "For Talents"
         url = "/for-talents/"
         weight = "3"
-    [menu.main]
+    [[menu.main]]
         name = "For Clients"
         url = "/for-clients/"
         weight = "4"
