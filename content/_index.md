@@ -6,9 +6,7 @@ description: A platform that provides simple, transparent, and fun way for busin
   Find jobs & team up with other IT talents.
 topSectionImg: "/images/people.png"
 topSectionTitle: CoTeams
-topSectionDescription: A new, simple and smart way to connect IT projects and IT talents
-  from all over the world. Max cooperation flexibility, no unnecessary costs and administrative
-  burden.
+topSectionDescription: BLA BLA BLA
 videoSectionTitle: 'How CoTeams works '
 videoSectionDescriptionBold: 'CoTeams’ mission is to build a dynamic and transparent
   ecosystem where companies and independent IT teams/individual talents from all over
