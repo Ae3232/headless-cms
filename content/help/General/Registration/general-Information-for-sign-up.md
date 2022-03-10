@@ -9,6 +9,6 @@ userContentImg = ""
 userContentTitle = "General Information for Sign Up"
 [menu.secondary]
 name = "Help"
-weight = 2
+weight = 2  
 
 +++
