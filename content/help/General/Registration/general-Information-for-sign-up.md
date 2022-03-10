@@ -10,7 +10,5 @@ userContentTitle = "General Information for Sign Up"
 [menu.secondary]
 name = "Help"
 weight = 2
-[menu.sidebar9]
-weight = 1
 
 +++
