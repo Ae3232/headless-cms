@@ -4,6 +4,20 @@
         {{ range .Site.Menus.sidebar }}
         <li class="sidebar__item">
             <a href="javascript:void(0);" class="sidebar__link">{{ .Name }}</a>
+            <ul class="sidebar__sublist">
+                {{ range .Children }}
+                <li class="sidebar__sublist-item">
+                    <a href="javascript:void(0);" class="sidebar__sublist-link">{{ .Name }}</a>
+                    <ul class="sidebar__thirdlist">
+                        {{ range .Children }}
+                        <li class="sidebar__thirdlist-item">
+                            <a href="javascript:void(0);" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+            </ul>
         </li>
         {{ end }}
     </ul>

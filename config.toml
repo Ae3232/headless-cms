@@ -12,6 +12,48 @@ favicon = "/static/images/favicon.svg"
   [[menu.sidebar]]
     name = "General"
     weight = 1
+    identifier = "general"
+  [[menu.sidebar]]
+    name = "Registration"
+    url = "/help/general/registration"
+    weight = 1
+    identifier = "registration"
+    parent = "general"
+  [[menu.sidebar]]
+    name = "General Information for Sign Up"
+    url = "#"
+    weight = 1
+    parent = "registration"
+  [[menu.sidebar]]
+    name = "Sign Up via Email"
+    url = "#"
+    weight = 2
+    parent = "registration"
+  [[menu.sidebar]]
+    name = "Sign Up via Social Accounts (Google, Facebook, LinkedIn)"
+    url = "#"
+    weight = 3
+    parent = "registration"
+  [[menu.sidebar]]
+    name = "Authentication"
+    url = "/help/general/authentication"
+    weight = 2
+    parent = "general"
+  [[menu.sidebar]]
+    name = "Profile settings"
+    url = "/help/general/profile-settings"
+    weight = 3
+    parent = "general"
+  [[menu.sidebar]]
+    name = "Image Upload"
+    url = "/help/general/image-upload"
+    weight = 4
+    parent = "general"
+  [[menu.sidebar]]
+    name = "Messaging"
+    url = "/help/general/messaging"
+    weight = 5
+    parent = "general"
   [[menu.sidebar]]
     name = "For Talents"
     weight = 2
