@@ -8,6 +8,6 @@ userContentDescription = "<p>If you want to find a \"Talent\", \"Opportunity\" o
 userContentTitle = "Search"
 [menu.sidebar]
 parent = "General"
-weight = 6
+weight = 5
 
 +++
