@@ -8,5 +8,8 @@ url = "/help/general/test/test-help/"
 userContentDescription = "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem"
 userContentImg = ""
 userContentTitle = "Test Help"
+[menu.sidebar]
+parent = "Test 2"
+weight = 1
 
 +++

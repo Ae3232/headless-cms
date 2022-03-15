@@ -3,15 +3,10 @@ enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
 [[menu.sidebar]]
-name = "For Talents"
-weight = 4
-[[menu.sidebar]]
-name = "For Clients"
-weight = 3
-[[menu.sidebar]]
-name = "For Teams"
+name = "Test 2"
+parent = "General"
 url = "#"
-weight = 2
+weight = 4
 [[menu.sidebar]]
 name = "Profile settings"
 parent = "General"
@@ -27,6 +22,16 @@ name = "Registration"
 parent = "General"
 url = "#"
 weight = 1
+[[menu.sidebar]]
+name = "For Talents"
+weight = 4
+[[menu.sidebar]]
+name = "For Clients"
+weight = 3
+[[menu.sidebar]]
+name = "For Teams"
+url = "#"
+weight = 2
 [[menu.sidebar]]
 name = "General"
 url = "#"
