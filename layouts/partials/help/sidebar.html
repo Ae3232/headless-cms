@@ -1,21 +1,10 @@
 <section class="sidebar">
     <span class="user-content__section-title">Help</span>
     <ul class="sidebar__list">
+        {{ range .Site.Menus.sidebar }}
         <li class="sidebar__item">
-            <a href="javascript:void(0);" class="sidebar__link">General</a>
-            <ul class="sidebar__sublist">
-                <li class="sidebar__sublist-item">
-                    <a href="javascript:void(0);" class="sidebar__sublist-link">Registration</a>
-                    <ul class="sidebar__thirdlist">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.sidebar }}
-                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
-                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </li>
-            </ul>
+            <a href="javascript:void(0);" class="sidebar__link">{{ .Name }}</a>
         </li>
+        {{ end }}
     </ul>
 </section>

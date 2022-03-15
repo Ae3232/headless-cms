@@ -8,15 +8,16 @@ title = "Coteams"
   filename = "sitemap.xml"
 [params]
 favicon = "/static/images/favicon.svg"
-[menu.sidebar]
+[menu]
+  [[menu.sidebar]]
     name = "General"
     weight = 1
-[menu.sidebar]
+  [[menu.sidebar]]
     name = "For Talents"
     weight = 2
-[menu.sidebar]
+  [[menu.sidebar]]
     name = "For Clients"
     weight = 3
-[menu.sidebar]
+  [[menu.sidebar]]
     name = "For Teams"
     weight = 4
