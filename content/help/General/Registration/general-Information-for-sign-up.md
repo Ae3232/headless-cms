@@ -1,5 +1,5 @@
 +++
-date = "2022-02-07"
+date = 2022-02-07T00:00:00Z
 layout = "help"
 title = "General Information for Sign Up"
 type = "page"
@@ -9,6 +9,6 @@ userContentImg = ""
 userContentTitle = "General Information for Sign Up"
 [menu.secondary]
 name = "Help"
-weight = 2  
+weight = 1
 
 +++
