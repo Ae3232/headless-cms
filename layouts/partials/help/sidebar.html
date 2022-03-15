@@ -7,16 +7,22 @@
             <a href="javascript:void(0);" class="sidebar__link">{{ .Name }}</a>
             <ul class="sidebar__sublist">
                 {{ range .Children }}
-                <li class="sidebar__sublist-item">
-                    <a href="javascript:void(0);" class="sidebar__sublist-link">{{ .Name }}</a>
-                    <ul class="sidebar__thirdlist">
-                        {{ range .Children }}
-                        <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
-                            <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                        <li class="sidebar__sublist-item">
+                            <a href="javascript:void(0);" class="sidebar__sublist-link">{{ .Name }}</a>
+                            <ul class="sidebar__thirdlist">
+                                {{ range .Children }}
+                                <li class="sidebar__thirdlist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                                    <a href="{{ .URL | relURL }}" class="sidebar__thirdlist-link">{{ .Name }}</a>
+                                </li>
+                                {{ end }}
+                            </ul>
                         </li>
-                        {{ end }}
-                    </ul>
-                </li>
+                    {{ else }}
+                        <li class="sidebar__sublist-item {{ if (eq $currentPage.URL .URL) }} _active{{ end }}">
+                            <a href="{{ .URL | relURL }}" class="sidebar__sublist-link _no-arrow">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </li>
