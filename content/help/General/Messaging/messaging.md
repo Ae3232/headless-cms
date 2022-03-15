@@ -9,6 +9,6 @@ userContentTitle = "Messaging"
 [menu.sidebar]
 name = "Messagings"
 parent = "General"
-weight = 6
+weight = 5
 
 +++

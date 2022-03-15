@@ -3,11 +3,6 @@ enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
 [[menu.sidebar]]
-name = "Test 2"
-parent = "General"
-url = "#"
-weight = 4
-[[menu.sidebar]]
 name = "Profile settings"
 parent = "General"
 url = "#"

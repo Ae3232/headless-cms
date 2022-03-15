@@ -8,6 +8,6 @@ userContentDescription = "<p>If you want to upload or edit your avatar (Talent's
 userContentTitle = "Image upload"
 [menu.sidebar]
 parent = "General"
-weight = 5
+weight = 4
 
 +++
