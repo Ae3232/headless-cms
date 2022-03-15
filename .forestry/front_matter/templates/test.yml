@@ -29,3 +29,5 @@ fields:
 - type: text
   name: url
   label: url
+pages:
+- content/help/General/TEST 2/test-help.md
