@@ -23,21 +23,6 @@ parent = "General"
 url = "/help/general/authentication"
 weight = 2
 [[menu.sidebar]]
-name = "Sign Up via Social Accounts (Google, Facebook, LinkedIn)"
-parent = "Registration"
-url = "#"
-weight = 3
-[[menu.sidebar]]
-name = "Sign Up via Email"
-parent = "Registration"
-url = "#"
-weight = 2
-[[menu.sidebar]]
-name = "General Information for Sign Up"
-parent = "Registration"
-url = "#"
-weight = 1
-[[menu.sidebar]]
 identifier = "registration"
 name = "Registration"
 parent = "General"
