@@ -2,48 +2,64 @@ baseURL = "/"
 enableRobotsTXT = true
 languageCode = "en-us"
 title = "Coteams"
-[[menu.sidebar]]
-name = "Messaging"
-parent = "General"
-url = "/help/general/messaging"
-weight = 5
-[[menu.sidebar]]
-name = "Image Upload"
-parent = "General"
-url = "/help/general/image-upload"
-weight = 4
-[[menu.sidebar]]
-name = "Profile settings"
-parent = "General"
-url = "/help/general/profile-settings"
-weight = 3
-[[menu.sidebar]]
-name = "Authentication"
-parent = "General"
-url = "/help/general/authentication"
-weight = 2
-[[menu.sidebar]]
-identifier = "registration"
-name = "Registration"
-parent = "General"
-url = "/help/general/registration"
-weight = 1
-[[menu.sidebar]]
-identifier = "general"
-name = "General"
-weight = 1
-[[menu.sidebar]]
-name = "For Teams"
-weight = 4
-[[menu.sidebar]]
-name = "For Clients"
-weight = 3
-[[menu.sidebar]]
-name = "For Talents"
-weight = 2
+[sitemap]
+  changefreq = "monthly"
+  priority = 1
+  filename = "sitemap.xml"
 [params]
 favicon = "/static/images/favicon.svg"
-[sitemap]
-changefreq = "monthly"
-filename = "sitemap.xml"
-priority = 1
+#[menu]
+#  [[menu.sidebar]]
+#    name = "General"
+#    weight = 1
+#    identifier = "general"
+#  [[menu.sidebar]]
+#    name = "Registration"
+#    url = "/help/general/registration"
+#    weight = 1
+#    identifier = "registration"
+#    parent = "general"
+#  [[menu.sidebar]]
+#    name = "General Information for Sign Up"
+#    url = "#"
+#    weight = 1
+#    parent = "registration"
+#  [[menu.sidebar]]
+#    name = "Sign Up via Email"
+#    url = "#"
+#    weight = 2
+#    parent = "registration"
+#  [[menu.sidebar]]
+#    name = "Sign Up via Social Accounts (Google, Facebook, LinkedIn)"
+#    url = "#"
+#    weight = 3
+#    parent = "registration"
+#  [[menu.sidebar]]
+#    name = "Authentication"
+#    url = "/help/general/authentication"
+#    weight = 2
+#    parent = "general"
+#  [[menu.sidebar]]
+#    name = "Profile settings"
+#    url = "/help/general/profile-settings"
+#    weight = 3
+#    parent = "general"
+#  [[menu.sidebar]]
+#    name = "Image Upload"
+#    url = "/help/general/image-upload"
+#    weight = 4
+#    parent = "general"
+#  [[menu.sidebar]]
+#    name = "Messaging"
+#    url = "/help/general/messaging"
+#    weight = 5
+#    parent = "general"
+#  [[menu.sidebar]]
+#    name = "For Talents"
+#    weight = 2
+#  [[menu.sidebar]]
+#    name = "For Clients"
+#    weight = 3
+#  [[menu.sidebar]]
+#    name = "For Teams"
+#    weight = 4
