@@ -1,0 +1,221 @@
+---
+label: For Talents
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: meta-description
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: topSectionImg
+  label: topSectionImg
+- type: text
+  name: topSectionTitle
+  label: topSectionTitle
+- name: topsectiondescription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: topSectionDescription
+- type: text
+  name: whyTeamsTitle
+  label: whyTeamsTitle
+- type: text
+  name: whyTeamsSubTitle
+  label: whyTeamsSubTitle
+- type: file
+  name: whyCoteamsItemImg1
+  label: whyCoteamsItemImg1
+- type: text
+  name: whyCoteamsItemTitle1
+  label: whyCoteamsItemTitle1
+- type: textarea
+  name: whyCoteamsItemDescription1
+  label: whyCoteamsItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whyCoteamsItemImg2
+  label: whyCoteamsItemImg2
+- type: text
+  name: whyCoteamsItemTitle2
+  label: whyCoteamsItemTitle2
+- type: textarea
+  name: whyCoteamsItemDescription2
+  label: whyCoteamsItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whyCoteamsItemImg3
+  label: whyCoteamsItemImg3
+- type: text
+  name: whyCoteamsItemTitle3
+  label: whyCoteamsItemTitle3
+- type: textarea
+  name: whyCoteamsItemDescription3
+  label: whyCoteamsItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whyCoteamsItemImg4
+  label: whyCoteamsItemImg4
+- type: text
+  name: whyCoteamsItemTitle4
+  label: whyCoteamsItemTitle4
+- type: textarea
+  name: whyCoteamsItemDescription4
+  label: whyCoteamsItemDescription4
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whyCoteamsItemImg5
+  label: whyCoteamsItemImg5
+- type: text
+  name: whyCoteamsItemTitle5
+  label: whyCoteamsItemTitle5
+- type: textarea
+  name: whyCoteamsItemDescription5
+  label: whyCoteamsItemDescription5
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: useCasesTitle
+  label: useCasesTitle
+- type: text
+  name: useCasesSubTitle
+  label: useCasesSubTitle
+- type: file
+  name: whoCanItemImg1
+  label: whoCanItemImg1
+- type: text
+  name: whoCanItemTitle1
+  label: whoCanItemTitle1
+- type: textarea
+  name: whoCanItemDescription1
+  label: whoCanItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whoCanItemImg2
+  label: whoCanItemImg2
+- type: text
+  name: whoCanItemTitle2
+  label: whoCanItemTitle2
+- type: textarea
+  name: whoCanItemDescription2
+  label: whoCanItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: whoCanItemImg3
+  label: whoCanItemImg3
+- type: text
+  name: whoCanItemTitle3
+  label: whoCanItemTitle3
+- type: textarea
+  name: whoCanItemDescription3
+  label: whoCanItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: howCoteamsTitle
+  label: howCoteamsTitle
+- type: file
+  name: howCoteamsItemImg1
+  label: howCoteamsItemImg1
+- type: text
+  name: howCoteamsItemTitle1
+  label: howCoteamsItemTitle1
+- type: textarea
+  name: howCoteamsItemDescription1
+  label: howCoteamsItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: howCoteamsItemImg2
+  label: howCoteamsItemImg2
+- type: text
+  name: howCoteamsItemTitle2
+  label: howCoteamsItemTitle2
+- type: textarea
+  name: howCoteamsItemDescription2
+  label: howCoteamsItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: howCoteamsItemImg3
+  label: howCoteamsItemImg3
+- type: text
+  name: howCoteamsItemTitle3
+  label: howCoteamsItemTitle3
+- type: textarea
+  name: howCoteamsItemDescription3
+  label: howCoteamsItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: findTeamImg
+  label: findTeamImg
+- type: text
+  name: findTeamTitle
+  label: findTeamTitle
+- type: text
+  name: findTeamSubTitle1
+  label: findTeamSubTitle1
+- type: textarea
+  name: findTeamDescription1
+  label: findTeamDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: findTeamButton1
+  label: findTeamButton1
+- type: text
+  name: findTeamSubTitle2
+  label: findTeamSubTitle2
+- type: textarea
+  name: findTeamDescription2
+  label: findTeamDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: findTeamButton2
+  label: findTeamButton2

@@ -1,13 +1,13 @@
 ---
-label: Test
+label: Help
 hide_body: true
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
   label: title
+- type: text
+  name: description
+  label: meta-description
 - type: text
   name: type
   label: type
@@ -15,19 +15,18 @@ fields:
   name: layout
   label: layout
 - type: text
-  name: description
-  label: description
+  name: url
+  label: url
 - type: text
   name: userContentTitle
   label: userContentTitle
-- type: text
+- type: textarea
   name: userContentDescription
   label: userContentDescription
-- type: text
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
   name: userContentImg
   label: userContentImg
-- type: text
-  name: url
-  label: url
-pages:
-- content/help/General/TEST 2/test-help.md

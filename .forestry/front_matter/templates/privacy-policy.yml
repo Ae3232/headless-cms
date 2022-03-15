@@ -1,0 +1,26 @@
+---
+label: Privacy Policy
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: meta-description
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: policyTitle
+  label: policyTitle
+- type: textarea
+  name: policyTopDescription
+  label: policyTopDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks

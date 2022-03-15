@@ -1,0 +1,199 @@
+---
+label: For Clients
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: meta-description
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: topSectionImg
+  label: topSectionImg
+- type: text
+  name: topSectionTitle
+  label: topSectionTitle
+- type: textarea
+  name: topSectionDescription
+  label: topSectionDescription
+- type: text
+  name: whyTeamsTitle
+  label: whyTeamsTitle
+- type: text
+  name: whyTeamsSubTitle
+  label: whyTeamsSubTitle
+- type: file
+  name: whyCoteamsItemImg1
+  label: whyCoteamsItemImg1
+- type: text
+  name: whyCoteamsItemTitle1
+  label: whyCoteamsItemTitle1
+- type: textarea
+  name: whyCoteamsItemDescription1
+  label: whyCoteamsItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg2
+  label: whyCoteamsItemImg2
+- type: text
+  name: whyCoteamsItemTitle2
+  label: whyCoteamsItemTitle2
+- type: textarea
+  name: whyCoteamsItemDescription2
+  label: whyCoteamsItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg3
+  label: whyCoteamsItemImg3
+- type: text
+  name: whyCoteamsItemTitle3
+  label: whyCoteamsItemTitle3
+- type: textarea
+  name: whyCoteamsItemDescription3
+  label: whyCoteamsItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg4
+  label: whyCoteamsItemImg4
+- type: text
+  name: whyCoteamsItemTitle4
+  label: whyCoteamsItemTitle4
+- type: textarea
+  name: whyCoteamsItemDescription4
+  label: whyCoteamsItemDescription4
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: whyCoteamsItemImg5
+  label: whyCoteamsItemImg5
+- type: text
+  name: whyCoteamsItemTitle5
+  label: whyCoteamsItemTitle5
+- type: textarea
+  name: whyCoteamsItemDescription5
+  label: whyCoteamsItemDescription5
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: text
+  name: howCoteamsTitle
+  label: howCoteamsTitle
+- type: text
+  name: howCoteamsSubTitle
+  label: howCoteamsSubTitle
+- type: file
+  name: howCoteamsItemImg1
+  label: howCoteamsItemImg1
+- type: text
+  name: howCoteamsItemTitle1
+  label: howCoteamsItemTitle1
+- type: textarea
+  name: howCoteamsItemDescription1
+  label: howCoteamsItemDescription1
+- type: file
+  name: howCoteamsItemImg2
+  label: howCoteamsItemImg2
+- type: text
+  name: howCoteamsItemTitle2
+  label: howCoteamsItemTitle2
+- type: textarea
+  name: howCoteamsItemDescription2
+  label: howCoteamsItemDescription2
+- type: file
+  name: howCoteamsItemImg3
+  label: howCoteamsItemImg3
+- type: text
+  name: howCoteamsItemTitle3
+  label: howCoteamsItemTitle3
+- type: textarea
+  name: howCoteamsItemDescription3
+  label: howCoteamsItemDescription3
+- type: file
+  name: howCoteamsItemImg4
+  label: howCoteamsItemImg4
+- type: text
+  name: howCoteamsItemTitle4
+  label: howCoteamsItemTitle4
+- type: textarea
+  name: howCoteamsItemDescription4
+  label: howCoteamsItemDescription4
+- type: text
+  name: useCasesTitle
+  label: useCasesTitle
+- type: text
+  name: useCasesSubTitle
+  label: useCasesSubTitle
+- type: file
+  name: useCasesItemImg1
+  label: useCasesItemImg1
+- type: text
+  name: useCasesItemTitle1
+  label: useCasesItemTitle1
+- type: textarea
+  name: useCasesItemDescription1
+  label: useCasesItemDescription1
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: useCasesItemImg2
+  label: useCasesItemImg2
+- type: text
+  name: useCasesItemTitle2
+  label: useCasesItemTitle2
+- type: textarea
+  name: useCasesItemDescription2
+  label: useCasesItemDescription2
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: useCasesItemImg3
+  label: useCasesItemImg3
+- type: text
+  name: useCasesItemTitle3
+  label: useCasesItemTitle3
+- type: textarea
+  name: useCasesItemDescription3
+  label: useCasesItemDescription3
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: findTeamImg
+  label: findTeamImg
+- type: text
+  name: findTeamTitle
+  label: findTeamTitle
+- type: textarea
+  name: findTeamDescription
+  label: findTeamDescription
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: text
+  name: findTeamButton
+  label: findTeamButton
