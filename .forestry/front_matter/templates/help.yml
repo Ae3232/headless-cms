@@ -30,5 +30,3 @@ fields:
 - type: file
   name: userContentImg
   label: userContentImg
-pages:
-- content/help/General/test.md
