@@ -8,6 +8,6 @@ userContentDescription = "<p>Desc</p>"
 userContentImg = ""
 userContentTitle = "Test Title"
 [menu.sidebar]
-weight = 5
+weight = 2
 
 +++
