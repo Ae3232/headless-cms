@@ -8,6 +8,6 @@ userContentDescription = "<p>Select the social network which you like to use for
 userContentTitle = "Sign Up via Social Accounts (Google, Facebook, LinkedIn)"
 [menu.sidebar]
 parent = "Registration"
-weight = 4
+weight = 3
 
 +++

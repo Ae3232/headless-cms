@@ -8,7 +8,6 @@ userContentDescription = "<p>Desc</p>"
 userContentImg = ""
 userContentTitle = "Test Title"
 [menu.sidebar]
-parent = "Registration"
-weight = 1
+weight = 5
 
 +++

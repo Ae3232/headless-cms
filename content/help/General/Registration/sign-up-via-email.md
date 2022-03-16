@@ -8,6 +8,6 @@ userContentDescription = "<p>Press the \"Sign up with email\" button on the main
 userContentTitle = "Sign Up via Email"
 [menu.sidebar]
 parent = "Registration"
-weight = 3
+weight = 2
 
 +++
