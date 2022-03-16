@@ -12,6 +12,6 @@ name = "Help"
 weight = 1
 [menu.sidebar]
 parent = "Registration"
-weight = 1
+weight = 2
 
 +++
